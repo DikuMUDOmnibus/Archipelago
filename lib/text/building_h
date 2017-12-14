@@ -1,0 +1,243 @@
+COMMAND COMMANDS
+
+COMMAND SYNTAX                     COMMAND RESULT
+redit room.vnum                 ---enters the room editor for specific room
+rcreate                         ---creates a dummy mobile
+rclone room.vnum                ---clones a room to your default zone
+saverooms                       ---saves your default rooms
+show rooms (zone.number)        ---lists rooms
+
+medit mob.vnum                  ---enters the mobile editor for specific mob
+mcreate                         ---creates a dummy mobile
+mclone mob.vnum                 ---clones a mobile to your default zone
+savemobs                        ---saves your default mobiles
+show mobs (zone.number)         ---lists mobs
+
+oedit obj.vnum                  ---enters the object editor for specific obj
+ocreate                         ---creates a dummy object
+oclone obj.vnum                 ---clones a object to your zone
+saveobjs                        ---saves your objects (obsolete command)
+show obj (zone.number)          ---lists objects
+
+zsave mob.name [or] obj.name    ---creates a zone setting
+show zone (zone.number)         ---lists zone settings
+show zone about (zset number)   ---lists zone setting around number given
+zset zone-set.num <value>       ---sets the zone setting to specific value
+savezone                        ---saves your zone settings
+zpurge zone-set.num             ---deletes specified zone setting
+
+save all                        ---saves everything
+
+ARMOR/ARMOUR
+
+   Armour should be consistent with its description, meaning an item such as
+a cloth shirt is not expected to be good armor, therefore it shouldn't be.
+Similarly, a tempered meteoric steel breast plate sounds rather impressive
+and should be.
+
+   general type          AC/stop     weight(lbs)    weight (mud weight unit)
+----------------------------------------------------------------------------
+   cloth:              1-10/0          1-15 lbs     10-150 mwu
+   leather/fur:       11-20/1         16-30 lbs    160-300 mwu
+   mail:              21-30/2         31-40 lbs    310-400 mwu
+   plate:             31-40/3         41-50 lbs    410-500 mwu
+
+   No armour class location should have more than 35-40 armour class
+adjustment by any one item.  Also, no armour class location should have
+more than +3 stopping from any single item.  If an item affects multiple
+areas, the total armour class modification should not exceed 60 and the
+total stopping should not exceed +6.
+   Equipment locations like ears, mouth, and eyes should in general not
+modify armour class in anyway.  These should be considered as locations for
+jewelry and other accessories.
+
+WEAPON/WEAPONS
+
+SWORDS         OTHER WEAPON         MISSILE             WEIGHT RANGE  MAX DMG
+pixie sword    dagger/knife         sling                up to 8 lbs    10
+short sword    axe                  short bow               8-16 lbs    15
+long sword     hammer/club          light crossbow         16-24 lbs    20
+broad sword    mace                 long bow/heavy Xbow    20-30 lbs    25
+2H sword       2h weapons/polearms  catapult/trebuchet     30-60 lbs    35
+
+Note: The maximum damage clearly corresponds to weapons at the upper end of
+      the weight range.
+
+No weapon should receive more than +6 total bonuses in +hit and +damage.
+Examples:  +5 hit and +1 damage
+           +4 hit and +2 damage
+           +3 hit and +3 damage
+           +2 hit and +3 damage
+           +1 hit and +5 damage
+   Also note that it is not necessary to use the total +6 in bonuses on
+every weapon.  This means that it is perfectly acceptable to have a +1 hit
+long sword or a +3 damage club.
+
+FYI: a training dagger: 1d3 damage
+     a training club:   1d4 damage
+     a training sword:  1d4 damage
+
+SWORD/SWORDS
+
+                       Basic Parts of a Sword
+
+    / \                        /i\   <--- point
+    | |                        |i|
+    | |                        |i|
+    | |                        |i|   <--- foible (blade's weakest part)
+    | |                        |i|
+    | |   <---- blade ----->   |i|
+    | |                        |i| <---- fuller (the groove in some blades)
+    | |                        |i|
+    | |                        |i|
+    | |    quillions (x2)      |i|   <--- forte (blade's strongest part)
+    | |   /  (forms the guard) |i|
+    | |  /                     |i|
+   _|_|_  <--- guard           |i|
+    |||                         V
+    |||   <--- hilt (or grip)   |    <-- tang, the metal part inside
+    |||                         |          the hilt
+    (_)   <--- pommel
+
+
+TSR
+
+   During the summer of 1994, TSR (tm) the makers of the role playing game
+Dungeons & Dragons (tm) appeared on the internet and promptly began to
+threaten anyone caught 'violating their copyright' on their products
+(basically using their products over the net) would be promptly sued.
+Therefore do not use any material from TSR sources.  It is also a good idea
+not to use any material from copyrighted sources directly because that is
+plagiarism and a no-no also.  If you can find the word in a standard
+dictionary (single word and names, not phrases) it should be safe to use.
+   Names like ogre, orc, elf, dragon, giant, kobold, vampire are ok since
+they are from folklore and mythology and have existed way before TSR (tm)
+used them in their books.   Remember, the word on the net is that TSR stands
+for They Sue Regardless.
+
+see also: MOB NAMES
+
+
+MOB NAMES
+
+The following mob names are traditional and should be safe to use:
+
+ant, giant, afreet, alligator, angel, apparition, atomy, attercop*, banshee,
+basilisk, bat, bear, beetle, behemoth, berserker, boggart, bogey, bogle,
+brownie, bugaboo, bugbear, cacodemon, centaur, centipede, cherub, chimera,
+cockatrice, crab, giant, crocodile, crustacean, giant, cyclops, daemon,
+demon, deva, devil, djinn/genie, doppleganger, dragon, dryad, dybbuk, dwarf,
+eel, elemental, elephant, elf, ent*, erlking, eoten*, fairy/faerie, fay,
+fish, giant, frog, giant, fungus, fury, gargoyle, ghost, ghoul, giant,
+gnome, goblin, golem, gorgon, gremlin, griffin, grimalkin, hag, harpy,
+haunt, hellhound, hippocampus, hippogriff, hobgoblin, homunculus, horse,
+hydra, imp, incubus, insect, giant, jaberwocky, jelly fish, kelpie, kobold,
+kraken, lamia, larva, leech, giant, lemures, leprechaun, leviathan, lich*,
+lizard, giant, lycanthrope (were...), mammoth/mastodon, manes, manticore,
+medusa, mermaid/merman, minotaur, mold, mongrel, mummy, naga, naiad, nereid,
+niebelung, nightmare, nisse, nixie, nymph, octopus, ogre/ogress, ooze, orc*,
+ouphe, pegasus, phantasm, phantom, phoenix, piranha, pixie, plant, deadly,
+poltergeist, pooka, rakshasa, rat, giant, revenant, roc, salamander, satyr,
+scarecrow, scorpion, giant, sea serpent, sea lion, seraph, shade, shadow,
+shark, shedu, siren, skeleton, slime, slug, giant, snake, giant, spectre,
+spirit, sphinx, spider, giant, spook, sprite, squid, giant, succubus, sylph,
+titan, toad, giant, triton, troglodyte, troll, undead, undine, unicorn,
+vampire, virago, whale, wight*, will o' wisp, windigo, witch, wivern, wolf,
+worm, giant, wraith, yeti, zombie
+
+* are words or shortened words from Old English that have a very similar
+  meaning to the modern fantasy meaning of the word.
+    attercop = spider
+    ent = giant
+    eoten = 'ettin' = giant
+    lich = corpse
+    orc = demon
+    wight = man
+
+FLAG/FLAGS
+
+   Flags with an asterisk after them in the online building editor are
+either unimplemented as of yet or not usually settable for one reason or
+another.  Either way if there is a flag with an asterisk, do not use without
+consultation with Ponder.
+
+
+STYLE
+
+
+  o General Style: Indent all paragraphs three spaces.  Between the end of
+    one sentence and the beginning of another there should be two spaces.
+    Small areas with well written rooms and unique descriptions are more
+    desirable than larger areas comprised of poorly written or cloned rooms.
+
+  o Room names: capitalize first letters of words in room names other than
+    (an, the, a, of, for, and) in room names, unless it is the first word of
+    the room name, then it is capitalized.  Room names should be general and
+    vague in nature if they outside a town or city limits.  Avoid room names
+    such as 'The Lair of the Red Dragon'.  A better name would be 'A Cave
+    with Charred Walls'.
+
+  o Room descriptions: Room descriptions should be no less that three lines
+    in length and no greater than fifteen lines in length (unless the room
+    is uniquely special).  Make sure no line is more than seventy-seven
+    characters in length and (if possible) no less than 70 characters in
+    length.  Indent all paragraphs (including the first paragraph) by three
+    spaces. Between each sentence, there should be two spaces.
+       Refrain from placing in your room descriptions objects that can be
+    removed or mobs that can be killed.  Since there is an autoexit feature,
+    it is not necessary to write obvious exits into a room description.
+    Closable doors, however, need to have mention in the room description.
+       Refrain from using descriptions more than once.  This goes for
+    virtually every type of terrain: road, desert, forest, field, river,
+    etc...  However, one exception is large expanses of ocean.
+
+ o  Room extras: room extras are an important part of making a mud world
+    seem more realistic and divulging information about secret doors and
+    such.  As a general rule of thumb, if in the room description there is
+    something that could be looked at mentioned in the description, it then
+    should have an extra.
+       With extra keywords, try to include both singular and plural forms of
+    the keyword.  Example: wall walls, bush bushes, tree trees.  Many
+    keywords can be entered in the same extra making it unnecessary to make
+    a separate extra for wall and walls, for example.
+
+see also: SCALE
+
+
+SCALE/SIZE
+
+   As a general rule, normal sized rooms used for roads (and roads only) is
+one tenth of a mile in length.  For hallways inside dungeons and other
+buildings and roads within a town, room length should be figured to be about
+ten to twenty feet in length.  Normal "room" size is anywhere from 10'x'10'
+to about 40'x40'.  If your concept of the "room" is larger than this,
+consider making several rooms to be that one "room".  Example: the Storage
+Closet is one room, but the Grand Throne Room is three (all with the same
+name--the added two rooms implies a greater size).
+
+see also: STYLE
+
+
+OBJECT/OBJECTS
+
+o Use the indefinite articles (ie: a, an) or the definite article (ie: the)
+  in your short descriptions.
+
+o The name of your object is better known as the keyword.  Since the mud
+  takes the first word in the name list for certain objects, please make
+  sure that the first word in your name list is the object's primary noun.
+  Example, the object: a red jeweled sceptre, name would be sceptre red
+  jeweled.  If the the object name was red jeweled sceptre, in some actions
+  done with the sceptre, the messages to the players would be red, rather
+  than with sceptre.  This is particularly important with food items.
+
+o With food objects, please write an action description.  The action
+  description is what the food object tastes like.
+
+o Please take the time to write an extra description for your objects.  On
+  most muds, you can look at 1000 objects and 'You see nothing special...'
+  all 1000 times.  In an effort to make this mud different and better, take
+  the time to write a short extra description for your object.  Think of an
+  object's extra description as the same thing as a mob's description when
+  you look at it, which it actually is.  (For the extra's keywords, use the
+  same words you used as the object's name.)

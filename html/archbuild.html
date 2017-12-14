@@ -1,0 +1,773 @@
+<html>
+<head>
+<title>Archipelago builder's FAQ</title>
+<link rev="made" href="mailto:rkchin@dorsai.org">
+</head>
+<body bgcolor="#ffffff" text="#000000"
+link="#b40000" alink="#0000b4" vlink="#b40000">
+
+<center><font color ="#b40000">
+<h1><a name="pagetop">A</a> R C H I P E L A G O</h1></font>
+<h5><font size=+1>B</font>UILDER'S
+<font size=+1>F</font>REQUENTLY
+<font size=+1>A</font>SKED
+<font size=+1>Q</font>UESTIONS AND
+<font size=+1>G</font>UIDEBOOK</h5></center>
+
+<font color="#004080">This guide explains the Archipelago on-line creation
+editors for objects, mobs, and zones.  Most commands, listed on the wizhelp,
+will be explained, and building tips will be offered.</font><br>
+<hr noshade size=1>
+
+<p><b>Table of Contents:</b><br>
+<ul>
+  <ol type=I>
+<b><li></b><a href="#commands">General building commands.</a>
+<b><li></b>
+  <a href="#objs">Building objects</a>, the guide to the object editor.
+<b><li></b><a href="#objnotes">Notes on building certain object types.</a>
+<b><li></b><a href="#mobs">Building mobs</a>, the guide to the mob editor.
+<b><li></b><a href="#mobnotes">Notes on building mobs.</a>
+<b><li></b><a href="#rooms">Building rooms</a>, the guide to the room editor.
+<b><li></b><a href="#roomnotes">Notes on building rooms.</a>
+<b><li></b><a href="#misctips">Miscellaneous building tips.</a>
+<b><li></b><a href="#appendix">Appendix.</a>
+  </ol>
+</ul><br>
+<hr noshade size=1>
+
+
+<p><b><a name="commands">I.</a> General building commands:</b><br>
+Usually, you can abbreviate the first few letters.  Anything in &#60; &#62;
+is required.  Anything in [ ] is optional.  The | symbol means OR.  Anything
+in capitals has to be typed in or abbreviated.
+<dl>
+  <dt><font size=-1 color="#004080"><b>AT</b></font>
+      <dd>remote execution of a command.  <i>e.g.</i>, at postmaster receive.
+  <dt><font size=-1 color="#004080"><b>BRB</b></font>
+      <dd>be right back!, puts an (away) flag in your title.
+  <dt><font size=-1 color="#004080"><b>BUILDING</b></font>
+      <dd>building tips, standards.
+  <dt><font size=-1 color="#004080"><b>GOTO</b></font>
+      <font size=-1 color="#008000">[ name | roomnum ]</font>
+      <dd>go to someone, or to a room number.
+  <dt><font size=-1 color="#004080"><b>FORCE</b></font>
+      <font size=-1 color="#008000"><name> <action></font>
+      <dd>force a mob or person to do something.  useful in equiping mobs
+      before zsaving them, and useful for roleplaying purposes.
+  <dt><font size=-1 color="#004080"><b>HANDBOOK</b></font>
+      <dd>immortal rules of conduct.
+  <dt><font size=-1 color="#004080"><b>HOLYLIGHT</b></font>
+      <dd>toggle this command to see dark rooms.
+  <dt><font size=-1 color="#004080"><b>INVIS</b></font>
+      <font size=-1 color="#008000">[level]</font>
+      <dd>the first command the new builder inevitably uses <tt>:)</tt>
+  <dt><font size=-1 color="#004080"><b>LOAD</b></font>
+  <font size=-1 color="#008000">&#60; MOB | OBJ &#62; &#60;vnum&#62;</font>
+      <dd>load a mob or object.
+  <dt><font size=-1 color="#004080"><b>MCLONE</b></font>
+      <font size=-1 color="#008000">&#60;vnum&#62;</font>
+      <dd>clone an existing mob into your own zone.
+  <dt><font size=-1 color="#004080"><b>MCREATE</b></font>
+      <dd>create a new mob prototype.
+  <dt><font size=-1 color="#004080"><b>MEDIT</b></font>
+      <font size=-1 color="#008000">&#60;vnum&#62;</font>
+      <dd>edit an existing mob.
+  <dt><font size=-1 color="#004080"><b>NOHASSLE</b></font>
+      <dd>toggle this command to prevent aggr mobs from bothering you.
+  <dt><font size=-1 color="#004080"><b>NOWIZ</b></font>
+      <dd>toggle this command to tune out of the wiz channel.
+  <dt><font size=-1 color="#004080"><b>OCLONE</b></font>
+      <font size=-1 color="#008000">&#60;vnum&#62;</font>
+      <dd>clone an existing object into your own zone.
+  <dt><font size=-1 color="#004080"><b>OCREATE</b></font>
+      <dd>create a new object prototype.
+  <dt><font size=-1 color="#004080"><b>OEDIT</b></font>
+      <font size=-1 color="#008000">&#60;vnum&#62;</font>
+      <dd>edit an existing object.
+  <dt><font size=-1 color="#004080"><b>POOFIN, POOFOUT</b></font>
+      <dd>set your &#34;entrance&#34; and &#34;exit&#34; when you enter and
+          exit via the '<font color="#964b00">go</font>' command.
+  <dt><font size=-1 color="#004080"><b>PURGE</b></font>
+      <font size=-1 color="#008000">[name]</font>
+      <dd>purge with a name attached will purge that obj/mob.  purge, without
+          arguments, will purge the entire room.  purge on players will kick
+          a player, sans eq., out of the game and into the main menu.
+  <dt><font size=-1 color="#004080"><b>RCLONE</b></font>
+      <font size=-1 color="#008000">&#60;roomnum&#62;</font>
+      <dd>clone an existing room into your own zone.
+  <dt><font size=-1 color="#004080"><b>RCREATE</b></font>
+      <dd>create a new room.
+  <dt><font size=-1 color="#004080"><b>REDIT</b></font>
+      <font size=-1 color="#008000">&#60;roomnum&#62;</font>
+      <dd>edit an existing room.
+  <dt><font size=-1 color="#004080"><b>ROOMFLAG</b></font>
+      <dd>toggle this command to see room flags in addition to room numbers.
+  <dt><font size=-1 color="#004080"><b>SAVEOBJ, SAVEMOB, SAVEROOM,
+      SAVEZONE</b></font>
+      <dd>these commands save your objs, mobs, rooms, zones.  Use the
+          '<font color="#964b00">save</font>' command to autosave everything
+          automatically.  
+  <dt><font size=-1 color="#004080"><b>SHOW</b></font>
+      <font size=-1 color="#008000">[infotype]</font>
+      <dd>type this alone to see what info type is available to you.
+  <dt><font size=-1 color="#004080"><b>SHOW</b></font>
+      <font size=-1 color="#008000">&#60; MOB | OBJ | ROOM | ZONE &#62;
+      &#60;zonenum&#62;</font>
+      <dd>show the mob, objects, rooms, zone commands of the specified zone.
+  <dt><font size=-1 color="#004080"><b>STAT</b></font>
+      <font size=-1 color="#008000">[ MOB | OBJ ] &#60;name&#62;</font>
+      <dd>stat a mob, object, or player that is in the game. this command
+          defaults to stating a mob or player, unless you specifically use
+          '<font color="#964b00">stat o</font>' for objects.
+  <dt><font size=-1 color="#004080"><b>SWITCHZONE</b></font>
+      <dd>Bodhisattva+ level command. toggle this to edit another zone if
+          you have one.
+  <dt><font size=-1 color="#004080"><b>TRANSFER</b></font>
+      <font size=-1 color="#008000">&#60;name&#62;</font>
+      <dd>transfer a mob/person to you.  
+  <dt><font size=-1 color="#004080"><b>VNUM</b></font>
+    <font size=-1 color="#008000">&#60; MOB | OBJ &#62; &#60;name&#62;</font>
+    <dd>find the vnum of a mob or object.  NOTE: you can specify two keywords
+    to describe what you are trying to find, <i>e.g.</i>, vn m black sheep.
+  <dt><font size=-1 color="#004080"><b>VSTAT</b></font>
+      <font size=-1 color="#008000">&#60;vnum&#62;</font>
+      <dd>stat a mob or object prototype not currently loaded in the game.
+  <dt><font size=-1 color="#004080"><b>WHERE</b></font>
+      <font size=-1 color="#008000">[name]</font>
+      <dd>this is not listed as a wizhelp command, but it is a immortal
+          command nonetheless.  The command tells you where things and people
+          are located. typing this command alone, will show you the location
+          of all active players in the game.
+  <dt><font size=-1 color="#004080"><b>WIZNET</b>, or <b>;</b></font>
+      <dd>the immortal's talk channel.
+  <dt><font size=-1 color="#004080"><b>ZSAVE</b></font>
+      <font size=-1 color="#008000">&#60; MOB | OBJ | DOOR &#62;
+      &#60;name|dir&#62;</font>
+      <dd>save the mob, object, or door to the zone file.  For doors, you
+          must specify the door's direction.  NOTE: the mob, obj, door has
+          to be typed in fully as mob, obj or door, otherwise it will not
+          work.  this is unlike the other commands where you can just use
+          M for mobs, and O for objects.
+  <dt><font size=-1 color="#004080"><b>ZSET</b></font>
+      <font size=-1 color="#008000">&#60;resetnumber&#62; &#60;howmany&#62;
+      [ IF ]</font>
+      <dd>zone commands execute every reset, and will execute a specific
+      command until the max number specified is reached.  This max number is
+      world dependent, not zone, <i>i.e.</i>, if a zone command says two
+      dragons are to be loaded, and on next reset the game finds two dragons
+      already loaded in the world, the game will not load another.  The
+      &#34;if&#34; option is rarely used, what it does is to execute this
+      zone command only if the previous zone command was executed. 
+  <dt><font size=-1 color="#004080"><b>ZPURGE</b></font>
+      <font size=-1 color="#008000">&#60;resetnumber&#62;</font>
+      <dd>purge a command from the zone file.  note: if you zpurge something
+          with inventory, then that inventory disappears also.
+</dl><br>
+<hr noshade size=1>
+<a href="#pagetop"><img src ="button5.gif" border=0 alt="[ Page Top ]"></a>
+<br clear=all>
+<hr noshade size=1>
+
+
+<p><b><a name="objs">II.</a> Building objects,</b><br>
+The guide to the object editor.  use the
+<font size=-1 color="#964b00">OEDIT</font> command.<br>
+<font color="#008000">
+<dl>
+  <dt><font color="#004080">(<b>T</b>)ext:</font><br>
+    <dd><font color="#004080">(<b>N</b>)ame</font>:
+      the keywords used to reference the object.  See notes on keywords
+      below for additional details.<br>
+      <font color="#004080">(<b>S</b>)hortdescr</font>: the object's name.<br>
+      <font color="#004080">(<b>D</b>)escription</font>: the object's
+      description if its on a floor.<br>
+      <font color="#004080">(<b>A</b>)ction description</font>: The action
+      description is used for <font size=-1 color="#964b00">FOOD</font> type
+      items when eaten, for the <font size=-1 color="#964b00">SCABBARD</font>,
+      and <font size=-1 color="#964b00">WEAPON</font> type objects when the
+      draw and sheathe commands are used, for the
+      <font size=-1 color="#964b00">CANTRIP</font> type objects when they
+      are recited, and for the <font size=-1 color="#964b00">FOUNTAIN</font>
+      type objects when it they are in a room.<br>
+  <dt><font color="#004080">(<b>F</b>)lags</font>:<br>
+      <dd><font color="#004080">(<b>W</b>)orn</font>: the slots where the
+          object can be worn, wielded, and held.<br>
+          <font color="#004080">(<b>A</b>)pply</font>: what this object is
+          affected with. also, see notes on building magic items, below.<br>
+          <font color="#004080">(<b>E</b>)xtra flags</font>: extra bits
+          affecting an object.<br>
+  <dt><font color="#004080">(<b>S</b>)tats</font>:<br>
+      <dd><font color="#004080">(<b>T</b>)ype</font>: the object's type.
+          note: set the object's type before you edit anything else.<br>
+          <font color="#004080">(<b>W</b>)eight</font>: the object's weight
+          (the unit you enter here is 10*lb, fractions are acceptable,
+          e.g., 1lb = 10units, 66lb = 660units, 0.2lb = 2units).<br>
+          <font color="#004080">(<b>V</b>)alue</font>: its real value (the
+          unit you enter here is 10*money).<br>
+          <font color="#004080">(<b>C</b>)ost</font>: the rent cost (the
+          unit you enter here is 10*money).<br>
+  <dt><font color="#004080">(<b>I</b>)llumination</font>:
+      <dd>this number affects the object's influence on light levels.  If its
+          a positive number, the object gives off light, if its a negative
+          number, the object absorbs light.  To make a permanent light (or
+          dark) object, set the illumination number, and set the object's
+          extra bit to GLOW and MAGIC.<br>
+  <dt><font color="#004080">(<b>V</b>)alues</font>: the object's values
+      depending on type.<br>
+<dt><font color="#004080">(<b>D</b>)am state</font>: set the obj's damage.<br>
+  <dt><font color="#004080">si(<b>Z</b>)e</font>: set the object's physical
+      size.<br>
+  <dt><font color="#004080">item (<b>L</b>)imit</font>: set the item's
+      absolute limit.  The object will not load past this number.  Set this
+      to zero if there is no limit.<br>
+  <dt><font color="#004080">(<b>A</b>)ffections</font>: optionally apply up
+      to four extra values for an object.<br>
+  <dt><font color="#004080">(<b>E</b>)xtra</font>: extra descriptions of an
+  object used when you '<font color="#964b00">look</font>' at the object.
+  it is highly recommended that some sort of extra description is added to
+  the object to further enrich Archipelago's world.<br>
+  <dt><font color="#004080">(<b>Q</b>)uit</font>: quit object editor.<br>
+</dl><br>
+</font>
+<hr noshade size=1>
+<a href="#pagetop"><img src ="button5.gif" border=0 alt="[ Page Top ]"></a>
+<br clear=all>
+<hr noshade size=1>
+
+
+<p><b><a name="objnotes">III.</a> Notes on building certain object types,</b>
+<br>
+<dl>
+  <dt>
+  <dd>An obj flag marked with an asterisk means the flag has either not been
+  implemented, or is reserved for internal use.  please do not use it.<br><br>
+
+  <dt><font color ="#004080">Notes on the use of keywords.</font>
+      <dd>It is recommended that the first keyword to an object is its
+      primary noun, <i>e.g.</i>, 'vase' in 'a black glass vase'.  See notes
+      on building <font color="#964b00">LIQUID CONTAINER</font> types below
+      for an exception.<br><br>
+
+  <dt><font color="#004080">Notes on</font>
+      <font color="#964b00">god_flagging</font>
+      <font color="#004080">of items.</font>
+      <dd>to be mortal usuable, all items must not have a god_flag on them.
+          To avoid this, the item cannot exceed 125 creation_points.  For
+          items costing 20 creation_points or more, the item must have a cash
+          value of at least 100*creation_pts., and a rent value of at least
+          10*creation_pts. For items costing less than 20 creation_points,
+          the item does not need a cash or rent value.  See
+          <font color="#964b00">WEAPON</font> and
+          <font color="#964b00">CONTAINER</font> types below for additional
+          restraints.<br><br>
+  
+  <dt><font color ="#004080">Notes on building</font>
+      <font color ="#964b00">FOOD</font>
+      <font color ="#004080">type objects.</font>
+      <dd>You can add an (A)ction desc on food items to describe what the
+          food tastes like if eaten.<br><br>
+
+  <dt><font color ="#004080">Notes on building</font>
+      <font color ="#964b00">SCABBARD</font>
+      <font color="#004080">type objects.</font>
+      <dd>When you choose (V)alues, you can either specify a weapon that
+          belongs to that scabbard.  If you choose 0, you can then choose the
+          general type of weapon that will fit inside the scabbard,
+          <i>e.g.</i>, dagger, sword, etc.<br><br>
+  
+          The action description for weapons and scabbard are used in
+          conjunction with the draw and sheath commands.  The action
+          description is shown to everyone in the room except you.<br><br>
+  
+          Use the following $ codes in the action desc:  $n to show the name
+          of person with the object, $p to show the object name, $s for the
+          pronoun (his, her, it), $m for the pronoun (him, her, it), $e for
+          the pronoun (he, she, it).<br><br>
+
+          <i>e.g.</i>, a glowing white saber of light (weapon), and a wide
+          belt (scabbard).<br>
+          - Action desc on the <font size =-1>WEAPON</font>: <tt>$n turns
+          off $p with a flick of a switch.</tt><br>
+          when the weapon is <font size=-1>SHEATHED</font>, everyone will
+          see this:<br>
+          
+          <font color="#008000">
+          <pre>
+     Zanth turns off a glowing saber of light with a flick of a switch.
+     Zanth slips a glowing white saber of light into a wide belt.</pre>
+          </font>
+  
+          - Action desc on the <font size =-1>SCABBARD</font>: <tt>$n fingers
+          something hooked to $p.</tt><br>
+          when the weapon is <font size=-1>DRAWN</font>, everyone will see
+          this:<br>
+         
+         <font color="#008000">
+         <pre>
+     Zanth fingers something hooked to a wide belt.
+     Zanth slides a glowing white saber of light from a wide belt.
+     Zanth wields a glowing white saber of light.</pre>
+         </font><br>
+
+  <dt><font color ="#004080">Notes on building</font>
+      <font color ="#964b00">WEAPON</font>
+      <font color="#004080">type items.</font>
+      <dd>There are rules in building weapons that will be usuable for
+          mortals.  The weapon may not exceed 40 points of damage points, it
+          may not have more than a total of 7 to their hit and dam rolls, and
+          the weapon must weigh 0.7 * max_damage_pts_of_weap.  The rules of
+          god_flagging apply here also.<br><br>
+
+  <dt><font color ="#004080">Notes on building</font>
+      <font color ="#964b00">CONTAINER</font>
+      <font color="#004080">type items.</font>
+      <dd>There are two numbers that must be considered in building a
+          container, the container's weight, shown in the (S)tats menu, and
+          the number listed in (V)alues menu.  The container's weight can be
+          anything.  The number shown in the (V)alues menu is the container's
+          weight AND the carrying capacity totalled together. <i>e.g.</i>, If
+          a bag weights one lb (10units), and you want the bag to carry 10lb
+          of stuff (100units), then the number you enter into the (V)alues
+          menu is 10units + 100units = 110units.<br><br>
+  
+         Note: a container cannot have a carrying capacity of greater than
+         400lb (4000units), otherwise, it will be god_flagged, unless the
+         initial weight of the container is 10000lb or more.<br><br>
+
+          To create an enterable container, set the room number and maximum
+      capacity in (V)alues, and how small the entrance is in si(Z)es.<br><br>
+
+  <dt><font color ="#004080">Notes on building</font>
+      <font color="#964b00">LIQUID CONTAINER</font>
+      <font color="#004080">type items.</font>
+      <dd>In the list of keywords, make sure the first keyword reflects the
+          initial liquid that is contained in the container, <i>e.g.</i>, if
+          you have a wine skin containing wine, then the first keyword is
+          wine.  When the liquid container empties out, the mud code will
+          automatically remove the first keyword and will replace it with
+          another when the container is filled.<br><br>
+
+  <dt><font color="#004080">Notes on building</font>
+      <font color="#964b00">PULLABLE</font>
+      <font color="#004080">type items.</font>
+      <dd>Multiple mobs can be hitched to one cart.  You must type
+      '<font color="#964b00">zsave obj &#60;cart&#62;</font>' in order to
+      save the cart and mobs hitched to it into the zone file.<br><br>
+
+  <dt><font color="#004080">Notes on building</font>
+      <font color="#964b00">KEY</font>
+      <font color="#004080">type objects.</font>
+      <dd>An object doesn't have to have the KEY type set to be used as a
+          key. As long as the vnum of the key object matches the door lock,
+          it will work, <i>e.g.</i>, a crowbar (which is a weapon type
+          object, but doubles as a key).<br><br>
+
+  <dt><font color="#004080">Notes on building</font>
+      <font color="#964b00">CANTRIP</font>
+      <font color="#004080">type objects.</font>
+      <dd>You can add an (A)ction desc on cantrip items to describe (to
+          everyone in the room, except you) what happens when the cantrip
+          is recited, <i>e.g.</i>, the action desc on the cantrip of
+          returning: <tt>$p bursts in to flames and vanishes with a
+          *POP*!</tt><br><br>
+
+  <dt><font color="#004080">Notes on building magic items.</font>
+  <dl>There are several types of magic items currently available,
+    <dt><font size =-1 color="#964b00">CANTRIPS</font> are items that can
+        be used once by reciting them.
+    <dt><font size =-1 color="#964b00">PHILTRES</font> are weak potions,
+        they are used once by quaffing them.
+    <dt><font size =-1 color="#964b00">ELIXIRS</font> are the strongest
+        type of potions you can have.  Note: they are not yet implemented.
+    <dt><font size =-1 color="#964b00">RODS</font> are another name for
+        wands, and are used as such.  They can contain one to many charges
+        before they are rendered useless.
+    <dt><font size =-1 color="#964b00">STAVES</font> are the strongest type
+        of wands you can have.  Note: they are not yet implemented.
+    <dt><font size =-1 color="#964b00">VIS</font> items are to be used with
+       the '<font color="#964b00">invoke</font>' command.  They boost spells,
+        and once consumed, they disappear.
+   <dt>&#34;<font color="#964b00">rechargable</font>&#34; items are wand-like
+        objects that can used once, and recharged to be reused again and
+        again.  These items can be any object type, but the important thing
+        is to set the object's (A)pply bit, which determines what powers
+        it has.  For every hour of effect, the rechargable has to have at
+        least double the time of recharge.  
+  </dl><br>
+
+  <dt><font color="#004080">Notes on building permanent light (and dark)
+      objects.</font>
+    <dd>These objects permanently provide, or absorb light.  Set the object's
+        (I)llumination, and the object's GLOW and MAGIC extra bits.<br><br>
+
+  <dt><font color="#004080">Notes on creating room invisible objects.</font>
+      <dd>To hide an object in a room, toggle the DARK extra bit on the
+      object, and remove its floor description.  note: The DARK extra bit
+      has nothing to do with illumination.<br><br>
+
+  <dt><font color="#004080">Notes on the 2-HANDED extra bit.</font>
+    <dd>This flag can be applied on weapons, on shields, and holdable
+        objects.  The ability to use 2-handed objects depends on the size of
+        the object, and the size of the person handling it, <i>e.g.</i>,
+        small 2-handed weapons can be wielded single-handedly by large sized
+        people; and large single-handed weapons can only be handled with two
+        hands by smaller folk. One disadvantage with this flag involves its
+        use in shields.  Mobs and people cannot hit back if wearing a
+        2-handed shield.<br>
+</dl><br>
+<hr noshade size=1>
+<a href="#pagetop"><img src ="button5.gif" border=0 alt="[ Page Top ]"></a>
+<br clear=all>
+<hr noshade size=1>
+
+
+<p><b><a name="mobs">IV.</a> Building mobs,</b><br>
+The guide to the mob editor.  use the
+<font size=-1 color="#964b00">MEDIT</font> command.<br>
+<font color="#008000">
+<dl>
+  <dt><font color= "#004080">(<b>T</b>)ext</font>:<br>
+      <dd><font color="#004080">(<b>N</b>)ame</font>: the keywords used to
+          look at the mob.<br>
+      <font color="#004080">(<b>S</b>)hortdescr</font>: the mob's name.<br>
+          <font color="#004080">(<b>L</b>)ongdescr</font>: the mob's
+          description when its in the room.<br>
+          <font color="#004080">(<b>D</b>)escription</font>: the mob's full
+          description, when it is looked at.  it is highly recommended that
+          some sort of description is added to the mob to further enrich
+          Archipelago's world.<br>
+  <dt><font color="#004080">(<b>M</b>)ob flags</font>: toggle the mob's
+      limitations here.<br>
+  <dt><font color="#004080">Affect (<b>F</b>)lags</font>: toggle whatever
+      spell effects, and special abilities here.
+  <dt><font color="#004080">(<b>P</b>)layer stats</font>: individually set
+      the mob stats.<br>
+  <dt><font color="#004080">(<b>A</b>)rmor class</font>:<br>
+      <dd><font color="#004080">(<b>A</b>)rmor</font>: set the mob's armor
+    class. numbers range from -100 to 100, where -100 is the best armour.<br>
+          <font color="#004080">(<b>S</b>)topping</font>: set the mob's
+          stopping class (the number that is first deducted from an enemy
+          blow, before armor class calculations).<br>
+<font color="#004080">(<b>T</b>)hrows</font>: set the mob's saving throws.<br>
+  <dt><font color ="#004080">(<b>S</b>)tats</font>:<br>
+      <dd><font color="#004080">(<b>1</b>)</font> set the mob's align, level,
+          bonus hitroll, height (in centimeters), weight (the unit you enter
+          here is 10*lb)<br>
+          <font color="#004080">(<b>2</b>)</font> set the mob's hitpoints,
+          damage and bonus damroll, and hitting type.<br>
+          <font color="#004080">(<b>3</b>)</font> set the mob's current and
+          default position, and gender.<br>
+          <font color="#004080">(<b>4</b>)</font> toggle 'yes' if the mob
+          has gold, and set its fame value.<br>
+          <font color="#004080">(<b>5</b>)</font> set the mob's class
+          type.<br>
+  <dt><font color="#004080">(<b>Q</b>)uit</font>: quit mob editor.<br>
+</dl><br>
+</font>
+<hr noshade size=1>
+<a href="#pagetop"><img src ="button5.gif" border=0 alt="[ Page Top ]"></a>
+<br clear=all>
+<hr noshade size=1>
+
+
+<p><b><a name="mobnotes">V.</a> Notes on building mobs.</b><br>
+<dl>
+  <dt>
+  <dd>How to equip a basic mob and to save into the zone file: load up a mob,
+     and give it some eq.  Force the mob to wear the eq, and when everything
+     is in order, type zsave mob <mob name>.  Type show zone, and adjust the
+     max number of mobs and eq you want to exist at any one time in the world
+     with the zset command.  If a mob can't wear some eq, make sure the eq
+     fits, if not, change either the size of the eq or the size of the mob
+     (be sure to change it back once you zsaved the mob).<br><br>
+
+  <dt>
+  <dd>You can also force mobs to wear items in a wrong body slot.  All you
+     have to do is to change the object's (W)orn flag to something else after
+     it is worn by the mob and zsaved.  Then you have to wait until the zone
+     resets to see your results, or use zreset if you have it.
+</dl>
+
+<dl>
+  <dt><font color="#004080">General notes:</font>
+  <dd>A mob flag marked with an asterisk means the flag has either not been
+  implemented, or is reserved for internal use.  please do not use it.<br><br>
+  
+     A mob can't be tamed if its INT > 10, and/or it can speak.<br><br>
+
+     Hitpoints are computed in the <i>n</i>d<i>s</i>+<i>p</i> format where
+     <i>p</i> is the base hp, <i>n</i> and <i>s</i> are dice rolls to add an
+     extra amount to "randomize" the mob. <i>n</i>d<i>s</i>, means <i>n</i>
+     die of <i>s</i> type, <i>e.g.</i>, 4d5 mean 4 dies each with 5 outcomes.
+     <br><br>
+
+     Damage is computed in the <i>n</i>d<i>s</i> format without a base
+     damage.  The <i>p</i>, in the mob editor simply is the bonus damroll,
+     see below.  So a mob with 4d5 damage will do 4-20 points of damage,
+     (with an average of 12). <br><br>
+
+     The bonus hitroll and damroll simply makes a mob more or less tough
+     than average.  The bonus hitroll simply increases a mob's ability to
+     hit a target, <i>e.g.</i>, a mob with a 15 hitroll is able to hit a
+     target more times than a mob with less.  The bonus damroll is a small
+     multiplier to a mob's basic damage.  The higher the damroll the more
+     its <i>n</i>d<i>s</i> damage will be multiplied.<br><br>
+
+     Mob experience, and gold (if it has any), are automatically calculated
+     by the game engine.  They are dependant on the mobile's stats, hp, and
+     damage.<br><br>
+
+  <dt><font color="#004080">Notes on mobs helping</font>
+      <font color="#964b00">CITIZENS</font>.
+      <dd>If ANY of the following is true, then there is a 1 in 4 chance per
+          combat round that a mob will assist.
+      <ol type=1>
+        <li>if both mobs are flagged as citizen and within 200 align pts.
+        <li>if mob is flagged as a helper.
+        <li>if mob has int > 10 and within 200 align pts.
+      </ol><br>
+
+  <dt><font color="#004080">Notes on the</font>
+      <font color="#964b00">HAS MOOD</font>
+      <font color="#004080">mob flag.</font>
+      <dd>If this flag is set, the mob will be affected by moods.  If a
+          mob's mood reaches -1000, it will have a random chance of
+          attacking anyone.<br><br>
+  
+  <dt><font color="#004080">Notes on the</font>
+      <font color="#964b00">FREE ACTION</font>
+      <font color="#004080">mob affect flag.</font>
+      <dd>Set this flag and WATER BREATH for mobs who dwell underwater.
+      <br><br>
+
+  <dt><font color="#004080">Notes on the mob class type.</font>
+      <dd>Most mobs of the same race have features unique to them.  Please
+      refer to the appendix at the end of this guide for more details.<br>
+
+</dl><br>
+<hr noshade size=1>
+<a href="#pagetop"><img src ="button5.gif" border=0 alt="[ Page Top ]"></a>
+<br clear=all>
+<hr noshade size=1>
+
+
+<p><b><a name="rooms">VI.</a> Building rooms,</b><br>
+The guide to the room editor.  use the
+<font size=-1 color="#964b00">REDIT</font> command.<br>
+<font color="#008000">
+<dl>
+  <dt><font color="#004080">(<b>T</b>)ext</font>:
+      <dd><font color="#004080">(<b>T</b>)itle</font>: the room name.<br>
+          <font color="#004080">(<b>D</b>)esc</font>: the room's full
+          description.<br>
+  <dt><font color="#004080">te(<b>L</b>)eport</font>:
+      <dd><font color="#004080">(<b>T</b>)o room</font>: set the teleport's
+          destination.<br>
+          <font color="#004080">(<b>D</b>)elay</font>: set the teleport's
+          delay.<br>
+          <font color="#004080">(<b>1</b>) Message to char</font>: what the
+          char sees when teleport activates.<br>
+          <font color="#004080">(<b>2</b>) Message to room</font>: what the
+          room sees when teleport activates.<br>
+          <font color="#004080">(<b>3</b>) Message to destination</font>:
+          what the next room sees when teleport activates.<br>
+          note: $codes, such as $n to represent the player's name, can be
+          used inside teleport messages.<br>
+  <dt><font color="#004080">(<b>R</b>)oom flags</font>: set any room flags.
+  <dt><font color="#004080">se(<b>C</b>)tor flag</font>: set the room's
+      sector type.
+  <dt><font color="#004080">(<b>N</b>)orth, (<b>E</b>)ast, (<b>S</b>)outh,
+      (<b>W</b>)est, (<b>U</b>)p, (<b>D</b>)own</font>: 
+      <dd><font color="#004080">(<b>T</b>)o room</font>: what room number
+          this room is connected to.<br>
+          <font color="#004080">(<b>D</b>)esc</font>: the desc that is shown
+          when one looks in this direction.  A desc can also be placed on a
+          null exit (exit without a room link), in which case, the desc will
+          only be shown when one looks, or moves into the null exit.<br>
+          <font color="#004080">(<b>K</b>)eywords</font>: the keywords used
+          to reference a door, if set.<br>
+          <font color="#004080">(<b>E</b>)xit bits</font>: set extra bits, as
+          well as creating a door for this exit.<br>
+        <font color="#004080">Ke(<b>Y</b>)</font>: the vnum of the object
+        used as the &#34;key&#34;. note: the key doesn't have to be a KEY
+        obj type, just as long as the object vnum matches the door's lock.<br>
+          <font color="#004080">(<b>P</b>)urge exit</font>: purge this exit,
+          can be used to create one-way exits.<br>
+  <dt><font color="#004080">e(<b>X</b>)tra desc</font>:
+      <dd>note: if you already have a room extra desc, and want to (C)reate
+          another, you must first create it, then immediately type (Q), then
+          reenter to edit the (now null) extra desc.  If, instead, you
+          (C)reate a new extra, and immediately edit the desc, you will be,
+          in actuality, editing a previous extra desc, and will destroy it.
+          this is a bug.<br>
+  <dt><font color="#004080">(<b>Q</b>)uit</font>: quit room editor.
+</dl><br>
+</font>
+<hr noshade size=1>
+<a href="#pagetop"><img src ="button5.gif" border=0 alt="[ Page Top ]"></a>
+<br clear=all>
+<hr noshade size=1>
+ 
+
+<p><b><a name="roomnotes">VII.</a> Notes on building rooms,</b><br>
+<dl>
+  <ul type=square>
+    <li>All hitched mobs and mounts will not enter an room marked with an
+        INSIDE sector type.<br><br>
+
+    <li>A room with a GODROOM flag means that no immortal, except for
+        Djinn+ level gods, can enter that room via the
+        '<font color="#964b00">go</font>' command.  Anyone can still enter
+        by walking into the room.<br><br>
+  
+    <li>The Archipelago room editor automatically formats a room desc.
+        So what you type in, may not have the same margins when the room
+        desc is '<font color="#964b00">look</font>'ed at.  However, the
+        NO_AUTOFORMAT flag can be toggled in the room, this will prevent
+        any autoformatting of text.<br><br>
+  </ul>
+  
+  <dt><font color="#004080">Notes on building petshops and stables.</font>
+      <dd>To set up a petshop, you must have a shopkeeper mob, and an empty
+          and unaccessible storage room containing the mobs the shopkeeper
+          will sell. A coder will then be able to set the shopkeeper to sell
+          whatever mobs are loading in that storage room.  You can, at
+          anytime, alter what mobs the shopkeeper will sell by changing what
+          mobs load in that storage room. <i>e.g.</i>, in room 11173, Drinth
+          sells horses, the mounts load in room 11348.<br><br>
+
+  <dt><font color="#004080">Notes on room illumination.</font>
+  <dd>&#34;Parts of room descriptions can be made dependant on the light
+    level in the room&#34; -dc.  In front of the text you wish to be light
+    sensitive, add a '<tt><font size=+1 color="#964b00">%</font>#</tt>' code,
+    and end the text with '<tt><font size=+1 color="#964b00">%</font></tt>',
+    <i>e.g.</i>, &#34;<tt>%2A dusty trapdoor can barely be seen on the
+    floor.%</tt>&#34;.  Valid #'s range from 0 to 4.  %0 sentences will show
+    up in &#34;quite dark&#34; light conditions, %1 in "gloomy", %2 in normal
+    light, %3 in &#34;bright&#34;, and %4 in &#34;very bright&#34; light.
+    For additional examples, stat these rooms 1880, 2001.<br><br>
+
+  <dt><font color="#004080">Notes on room teleports.</font>
+      <dd>Teleports can teleport into the same room.  This will create a
+      "room echo" that can liven up a room, <i>e.g.</i>, A fire crackles in
+      the fireplace.<br>
+</dl><br>
+<hr noshade size=1>
+<a href="#pagetop"><img src ="button5.gif" border=0 alt="[ Page Top ]"></a>
+<br clear=all>
+<hr noshade size=1>
+
+
+<p><b><a name="misctips">VIII.</a> Miscellaneous building tips:</b><br>
+<dl>
+  <dt>
+    <dd>Use cut and paste if and where possible, and try to build offline
+        if you are comfortable with that idea.  Building offline has it
+        advantages,<br>
+        - 1. you can employ a spell checker to check for errors,<br>
+        - 2. you can build unmolested from distractions in the game,<br>
+        - 3. you have a copy of the work on your hard drive to peruse and
+           edit.<br><br>
+  
+  If you are without cut and paste abilities, try the ascii protocol option
+  on your terminal program.  ascii protocol uploads text in the same manner
+  as typing in stuff on your keyboard and seeing it on your screen, but
+  only faster (like cut and paste).  note, if you have problems with extra
+  carriage returns, or missing text, you may need to speed, or slow down
+  the upload by a few tenths of a second, or use tintin or similar client
+  to help buffer input into the mud.<br><br>
+
+  <dt>The KEY obj type is not necessary, you can make keys out of any
+    object, just as long as the key object matches the door's lock.<br><br>
+
+  <dt>Cursed items can be gotten rid of by placing the item in a bag and
+      junking it, if you cannot '<font color="#964b00">eat</font>' the
+      item in the first place.<br><br>
+
+  <dt>Where are all the boards located?
+    <dl>
+      <dt>the <font size=-1 color="#008000">IMMORTAL BOARD</font> in 1204
+        (no mortal can read this board).
+      <dt>the <font size=-1 color="#008000">MORTAL BOARD</font> in 1205.
+      <dt>the <font size=-1 color="#008000">BUILDER'S BOARD</font> in 1207.
+      <dt>the <font size=-1 color="#008000">BUG BOARD</font> in 1208
+        (please put all game crash bugs on the imm board).
+      <dt>the <font size=-1 color="#008000">BUILDER'S PROPOSAL BOARD</font>
+        in 1220.
+      <dt>the <font size=-1 color="#008000">MEETING/MISCELLANEOUS BOARD</font>
+        in 1221.
+      <dt>the <font size=-1 color="#008000">UPDATE BOARD</font> in 1222
+        (notices on code changes, and updates).
+    </dl><br>
+  
+  <dt>What's a useful prompt?
+      <dl>
+          <dt>I use this prompt:
+              '<tt><font size=+1 color="#008000">%iR:%R&#62; </font></tt>'.
+              It tells me my wizinvis and roomnum.
+      </dl><br>
+
+  <dt>See the <a href="archfaq0.html">Archipelago faq</a> for game features.
+
+  <dt>See Magnifico's
+      <a href="http://ruby.ils.unc.edu/~czecd/archjump.html">Archipelago Web
+      Jump Page</a> for additional builder resources and style guides.
+
+  <dt>Here's a page about
+  <a href="http://www.vuw.ac.nz/~jamie/mud/mud.html">MU*S and some articles
+  on designing and building areas</a>.
+
+</dl><br>
+<hr noshade size=1>
+<a href="#pagetop"><img src ="button5.gif" border=0 alt="[ Page Top ]"></a>
+<br clear=all>
+<hr noshade size=1>
+
+
+<p><b><a name="appendix">IX.</a> Appendix:</b><br>
+<dl>
+  <dt><b>Sizes:</b>
+      <dd>(6) TINY   &#60; 100 cm<br>
+          (5) VERY SMALL &#60; 135 cm<br>
+          (4) SMALL  &#60; 170 cm<br>
+          (3) NORMAL &#60; 190 cm<br>
+          (2) LARGE  &#60; 220 cm<br>
+          (1) HUGE   &#62;=220 cm<br><br>
+
+  <dt><b>Poison levels:</b>
+      <dd>Mild       1-12  pts per tick<br>
+          Mild       6-24  pts per tick<br>
+          Moderate  12-48  pts per tick<br>
+          Strong    24-96  pts per tick<br>
+          V Strong  48-192 pts per tick<br>
+          Deadly   200-500 pts per tick<br><br>
+
+  <dt><b>Mob class type:</b>
+      <dd>Undead - produce a pile of dust instead of a corpse when killed.
+          undead are also affected by the skill 'turn undead'.<br>
+          Other<br>
+          Humanoid<br>
+          Animal<br>
+          Dragon - breath only when the spell_caster mob flag is set, and a
+          special -- post on the board to request a special -- is assigned.
+          The types of breath the dragon can breath are fire, frost, gas,
+          lightning, and halitosis.<br>
+          Giant<br>
+          Plant<br>
+          Equine<br>
+          Ichthyoid<br>
+          Arthopod<br><br>
+</dl><br>
+<hr noshade size=1>
+<a href="#pagetop"><img src ="button5.gif" border=0 alt="[ Page Top ]"></a>
+<br clear=all>
+
+<hr noshade size=1>
+&#169; Copyright 1995-1996 by
+<a href="mailto:rkchin@dorsai.org">
+<img src ="rchin990.gif" align=top border=0 alt="Robert K. Chin"></a>.
+All rights reserved.<br>
+Last revised June 6, 1996.<br>
+</body>
+</html>

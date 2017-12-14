@@ -1,0 +1,101 @@
+#1800 NEW~
+-1 
+1847 
+1817 
+1818 
+1820 
+1.500000 
+1.000000 
+131072 
+%s Haven't got that on stock - try list!~
+%s I don't buy!~
+%s I don't buy!~
+%s I don't buy!~
+%s No free drinks!~
+%s That'll be %s.~
+%s I'll give you %s for it.~
+0 
+0 
+1803 
+0 
+1800 
+0 
+28 
+0 
+0 
+#1801 NEW~
+1827 
+1828 
+1829 
+1830 
+1831 
+1.000000 
+0.100000 
+524288 
+%s Hmmm Oi'm fresh out of that - the list will show 'ee what's in stock.~
+%s Oi only buy FRESH fish!~
+%s Oi only buy FRESH fish!~
+%s Oi only buy FRESH fish!~
+%s Oi don't think 'ee can afford it.~
+%s Thar that'll be just %s.~
+%s Argh!, I best give thee %s.~
+0 
+0 
+1833 
+0 
+1875 
+0 
+28 
+0 
+0 
+#1802 NEW~
+1856 
+1857 
+1858 
+1859 
+1860 
+2.000000 
+0.400000 
+512 
+%s I don't have that exact item, perhaps you would like to peruse the list?~
+%s Hmmm.  You don't seem to have that item.~
+%s Sorry I don't trade in that sort of thing.~
+%s Sorry.. this is more valuable than I can afford.~
+%s Ahh I don't think you can afford it.~
+%s That'll be just %s.~
+%s I can give you %s for that.~
+0 
+0 
+1834 
+0 
+1879 
+0 
+28 
+0 
+0 
+#1803 NEW~
+1242 
+1880 
+-1 
+-1 
+-1 
+1.000000 
+1.000000 
+-1 
+%s I don't have that item.~
+%s You don't have that item.~
+%s I don't buy that sort of item.~
+%s I can't afford it.~
+%s You can't afford it.~
+%s That costs %s.~
+%s I'll give you %s for it.~
+0 
+0 
+1842 
+0 
+1893 
+0 
+28 
+0 
+0 
+$~

@@ -1,0 +1,533 @@
+#1200
+eq twin good angelic~
+Eq's angelic twin~
+Eq's angelic twin is here looking saintly.
+~
+He looks sweet and kind.
+~
+8 0 0 E
+30 14 14 14 14
+14 14 14 14 14
+0 0 500
+0 14 110 10
+0 198 2000
+4d5+1200 4d5+2
+0 0 0 0 
+4 4 4 4 
+20 20 20 20 20 
+0 0
+7 7 0
+-1 -1 -1 
+#1201
+lick salt~
+a salt lick~
+A salt lick is here looking salty.
+~
+it looks really salty.
+~
+24586 0 0 E
+14 14 14 14 14
+14 14 14 14 14
+0 0 500
+0 14 200 1
+9 198 2000
+10d10+4000 1d1+1
+100 100 100 100 
+0 0 0 0 
+100 100 100 100 100 
+0 0
+7 7 0
+-1 -1 -1 
+#1202
+netlag net lag~
+Netlag~
+New netlag is here looking for links to cut.
+~
+The really scary and tough looking monster is looking for a better description.
+~
+8 524288 0 E
+14 14 14 14 14
+14 14 14 14 14
+0 0 500
+0 14 0 20
+0 198 2000
+1d1+1 1d1+1
+100 100 100 100 
+0 0 0 0 
+100 100 100 100 100 
+0 0
+7 7 0
+-1 -1 -1 
+#1203
+slime~
+a slime~
+A slime is here.~
+A rough-and-tumble lot of pups, all friendly but looking for a place
+to pee.
+~
+2120 8388608 1000 E
+14 14 14 14 14
+14 14 14 14 14
+0 0 500
+0 14 95 11
+8 20 15
+3d20+5000 6d20+40
+50 50 50 50 
+0 0 0 0 
+100 100 100 100 100 
+0 0
+7 7 2
+-1 -1 -1 
+#1204
+kitten~
+One of Kalliste's kittens~
+One of Kalliste's kittens is here looking for Kalliste.
+~
+The kitten is cute and fuzzy.
+~
+8 0 0 E
+14 14 14 14 14
+14 14 14 14 14
+0 0 500
+0 14 0 20
+0 198 2000
+1d1+1 1d1+1
+100 100 100 100 
+0 0 0 0 
+100 100 100 100 100 
+0 0
+7 7 0
+-1 -1 -1 
+#1205
+copper spriggan~
+a small copper spriggan~
+A small copper spriggan is here guarding the ring.
+~
+A small copper spriggan is here guarding his Queen from interlopers...He
+begins to grow as you approach and warns you to come no closer.
+~
+4122 16777384 1000 E
+30 30 30 30 30
+30 30 30 30 30
+0 0 500
+0 30 200 0
+10 300 2000
+100d100+21999 10d8+20
+0 0 0 0 
+20 20 20 20 
+2 2 2 2 2 
+50000 0
+7 7 1
+-1 -1 -1 
+#1206
+Clio alchemist guildmaster woman~
+Clio the alchemist~
+A beautiful alchemist stands here, watching a bubbling potion.
+~
+   Clio is tall, beautiful, and has a terrifyingly knowing look in her eyes.
+Perhaps this is because she knows the secrets of the elements and she knows
+how to use them.  Despite her long red hair being bound up in a tight braid
+to keep it out of her way, as well as the fact that her cat-green eyes are
+mostly hidden behind some protective contraption, she is still besieged by
+suitors.  All that Clio really wants is to immerse herself in the wonders of
+alchemy.  However, she may find that there is someone who loves her and who
+also understands her love of her science, and then life will become quite
+different for her.
+~
+145419 1140850712 1000 E
+14 30 21 14 18
+27 30 14 14 30
+0 0 500
+2 14 190 3
+0 175 1320
+1d1+25001 4d8+24
+-50 -50 -50 -50 
+10 10 10 10 
+2 2 2 2 2 
+10 0
+7 7 2
+-1 -1 -1 
+#1207
+Gryphon man lab assistant~
+Gryphon the lab assistant~
+A sandy haired man stands here, taking furtive glances at Clio.
+~
+Tall, sandy haired Gryphon is an excellent student of alchemy.  He also
+enjoys a good time, if you know what he means.  Even though his partner,
+Clio, thinks he's a bit rowdy at times, he has a good heart and an even
+better talent for alchemy.  The people who come looking for help usually go
+to him rather than Clio because of his warm smiles and gentle humor.  He also
+isn't usually wearing any contraptions (which kind of make people nervous)
+over his sky blue eyes.  Sometimes, students catch him looking at Clio
+with an odd glint in his eyes, but no one really knows the relationship
+between the two.
+~
+161802 0 1000 E
+14 24 23 14 25
+30 17 14 14 23
+0 0 500
+2 14 160 2
+0 198 1900
+3d5+16200 5d5+10
+-40 -40 -40 -40 
+5 5 5 5 
+10 10 10 10 10 
+50 0
+7 7 1
+-1 -1 -1 
+#1208
+Pale~
+Pale~
+A level 10 reference mob is standing here.
+~
+not much to look at.
+~
+8 16777260 0 E
+14 14 14 14 14
+14 30 14 14 14
+0 0 500
+0 14 210 18
+0 198 2000
+5d5+190 2d4+1
+90 90 90 90 
+0 0 0 0 
+90 90 90 90 90 
+100 0
+7 7 0
+-1 -1 -1 
+#1209
+Arthur~
+Arthur~
+A level 15 reference mob is standing here.
+~
+The really scary and tough looking monster is looking for a better description.
+~
+8 0 0 E
+14 14 14 14 14
+14 14 14 14 14
+0 0 500
+0 14 15 18
+0 198 2000
+5d5+360 3d4+1
+85 85 85 85 
+0 0 0 0 
+85 85 85 85 85 
+500 0
+7 7 0
+-1 -1 -1 
+#1210
+reference mob 20~
+reference mob level 20~
+A level 20 reference mob stands here.
+~
+The really scary and tough looking monster is looking for a better description.
+~
+8 0 0 E
+14 14 14 14 14
+14 14 14 14 14
+0 0 500
+0 14 20 17
+0 198 2000
+5d6+460 4d3+2
+80 80 80 80 
+0 0 0 0 
+85 85 85 85 85 
+1000 0
+7 7 0
+-1 -1 -1 
+#1211
+reference mob 25~
+reference mob level 25~
+A level 25 refrence mob is standing here.
+~
+The really scary and tough looking monster is looking for a better description.
+~
+8 0 0 E
+14 14 14 14 14
+14 14 14 14 14
+0 0 500
+0 14 25 17
+0 198 2000
+5d5+500 3d4+1
+80 80 80 80 
+0 0 0 0 
+80 80 80 80 80 
+2000 0
+7 7 0
+-1 -1 -1 
+#1212
+reference mob 30~
+reference mob level 30~
+A level 30 reference mob is standing here.
+~
+The really scary and tough looking monster is looking for a better description.
+~
+8 0 0 E
+14 14 14 14 14
+14 14 14 14 14
+0 0 500
+0 14 30 17
+0 198 2000
+5d5+600 4d3+1
+75 75 75 75 
+1 1 1 1 
+80 80 80 80 80 
+3000 0
+7 7 0
+-1 -1 -1 
+#1213
+reference mob 35~
+reference mob level 35~
+A level 35 reference mob stands here.
+~
+The really scary and tough looking monster is looking for a better description.
+~
+8 0 0 E
+14 14 14 14 14
+14 14 14 14 14
+0 0 500
+0 14 35 17
+0 198 2000
+5d5+750 4d3+2
+75 75 75 75 
+1 1 1 1 
+75 75 75 75 75 
+3500 0
+7 7 0
+-1 -1 -1 
+#1214
+reference mob 40~
+reference mob level 40~
+A level 40 reference mob is standing here.
+~
+The really scary and tough looking monster is looking for a better description.
+~
+8 0 0 E
+14 14 14 14 14
+14 14 14 14 14
+0 0 500
+0 14 40 16
+0 198 2000
+5d5+840 4d4+1
+70 70 70 70 
+1 1 1 1 
+75 75 75 75 75 
+4000 0
+7 7 0
+-1 -1 -1 
+#1215
+reference mob level 45~
+reference mob level 45~
+A level 45 reference mob is standing here.
+~
+The really scary and tough looking monster is looking for a better description.
+~
+8 0 0 E
+14 14 14 14 14
+14 14 14 14 14
+0 0 500
+0 14 45 16
+0 198 2000
+5d8+920 4d4+2
+70 70 70 70 
+1 1 1 1 
+70 70 70 70 70 
+4500 0
+7 7 0
+-1 -1 -1 
+#1216
+Arg~
+Arg~
+A really scary and tough looking monster is here.
+~
+The really scary and tough looking monster is looking for a better description.
+~
+8 0 0 E
+14 14 14 14 14
+14 14 14 14 14
+0 0 500
+0 14 200 0
+0 198 2000
+1d1+1 1d1+1
+100 100 100 100 
+0 0 0 0 
+100 100 100 100 100 
+0 0
+7 7 0
+-1 -1 -1 
+#1217
+reindeer pretty fuzzy~
+a pretty reindeer~
+A pretty reindeer, with soft fuzzy antlers, and mistletoe tied around its neck.
+~
+   She is a small and fuzzy creatures, this reindeer.  She seems more like a
+pet than a useful beast of burden, or a tasty venison meal for that matter..
+The reindeer has soft velvety antlers, and lucid black eyes.  Some mistletoe,
+a fun-looking parasitic plant with poisonous leaves and berries, is tied
+around its neck.
+~
+10 0 0 E
+20 6 6 12 14
+14 14 14 14 14
+0 0 500
+3 14 10 11
+8 100 1000
+6d9+180 3d5+4
+30 30 30 30 
+0 0 0 0 
+84 84 84 84 84 
+0 0
+7 7 2
+-1 -1 -1 
+#1218
+Ox ox~
+an ox~
+A strong looking ox is standing here.
+~
+The really scary and tough looking monster is looking for a better description.
+~
+8 0 0 E
+14 14 14 14 14
+14 14 14 14 14
+0 0 500
+0 14 0 0
+0 198 2000
+1d1+1 1d1+1
+100 100 100 100 
+0 0 0 0 
+100 100 100 100 100 
+0 0
+7 7 0
+-1 -1 -1 
+#1219
+mage young ignem master guildmaster~
+a young mage~
+A young mage with a singed beard is standing here.
+~
+This chap is clearly someone who likes to play with fire.  His beard is
+somewhat singed and his robes are scorched in several places.  He also 
+has a smokey smell and soot smudges on his brow.
+~
+8201 20488 1000 E
+27 30 30 28 14
+14 30 14 14 30
+0 0 500
+2 14 200 14
+0 5 14
+1d1+30000 7d7+20
+-100 -100 -100 -100 
+20 20 20 20 
+0 0 0 0 0 
+0 0
+7 7 1
+-1 -1 -1 
+#1220
+armadillo blue~
+a blue armadillo~
+A peculiar blue armadillo is waddling about here in a daze.
+~
+   This blue bony-plated creature looks strangely out of place here.  With
+its long snout and strong claws, the armadillo should be burrowing holes in
+the desert sand.  However, this little feller seems to be just waddling along
+here looking for some place warm.  The armadillo seems to be a bit cold.
+~
+2060 36 0 E
+18 5 2 16 22
+14 17 13 0 12
+0 0 500
+0 16 1 20
+8 20 200
+100d100+10000 1d1+1
+-10 -10 -10 -10 
+20 20 20 20 
+0 0 0 0 0 
+100 0
+7 7 0
+-1 -1 -1 
+#1221
+woman wizened mage aquam master guildmaster~
+a wizened woman~
+A wizened woman is standing here.
+~
+This elderly woman has clearly seen many summers.  You don't doubt
+however the accumulated knowlege that glints from behind her icy
+blue eyes.
+~
+24585 4104 1000 E
+28 30 30 25 14
+14 30 14 14 30
+0 0 500
+2 14 201 0
+0 198 2000
+1d1+30000 4d7+16
+-100 -100 -100 -100 
+20 20 20 20 
+0 0 0 0 0 
+0 0
+7 7 2
+-1 -1 -1 
+#1222
+Sheenon healer gnome elderly mage corporem guildmaster~
+Sheenon, the gnomish healer~
+An elderly gnome stands here, leaning on his staff.
+~
+d
+   Sheenon the gnome healer is famous throughout the land for his profound
+knowledge of the arts of healing.  It is rumoured that he is also
+privy to more arcane knowledge.
+~
+24585 4104 1000 E
+28 30 30 27 14
+14 30 14 14 30
+0 0 500
+2 14 201 0
+0 110 1600
+1d1+30000 7d4+16
+-100 -100 -100 -100 
+20 20 20 20 
+0 0 0 0 0 
+0 0
+7 7 1
+-1 -1 -1 
+#1223
+wizard stout guildmaster master rego mage~
+a stout wizard~
+A stout wizard is here eating a pie.
+~
+   The wizard seems to be fond of his food and not too fussy with his
+manners.  You notice he has crumbs all down his front.
+~
+139273 4104 1000 E
+27 30 30 28 14
+14 30 14 14 14
+0 0 500
+2 14 210 0
+0 198 3000
+1d1+30000 9d3+13
+-100 -100 -100 -100 
+0 0 0 0 
+0 0 0 0 0 
+0 0
+7 7 1
+-1 -1 -1 
+#1224
+crier town~
+the town crier~
+The town crier is standing here.
+~
+Needs one...~
+88 0 0 E
+15 13 14 21 17
+16 24 22 10 18
+0 0 500
+0 20 5 5
+14 74 1200
+5d3+95 5d2+1
+82 82 82 82 
+1 0 0 0 
+80 80 80 80 80 
+0 0
+7 7 0
+-1 -1 -1 
+#99999
+$~

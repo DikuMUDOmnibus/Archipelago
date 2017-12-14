@@ -1,0 +1,24 @@
+This is a stripped down release of the code and minimal world files
+for Archipelago.  The code has only been tested under Linux - but given
+a reasonably gnu-ish system it should work.  As Archipelago is based on
+CircleMud 2.2 all caveats and license restrictions apply.  This includes
+The DikuMud license restrictions - that the original dikumud creators
+names must appear in the login screen and credits.  If you plan on modifying
+Archipelago it would be nice if the Archipelago team were creditied as well
+and also Jeremy Elison of course.
+
+I haven't had much time to prepare documentation - though I have included some
+admitedly slightly dated html files from the Archipelago web site which
+describe the environment.
+
+The source code is considerably enhanced from the CircleMud 2.2 distribution.
+Archipelago source weighs in at a smidgen over 60K lines, CircleMud 2.2 has
+about 30K.  The source code is not well commented I'm afraid - but it is yours
+to modify as you please (as long as you keep to the typical Circle/Diku
+license agreements).
+
+
+Alastair Neil (ajn@essex.ac.uk) July 1996.
+
+Originally released 8/26/1996.
+Updated for GCC4 compatibility 2/26/2006 by Samson.

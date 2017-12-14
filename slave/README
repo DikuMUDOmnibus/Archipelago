@@ -1,0 +1,62 @@
+Bits and pieces for asynchronous hostname/RFC1413 lookups.
+
+IPC between the mud server and the slave is done via a DGRAM socketpair().
+DGRAM is used 'cause we don't want a stream, and it's unix domain so
+we don't care about errors.  You could do this with two pipe() calls,
+but that'd waste a file handle.  You can fake the socketpair() call any
+number of ways if you're unfortunate enough to be on a system without it.
+
+The slave was written to be tested from the command line via stdin/stdout.
+
+files:
+
+slave.c         -- standalone hostname/rfc1413 server
+comm.c          -- snippets of additions to comm.c in mud server
+slave.h         -- interface
+stpcpy.c        -- utility function
+inet.c          -- utility function
+strerror.c      -- in case your system doesn't have strerror()
+
+notes:
+
+"kiwi" is just the name of a library of mine.  You'll have to clean up the
+kiwi includes.
+
+syslogf, log_write, etc. are my log writing routines (standard vsprintf
+stuff)
+
+zsprintf is an ANSI compliant sprintf (i.e. steal one from gnu libc) --
+the key importance is that it return the number of bytes written to
+the string.  i.e. prototype int zsprintf( char *, const char *, ... )
+if you system sprintf has that prototype, then you can use it.
+
+How to use:
+
+Compile slave.c and stick it in your PATH somewhere.  (Or hard code a path
+into boot_slave()).
+
+Merge comm.c into your comm.c.  Call boot_slave() during your boot
+procedure.  Be sure to set game_port to your game port number.  (If
+you're using multiple game ports then you need to use the right
+game port in the new_connection code.)
+
+I suggest a command that will call boot_slave() -- you'll find it useful
+if you make a change to slave.c while the server is running, and want
+to start a new slave.  Or if for some reason slave bombs out.  Whatever,
+it's better than having to reboot the server (unless you're still at
+that development point where crashes are frequent enough :)
+
+Write a command, mine is called "users" that lists the descriptors, the
+host[] field, and the userid[] field.  Enjoy.
+
+**NOTE**  Go learn about why RFC1413 is not supposed to be used this way.
+At least you, the implementor should understand the shortcomings and
+the issues surrounding RFC1413.  Go read RFC1413.  I'll assume that if
+you can get my code to work in your code then you can probably find
+RFCs on your own :) If that isn't enough, maybe alt.security merged
+some of the huge discussion about rfc1413 from 3 years ago into the FAQ.
+I wouldn't know.
+
+This code is released into the public domain.
+
+Dean Gaudet (Lazarus of Arctic)

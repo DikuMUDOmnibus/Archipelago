@@ -1,0 +1,1246 @@
+#1800 3
+key large~
+a large key~
+A large key lies here.~
+The key grinds in the lock.~
+18 4096 1 0
+1800 0 0 0
+0 0 0 0
+10 1 1 0 0 0
+#1801 3
+cudgel club weapon~
+a gnarled cudgel~
+A gnarled cudgel is lying on the floor.~
+~
+5 0 8193 0
+0 3 4 1
+0 2 50 0
+100 3000 400 0 0 0
+#1802 3
+dagger silver narrow~
+a narrow silver dagger~
+A narrow silver dagger lies here covered in dirt.~
+~
+5 64 8193 0
+0 2 7 6
+0 5 0 0
+100 15200 1100 0 0 0
+A
+19 2
+#1803 3
+fountain water spout~
+a water spout~
+A water spout is here spraying water on the flagstones.~
+You are splashed by water from $p.
+~
+23 0 0 0
+99999 99999 0 0
+0 0 0 0
+999999 999999 999999 0 0 0
+#1804 3
+dagger curved~
+a curved dagger~
+A curved dagger lies here.~
+~
+5 0 8193 0
+0 3 3 2
+0 5 0 0
+80 10000 1000 0 0 0
+A
+18 1
+A
+19 1
+#1805 3
+scarf mask ~
+a black scarf~
+A black head scarf lies crumpled here.~
+~
+9 0 17 0
+4 0 0 0
+0 0 50 0
+10 10000 1000 0 0 0
+B
+8
+#1806 3
+robe troll human pile~
+a robe of human skin~
+A pile of human skin lies rotting here.~
+~
+9 512 1025 0
+17 1 0 0
+1 2 0 0
+200 6000 600 0 0 0
+A
+25 -2
+A
+19 1
+#1807 3
+mace trolls weapon~
+a bone mace~
+A large mace made of bone lies here.~
+~
+5 512 8193 0
+0 3 5 4
+0 2 0 0
+280 10000 1000 0 0 0
+A
+1 1
+A
+18 1
+#1808 3
+key large~
+a large key~
+A large iron key lies here.~
+~
+18 12288 1 0
+1844 0 0 0
+0 0 0 0
+10 1 1 0 0 0
+#1809 3
+chest large~
+a large chest~
+A large leather bound chest sits here.~
+~
+15 0 0 0
+13500 5 -1 0
+10 0 0 0
+10000 99999 99999 0 0 0
+#1810 3
+shirt mithril mail %%~
+a mithril shirt~
+An exquisite shirt made of fine mithril mail lies here by chance!~
+~
+9 320 9 0
+30 2 0 0
+-1 5 0 0
+190 200000 22400 0 0 0
+E
+shirt mithril mail~
+   Today making mail from mithril silver is a lost art.  This mithril shirt
+that you now gaze upon is nearly two centuries old!  Looking closer at the
+fine, interlocking loops of mithril, you marvel at what skills the dwarven
+armorer had to make a shirt of such superb quality as this.~
+A
+2 1
+#1811 3
+figurine sapphire~
+a sapphire figurine~
+A beautiful figurine encrusted with sapphires lies here.~
+~
+8 0 131073 0
+0 0 0 0
+0 0 0 0
+6 30000 30000 0 0 0
+A
+13 25
+#1812 3
+cap dwarven~
+a dwarven cap~
+A dwarven cap made from hard leather lies here.~
+~
+9 0 17 0
+3 0 0 0
+0 5 0 0
+30 500 50 0 0 0
+#1813 3
+cap leather~
+a leather cap~
+A leather cap is lying on the ground.~
+~
+9 0 17 0
+10 0 0 0
+0 4 0 0
+20 2000 200 0 0 0
+#1814 3
+dwarven boots leather sturdy pair boot~
+a sturdy pair of dwarven boots~
+A pair of small boots lie all scuffed up here.~
+~
+9 0 65 0
+13 1 0 0
+0 5 0 0
+60 4100 410 0 0 0
+#1815 3
+helmet steel~
+a steel helmet~
+A steel helmet lies here.~
+~
+9 0 17 0
+30 3 0 0
+0 4 0 0
+130 10500 1050 0 0 0
+#1816 3
+pipe clay meerschaum~
+a meerschaum pipe~
+A white clay pipe lies here.~
+~
+11 0 262145 0
+0 0 0 0
+0 0 0 0
+5 10000 10000 0 0 0
+E
+test4~
+this is test4.
+~
+#1817 3
+beer beer barrel squat~
+a squat beer barrel~
+A squat barrel stands here.~
+~
+17 0 16385 0
+30 30 1 0
+0 0 0 0
+450 100 1 0 0 0
+E
+barrel beer~
+   The barrel is made from the finest oaken staves that are secured by steel
+hoops.  This barrel is relatively squat in comparison to other you have seen
+and it reaks of cheep beer.~
+#1818 3
+ale keg~
+an ale keg~
+An ale keg is resting here on it's side.~
+~
+17 0 16385 0
+30 30 3 0
+0 0 0 0
+300 250 1 0 0 0
+E
+keg ale~
+The keg is small and quite portable it has the words:
+
+"Simeon Strong Ale"
+
+printed across the side.
+~
+#1819 3
+wine wine skin skin wineskin leather~
+a wine skin~
+A stained leather wineskin lies here.~
+~
+17 0 16385 0
+10 10 2 0
+0 0 0 0
+100 500 20 0 0 0
+#1820 3
+ale tankard~
+a tankard~
+An old pewter ale tankard lies here.~
+~
+17 0 16385 0
+2 2 3 0
+0 0 0 0
+100 20 1 0 0 0
+#1821 3
+sweater oiled wool~
+an oiled wool sweater~
+An oiled wool sweater has been idly left behind here.~
+~
+11 64 9 0
+0 0 0 0
+0 4 200 0
+100 32800 42670 0 0 0
+E
+sweater oiled wool~
+*needs a desc*
+~
+A
+17 -10
+B
+67108864
+#1822 3
+galoshes pair boots heap boot~
+a pair of slick black galoshes~
+A pair of rubber boots lie in a heap on the floor here.~
+~
+9 0 65 0
+18 1 0 0
+1 0 0 0
+80 23500 510 0 0 0
+E
+galoshes pair boots heap boot~
+   The galoshes are sturdy leather boots that were dipped in hot, natural
+rubber to make them waterproof.  Upon cooling, the rubber darkened until
+it was black.  When worn, the galoshes squeaks like a seal pup looking for
+its mother.  This particular pair of galoshes is slick with slimy fish guts
+and they stink really bad.~
+#1823 3
+hat sou'wester souwester southwester yellow~
+a yellow sou'wester~
+Someone has tossed aside a yellow sou'wester here.~
+~
+9 0 17 0
+15 1 0 0
+1 0 0 0
+30 11200 450 0 0 0
+E
+hat sou'wester souwester southwester yellow~
+   The sou'wester is a large yellow hat made from oilskin that has been dyed
+a very bright yellow.  It has a large brim running around it, which is very
+broad in the back.  The back almost looks as if it were a long, yellow
+lobster's tail.  The extended brim protects the wearer's neck from sea spray
+and the stray sharp objects.  Sou'westers are generally worn by mariners in
+rough and stormy weather, but it would make a stylish addition to any
+adventurer's wardrobe.~
+#1824 3
+knife fillet~
+a fillet knife~
+A sharp fillet knife has been dangerously left on the ground here.~
+~
+5 0 8193 0
+0 3 7 2
+1 0 0 0
+150 15900 500 0 0 0
+E
+knife fillet~
+   The fillet knife has a thin, flexible steel blade and is very sharp.  It
+has a small row of serrated teeth on the edge opposite the cutting edge near
+the hilt.  The hilt is made from a thick block of some exotic wood.~
+#1825 3
+lobster~
+a lobster~
+A lobster has been left here for the seagulls to eat.~
+~
+19 8192 16385 0
+11 0 0 0
+1 4 0 0
+20 1000 10 0 0 0
+E
+lobster~
+   The lobster is a greenish-brown color and looks to have been recently
+caught in a lobster trap.  It has a long, ribbed tail with a fan at the end
+of it.  The lobster has large claws that would hurt if you were to get a
+finger pinched in them.  If the lobster was substantially larger, it would
+be a formidable adversary.  But as it is now, the lobster is just a rather
+tasty lunch.~
+#1826 3
+overalls black pair~
+a pair of black overalls~
+A pair of black leather overalls lie rumpled in the corner.~
+~
+9 0 33 0
+17 1 0 0
+1 3 0 0
+110 18900 490 0 0 0
+E
+overalls pair black~
+   The overalls are made from a rugged black dyed leather.  On the overalls'
+front, there is a bib pocket which is too small to place anything useful.
+The overalls also have a high back so the straps only break to cross in the
+small of the back.  Brass rivets add further strength to the stress spots
+on the overalls such as the pockets.~
+#1827 3
+codfish cod fish food~
+a codfish~
+A rather suspicious smelling codfish has been left here in the sun.~
+The codfish is edible, if slightly manky. Fendle is safe... this time.
+~
+19 8192 1 0
+5 0 0 0
+7 0 0 0
+100 50 20 0 0 0
+E
+codfish cod fish~
+Now this codfish is an interesting specimen.  You recall that the common
+cod is both nutritous and tasty, providing many of the essential vitamins
+and minerals required to keep rugged adventurers in tip top condition.
+This particular fish looks rather as if it has been left in the sun for
+too long, and brushed with chack dust to cover up this fact.  The
+realisation dawns on you that you have been 'Fendled', rumours abound
+about Fendle having poisoned the High priest with a particularly dodgy
+example of a shark steak.  On careful consideration, you decide that this
+one probably isn't poisonous, just rather a bad fish.  
+~
+#1828 3
+flounder fish food~
+a flounder~
+A large, flat fish flounders helplessly on the ground here.~
+Carefully avoiding the bones, you eat the raw flounder saving the eyes for last.
+~
+19 8192 1 0
+40 0 0 0
+4 2 0 0
+110 55 10 0 0 0
+E
+flounder fish~
+   This one has to be safe, it comes with a three year guarantee!  With   
+such assurances you cant go wrong...  Wait a minute!  ~
+#1829 3
+halibut hefty fish food~
+a hefty halibut~
+A hefty halibut has been dropped here by some very exhausted seagulls.~
+After eating the halibut you feel a bit green around the gills.
+~
+19 8192 1 0
+10 0 0 0
+10 1 0 0
+400 60 90 0 0 0
+E
+halibut fish~
+   The halibut is always a safe bet.  Rarely have you heard of people
+dying from eating a halibut.  Well there was there was the legend of king
+George of Midkeim...  Well apart from him and Edgar the unwise.  And the
+Grand Duchy of Dow.  Maybe the halibut isn't as safe as you thought.  ~
+#1830 3
+marlin blue fish food~
+a blue marlin~
+A blue marlin is looking a bit depressed being on the ground here.~
+Although it could use a little lemon, the marlin is tasty enough.
+~
+19 8192 1 0
+7 0 0 0
+1 4 0 0
+60 110 30 0 0 0
+E
+blue marlin fish~
+   The blue marlin is an exotic fish, and this one seems to be in 'Quite  
+good nick' as Fendle himself would say.  That's probably why it was so    
+expensive.  ~
+#1831 3
+herring red fish food~
+a red herring~
+A red herring has been left here.~
+You cluelessly eat the red herring, destroying all traces of evidence.
+~
+19 8192 1 0
+13 0 0 0
+0 6 0 0
+10 30 10 0 0 0
+#1832 3
+glasses pair glass golden chain~
+a pair of glasses on a small golden chain~
+A pair of glasses on a small golden chain have fallen on the floor here.~
+~
+11 0 65537 0
+0 0 0 0
+1 4 0 0
+10 20560 200 0 0 0
+E
+glasses pair glass golden chain~
+   This pair of glasses seems to have been designed to be worn at the end of
+one's nose.  They are not comfortable in any other position.  You suspect
+that a person wearing them would spend most of the time peering over the top
+of the glasses.  The chain was probably added to prevent them from falling
+off and onto the ground.~
+A
+26 1
+#1833 3
+shoes pair sensible shoe~
+a pair of sensible shoes~
+A pair of sensible shoes have been left here inadvertently.~
+~
+11 0 65 0
+0 0 0 0
+1 4 0 0
+40 3500 250 0 0 0
+E
+shoes pair sensible shoe~
+   This pair of shoes are made from leather and not very stylish.  Style,
+however, was not the shoemaker's intent when she made them.  Having spent
+years wearing tight, pointy shoes, she decided to make a pair shoes that
+would be comfortable.~
+A
+29 -11
+#1834 3
+jacket purple~
+a short purple jacket~
+Someone has thrown a short purple jacket on the floor here.~
+~
+9 0 1025 0
+9 0 0 0
+1 4 0 0
+110 11900 100 0 0 0
+E
+jacket purple~
+   The jacket is of a tapered military style and made from a heavy, purple
+wool fabric.  It has dull, brass buttons on its arms and front.  The inside
+of the jacket is lined with cream color silk.~
+#1835 3
+skirt wool purple~
+a purple wool skirt~
+Someone must be walking around nude, because a purple wool skirt is here.~
+~
+9 0 2049 0
+5 0 0 0
+1 4 0 0
+70 10700 340 0 0 0
+E
+skirt wool purple~
+   This skirt is entirely pleated and is made from a heavy, purple wool
+fabric.  It has a low hem-line and is fully lined.~
+#1836 3
+bangle silver amethyst amethysts~
+a silver bangle inlaid with amethysts~
+A silver bangle inlaid with amethysts has been dropped here.~
+~
+8 0 4097 0
+0 0 0 0
+-1 4 0 0
+10 46000 460 0 0 0
+E
+bangle silver amethyst amethysts~
+   The bangle is elegantly simple.  The main hoop of the band is been
+wrought to resemble the stem and leaves of a small flower.  Each petal of
+the flower has been inlaid with expensive dark violet amethyst gem stones.
+The silversmith must have spent many hours of meticulous work to make this
+expensive bracelet.~
+#1837 3
+cloak gray fur~
+a gray fur cloak~
+A gray fur cloak has fallen on the ground here.~
+~
+9 0 5 0
+13 1 0 0
+1 0 0 0
+120 4600 460 0 0 0
+E
+cloak fur gray~
+   The cloak has been fashioned from thick gray fur--possibly squirrel.  It
+can be used to cut the chill on a windy night and help stop the slashes from
+an opponent's sword.  A large, metal clasp and a heavy chain affixes the
+cloak around the wearer's neck.~
+#1838 3
+sword bastard~
+a bastard sword~
+A bastard sword rusts on the ground here.~
+~
+5 524352 8193 0
+0 4 5 3
+0 0 0 0
+180 6200 620 0 0 0
+E
+sword bastard~
+   The wavy cutting edge sets the bastard sword apart from other blades.  It
+is an unusual weapon forged from a dark, almost charcoal colored, steel and
+the blade is uneven and wavy down from the point to the quillions.  A black
+leather strip curls around the grip and a heavy pommel helps balance the
+sword.  You suspect this would be an fearsome weapon in battle.~
+A
+1 -1
+A
+19 2
+#1839 3
+broadsword sword broad steel~
+a steel broadsword~
+A steel broadsword rusts here on the ground.~
+~
+5 524288 8193 0
+0 3 6 3
+1 2 0 0
+270 12400 10000 0 0 0
+E
+broadsword sword broad steel~
+   The sword has a straight, broad, flat blade specifically designed for
+slashing the guts of one's opponent.  The broadsword has a basket hilt woven
+from sturdy steel wire.  More than merely decorative, the hilt also makes an
+excellent guard.  It is the standard issue blade for the king's royal guard
+and can be most frequently found in Lamman. ~
+A
+18 1
+#1840 3
+surcoat burgundy guard guards royal~
+a Royal Guard's burgundy surcoat~
+A burgundy surcoat worn by the Royal Guard has been accidentally left here.~
+~
+11 15424 1025 0
+0 0 0 0
+0 0 0 0
+20 2200 700 0 0 0
+E
+surcoat burgundy guard guards royal~
+   Worn over a guard's armor, this burgundy surcoat signifies the wearer as
+an elite soldier in the Royal Guard.  Emblazoned on the front of the surcoat
+in gold and silver thread, is a regal lion with a flowing mane--the symbolic
+guardian of the royal family.~
+A
+17 -1
+B
+4
+#1841 3
+greaves bronze pair greave~
+a pair of bronze greaves~
+A pair of bronze greaves have been left here.~
+~
+9 0 33 0
+26 1 0 0
+0 3 0 0
+250 6700 670 0 0 0
+E
+greaves bronze pair greave~
+Greaves are a type of leg armor that is strapped around the wearer's
+shins. This pair of greaves is made from a polished bronze, with the
+insides of each greave lined with quilted padding.
+~
+#1842 3
+sabatons sabaton pair bronze boot boots~
+a pair of bronze sabatons~
+A pair of bronze boots stands neatly against a wall here.~
+~
+9 64 65 0
+26 1 0 0
+0 3 0 0
+100 9700 970 0 0 0
+E
+sabatons sabaton pair bronze boot boots~
+This pair of sabatons have been expertly crafted using bronze.
+~
+A
+14 10
+#1843 3
+hammer heavy weapon~
+a heavy hammer~
+A heavy hammer has been dropped here, denting the earth.~
+~
+5 0 8193 0
+0 6 4 4
+1 2 0 0
+300 10000 700 0 0 0
+E
+dummy~
+This is a Dummy, please make me valid!!~
+#1844 3
+vest dwarven leather~
+a dwarven leather vest with burst seams~
+A dwarven leather vest in rather bad shape has been discarded here.~
+~
+9 0 9 0
+10 1 0 0
+9 3 0 0
+80 4000 400 0 0 0
+#1845 3
+apron heavy leather~
+a blacksmith's apron~
+A heavy leather apron lies folded here.~
+~
+9 0 1033 0
+15 2 0 0
+0 0 0 0
+15 7500 750 0 0 0
+E
+apron~
+   The apron is scorched and scarred from years of close proximity to the
+blistering hot forge.~
+#1846 3
+bed curtains canopy~
+a large canopy bed~
+A large bed surrounded with thick red curtains stands here.~
+~
+15 1048576 0 0
+40000 0 -1 1820
+0 1 0 0
+100 0 10000 0 0 0
+E
+canopy bed~
+The bed must be the largest you have ever seen. Back home a whole family
+could have fit in it comfortably. Now why would anyone need such a large
+bed? The canopy is made of thick red velvet, it looks like it must have
+cost a lot of money.
+~
+#1847 3
+rum rum bottle liquor~
+a small bottle of liquor~
+A small bottle of liquor sits quietly by the corner.~
+~
+17 8192 1 0
+30 30 4 0
+0 0 0 0
+40 2700 20 0 0 0
+E
+rum bottle liquor~
+   You pick up the bottle and sniff its contents, it smells faintly of rum.
+The liquor looks cheap and watered down.~
+#1848 3
+sign green newbie welcome~
+a newbie welcome sign~
+A sign reads, 'WELCOME NEW ADVENTURERS', there are some hints scrawled on it.~
+~
+28 64 0 0
+0 0 0 0
+0 0 0 0
+100 10000 10000 0 0 20
+E
+hint3~
+   
+   Fifth, when you are able to enjoy a moment of rest, type 'commands'.  This,
+coupled with the help files, might make life on Archipelago a bit easier.
+   Finally you will need a place to rent when you are tired.  The nearest inn
+is the Warrior's Widow.  The innkeeper can be found 2 west, 1 north, and 1 up
+from the fountain.
+   Best of luck!  Please feel free to ask for help, and do not feel shy in
+directing any comments, complaints, or suggestions you may have on the
+various boards about town.  To write on a board type `write <name of topic>'.
+(Remember to include a carriage return <CR> after each line.)
+~
+E
+hint1~
+ 
+   First, give yourself a title by typing `title %n the great!'.  The %n in
+the title is your name and is necessary.  Other %codes includable can be
+found in the help file by typing 'help title'.  You can also add colour to
+your title to give it that special pizzazz.  Type 'help ansi' to see what
+%colour codes you can add.
+   Second, although the immorts are generally stingy and not given to bouts
+of gift giving, they recognize that you are new on the Archipelago and have
+granted you some equipment.  Type `i' (inventory), and `eq' (equipment), to
+see what has been bestowed upon you.  Your equipment has been resized to
+personally fit you.  If you notice, there is a sword nestled in a scabbard.
+To use that weapon, type `draw'.  To sheathe it, type `sheathe'.
+~
+E
+hint2~
+ 
+   Third, you will probably want to start gaining experience.  The best way
+to do this is to start slowly.  Try battling the various bugs and other small
+critters that surround the fountain.  Bugs, toads, and sparrows all make
+excellent fodder for your sword.  Also avoid attacking any being with the
+word `(citizen)' it its title.  If you do, they will alert the guards to your
+murderous attacks and will whisper to other citizens - who will then become
+hostile toward you.
+   Fourth, you may want to visit the various guilds and wandering guildmasters
+to obtain new skills, spells, and weapon proficiencies.  At the guildmaster,
+type `learn' (for skills), `study' (for spells), and `train' (for weapons).  
+As an example, to learn four levels of magic theory, type `learn 4 magic'.
+The difficulty, or ease, in learning skills, spells and weapons is determined
+by your ability statistics.
+~
+E
+sign hints welcome~
+
+          -=  W E L C O M E   T O   T H E   A R C H I P E L A G O  =-
+
+   You have chosen a wondrous realm to explore full of high adventure, great
+comradeship, and fantastic treasure.  Before you venture forth into the lands,
+there are a few tips and tricks you should know to make your hard life here a
+wee bit easier.  Type `look hint1' to see the first hint, type `look hint2'
+to see the second hint, and type `look hint3' for the third hint.
+
+We also have a web page -- several actually, and will consolidate all of them
+as soon as possible -- at URL
+
+            http://ruby.ils.unc.edu/~czecd/archjump.html
+
+The beginner's tip sheet, which is a bit more detailed than this itty bitty
+sign, is also located at the website.
+
+                                            -- The Immorts of Archipelago
+                                               updated 96.06.23
+~
+#1849 3
+note yellowed scrap yellow paper~
+a yellowed scrap of paper~
+A yellowed scrap of paper lies almost forgotten in the dust on the floor.~
+~
+13 0 0 0
+0 0 0 0
+11 6 0 0
+100 10000 10000 0 0 0
+E
+note yellowed scrap yellow paper~
+   Someone has scribbled across the yellowed paper a brief note.  The note
+reads: ``What good is a secret police headquarters, if everyone knows where
+it is located?''
+~
+#1850 3
+altar high marble~
+the high altar~
+An imposing marble altar is here, seeming to demand your homage and sacrifice.~
+~
+15 1049600 1 0
+3000000 13 0 1878
+0 1 0 0
+60000 10000 10000 0 0 0
+E
+altar high marble~
+   More than just an imposing marble slab, the High Altar of the Temple of
+Small Gods is perhaps the holiest shrines in all the realms.  All that is
+known of the altar is that it dates back to the founding Lamman.
+~
+#1851 3
+ring amethyst ornate chunk pewter~
+a pewter and amethyst ring~
+A small chunk of pewter lies discarded by the roadside.~
+~
+8 0 3 0
+0 0 0 0
+0 0 0 0
+3 8000 800 0 0 0
+E
+ornate amethyst ring pewter chunk~
+   This bulky pewter and amethyst ring looks gaudy.  It is heavy and barely
+fits around your finger.  You might look a bit foolish wearing this ring.
+   The ring is engraved with sinewy lines all around the band.  A thin
+patina tarnishes the pewter.  Set in its center is a huge amethyst.  The
+large gemstone, shaped like a turtle shell, is colored a deep purple, and
+has a smoky clarity to it.~
+#1852 3
+codpiece piece cod leather cup~
+a leather codpiece~
+A hard leather cup is lying here, waiting to be worn.~
+~
+9 0 2049 0
+15 0 0 0
+-1 0 0 0
+140 4500 450 0 0 0
+E
+codpiece piece cod leather cup~
+   The codpiece can be worn to protect one's nether region.  It is made
+from hardened leather and is quite rugged, not to mention stylish.~
+#1853 3
+candlestick candle stick light~
+a candlestick~
+A candlestick was dropped here.~
+~
+1 0 16385 0
+0 0 8 0
+0 0 0 0
+10 100 10 0 0 0
+E
+candlestick candle stick~
+   A simple bronze candlestick of dubious value and craftsmanship.
+Whoever owned this, didn't have much taste.~
+#1854 3
+helm stone~
+a stone helm~
+A heavy helm carved from solid stone sinks into the soft ground here.~
+~
+9 271488 17 0
+40 5 0 0
+0 5 0 0
+120 500000 15000 0 0 0
+E
+helm stone~
+   This stone helm is carved from solid white marble and is a priceless
+family heirloom of the dwarven Stonehelm clan.  Only seven of these unusal
+helmets are know to have been made: one for each of Petrosk Stonehelm's
+seven sons.  The helms are unusually light concidering that they are
+solid marble.
+~
+B
+512
+#1855 3
+byrnie mithril chainmail chain mail shirt~
+a mithril byrnie~
+A long shirt of exquisite chainmail has been abandoned here.~
+~
+9 0 9 0
+31 3 0 0
+0 5 0 0
+90 23000 2000 0 0 0
+E
+byrnie mithril chainmail chain mail shirt~
+   This byrnie is a long chainmail shirt completely fashioned from tiny
+interlocking mithril rings.  The byrnie is incredibly light and supple and
+you suspect it was crafted by skilled dwarven armourers.
+~
+A
+29 -5
+#1856 3
+coif chainmail chain mail~
+a chainmail coif~
+A chainmail coif lies in a pile here.~
+~
+9 524288 17 0
+22 2 0 0
+0 5 0 0
+200 7400 740 0 0 0
+E
+coif chainmail chain mail~
+  Small interwoven rings of a dull metal form a functional chainmail coif.
+While chainmail is not the strongest armor, it has the advantage of being
+light and flexible.~
+#1857 3
+gloves dwarven pair glove~
+a pair of dwarven gloves~
+A pair of dwarven gloves has been dropped here.~
+~
+9 0 129 0
+13 1 0 0
+0 5 0 0
+20 4100 410 0 0 0
+E
+glove gloves pair~
+   This small pair of gloves would fit the hands of a dwarf perfectly!  The
+gloves have been sewn from a supple brown leather and are lined with soft
+rabbit fur.~
+#1858 3
+belt pouch leather~
+a belt pouch~
+A belt fashioned from a strip of brown leather is coiled-up here.~
+~
+15 0 2049 0
+200 5 -1 0
+0 5 0 0
+50 5000 500 0 0 0
+E
+belt pouch leather~
+   This leather belt has been sewn from the finest oxhide available.  Opening
+the small slit on the inside of belt reveals a secret pouch that valuables
+can be safely stored in.  The belt pouch is fastened by a large brass buckle
+and a line of three belt holes.  The belt is rather small and you doubt that
+it could be easily resized without destroying the pouch.~
+A
+17 -16
+A
+32 1
+#1859 3
+hauberk scalemail scale mail~
+a scalemail hauberk~
+A hauberk lies here in the dust.~
+~
+9 524288 9 0
+24 2 0 0
+0 5 0 0
+350 8400 850 0 0 0
+E
+hauberk scalemail scale mail~
+   The hauberk is a long defensive shirt of crown-sized metal scales that
+reach below the knees.  The lower part of the hauberk is split in the back
+to allow the wearer to mount a pony.~
+A
+29 -3
+#1860 3
+cuisses cuisse leather pair leggings~
+a pair of leather cuisses~
+A pair of leather leggings lie unstrapped upon the ground here.~
+~
+9 0 33 0
+14 1 0 0
+0 5 0 0
+160 4400 430 0 0 0
+E
+cuisses cuisse leather pair leggings~
+   Each cuisse of this pair of leggings are sewn from a thick piece of cowhide
+and are padded with cotton quilting on the inside.  The pair of cuisses look
+to be quite sturdy and durable.  A leather thong straps each legging around
+the wearers thigh.~
+#1861 3
+brain cow tissue spotty mass soft x:::~
+a spotty cow brain~
+A soft mass of spotty brain tissue sticks here to the floor.~
+Grey amorphous chunks of odd-tasting softness gently slide down your throat.
+~
+19 12288 1 0
+4 0 0 0
+0 1 0 0
+40 10 10 0 0 0
+E
+cow brain mass tissue soft spotty~
+   Cow brain.  Its not calf brain, but it'll have to do..  The brain is
+soft and squishy, and sticks to your hands.  You notice tiny hole-like
+plaques affecting the tissue.~
+#1862 3
+boots boot leather pair~
+a pair of leather boots~
+A pair of leather boots are lying here.~
+~
+11 0 65 0
+0 0 0 0
+0 2 0 0
+150 3000 310 0 0 0
+E
+boots boot leather~
+   The leather used in this pair of boots is thick and durable.  The boots
+fit comfortably on your feet and are secured with strong string laces.~
+A
+29 -15
+#1863 3
+sword yellow-green iron little odd~
+a yellow-green iron sword~
+An odd little sword of iron, colored yellow-green, lies here in the mud.~
+~
+5 524288 8193 0
+0 2 8 3
+0 5 0 0
+150 4800 600 0 0 0
+E
+yellow-green iron sword little odd~
+   A lime shade of green colors the iron of this odd little sword.  Only the
+blade is colored this way, the hilt and quillons are ordinary steel.  The sword
+feels a bit heavy, but it is a worthy and sharp little weapon.~
+A
+18 1
+#1864 3
+striped leather plate stripes funny~
+a striped leather plate~
+Funny-looking stripes adorn a leather plate lying on the floor.~
+~
+9 0 9 0
+25 1 0 0
+0 5 0 0
+90 6500 900 0 0 0
+E
+striped leather plate stripes funny~
+   An ordinary oxhide leather platee turned extraordinary with the addition
+of several thin bands of mithril plating riveted across the armor.  It looks
+fantastic, at least on a stocky dwarf.~
+#1865 3
+girth leather red stiff~
+a red leather girth~
+A stiff leather girth lies here in the mud.~
+~
+9 0 2049 0
+21 1 0 0
+0 5 0 0
+70 8000 620 0 0 0
+E
+red leather girth stiff~
+   A leather girth gaily tanned a bright shade of red.  The girth is stiff,
+and designed for the portly figures of dwarfs, and other rotund persons.~
+#1866 3
+longboots boots boot pair dwarven pair~
+a pair of dwarven longboots~
+A pair of dwarven longboots, minus the dwarf, lies here.~
+~
+9 0 65 0
+15 1 0 0
+0 5 0 0
+70 7300 540 0 0 0
+E
+dwarven longboots boots boot pair~
+   Strong oxhide tanned black was used in the boot's construction.  The boots
+are slender, and polished until shiny.  They flatter the feet of any image
+conscious dwarf.~
+#1867 3
+trowel mortar~
+a trowel~
+A mortar trowel has been left here.~
+~
+5 0 8193 0
+0 2 2 5
+0 0 0 0
+100 2400 240 0 0 0
+A
+19 1
+#1868 3
+surcoat lamman jacket leather yellow heraldic red trimming~
+a surcoat of Lamman~
+A yellow leather jacket with red heraldic trimming lies here in a pile.~
+~
+11 4096 1025 0
+0 0 0 0
+0 0 0 0
+40 4000 400 0 0 0
+E
+surcoat jacket yellow red lamman heraldic trimming leather~
+   This surcoat is a tight-fitting jacket designed to be worn over a knight's
+armor.  The surcoat also shields a knight's armor from rain.  The red on
+yellow crest of Lamman is displayed on this surcoat.~
+A
+17 -17
+#1869 3
+knuckles spiked wicked~
+a pair of wicked spiked knuckles~
+A wicked set of spiked knuckles lies dangerously on the ground.~
+~
+5 32768 8193 0
+0 3 5 0
+0 2 5 0
+150 7200 720 0 0 0
+E
+wicked spiked knuckles~
+A pair of spiked knuckles which, when worn over the hands, will allow you to
+hit much harder in a fistfight. You suspect they will be useful in a tavern 
+brawl.~
+A
+18 2
+#1870 3
+vines vine~
+countless vines of ivy~
+The many vines of green ivy here, feed vigourously off the magical aura.~
+~
+15 64 0 0
+500 0 -1 0
+0 1 0 0
+0 10000 10000 0 0 0
+E
+ivy vines vine~
+   The many vines of ivy all seem to originate from a corner of the courtyard
+near the city wall.  From here, the vines race across the wall and up the
+sides of the squat stone buildings clothing everything in green leaves.  The
+ivy seems to thrive in the moist air, feeding off the dampness and the magical
+auras that emanate from the buildings.~
+#1871 3
+sword red berserker~
+a red berserker sword~
+A huge red steel sword leans against the wall.~
+~
+5 557072 8193 0
+0 3 8 3
+0 0 0 0
+240 200 20 0 0 0
+E
+sword red berserker~
+This trollish sword is the length of your leg and tinted the color of blood.
+You've heard stories of swords such as these. the combined work of shaman
+and smith which bestows great strength to the wielder yet leaves him
+vulnerable to attack.~
+A
+41 20
+A
+40 20
+A
+18 -4
+A
+19 10
+#1872 3
+dagger tiny pixie~
+a tiny pixie dagger~
+You spy the metallic glint of a tiny dagger amidst the weeds.~
+~
+5 524288 8193 0
+0 1 3 6
+0 6 0 0
+30 80 80 0 0 0
+E
+tiny dagger pixie~
+A tiny blade only an inch in length, this was obviously crafted by a skilled 
+pixie magesmith.  The blade, you suspect, will always maintain its edge and 
+never need honing.
+~
+#1873 3
+leaf ivy~
+an ivy leaf~
+A green leaf of ivy has fallen off the vine and onto the ground here.~
+~
+31 8256 16385 0
+0 0 121 2
+0 6 0 0
+10 3000 300 0 0 0
+E
+leaf ivy~
+   A yellowish-white trace of colour outlines the three lobes of this tiny
+green ivy leaf.  The leaf's veins are a dark, luxurious green and seem to
+course with power as you touch it.  This ivy leaf seems to have absorbed some
+magical energy.~
+#1874 3
+tome book ancient dusty~
+a dusty ancient tome of magicks~
+A dusty ancient tome is lying here.~
+~
+15 0 16385 0
+0 0 0 0
+0 0 0 0
+0 10000 10000 0 0 0
+#1875 3
+vest leather~
+a leather vest~
+A leather vest is lying here.~
+~
+9 0 9 0
+15 1 0 0
+0 0 0 0
+40 4500 450 0 0 0
+#1876 3
+skullcap cap skull leather~
+a leather skullcap~
+A leather skullcap is lying here.~
+~
+9 0 17 0
+10 0 0 0
+0 0 0 0
+20 10 100 0 0 0
+#1877 3
+needle tattoo wicked~
+a wicked tattoo needle~
+A wicked looking tattoo needle is lying here.~
+~
+5 0 8193 0
+0 4 4 2
+0 6 0 0
+120 4000 400 0 0 0
+E
+needle tattoo wicked~
+   The tattoo needle is wicked looking, causing the weak of heart to faint.
+It is only a few inches long and is made from silver, but it is incredibly
+sharp and perfect for the art of tattooing.~
+#1878 3
+apron dirty brown~
+a dirty brown apron~
+Somebody has left this apron lying here.~
+~
+13 0 9 0
+0 0 0 0
+0 0 0 0
+100 10000 10000 0 0 0
+#1879 3
+shirt~
+a shirt~
+A shirt is lying here.~
+~
+11 0 265 0
+0 0 0 0
+0 0 0 0
+50 8500 850 0 0 0
+#1880 3
+egg pickled~
+a pickled egg~
+A bronze colored, strongly flavoured pickled egg is lying here.~
+Your mouth puckers as you eat the pickled egg.
+~
+19 0 16385 0
+3 0 0 0
+3 4 0 0
+10 10 10 0 0 0
+E
+egg pickled~
+   This pickled delicacy was handcrafted according to an age old folk recipe.
+Take one medium sized egg, boil for three minutes, or as desired.  Remove the
+shell, and then pickle in vinegar with herbs for at least eighteen months.
+Beautiful.~
+#1881 3
+surcoat templar white coat emblazoned cross~
+a white surcoat emblazoned with a red cross~
+The white surcoat of the Order of Templars has been discarded on the floor.~
+~
+11 0 1025 0
+0 0 0 0
+0 0 0 0
+40 10000 10000 0 0 0
+E
+surcoat coat emblazoned cross white templar~
+A beautiful linen surcoat bleached white and boldly emblazoned with a red
+cross across its front.  The symbol of the Order of Templars.~
+A
+17 -15
+#1882 3
+dummy object~
+a dummy object~
+A dangerous looking dummy object.
+~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+100 10000 10000 0 0 0
+#1883 3
+loincloth cloth~
+a loincloth~
+A dirty loincloth lies here in a pile.~
+~
+11 0 2049 0
+0 0 0 0
+3 4 0 0
+10 0 0 0 0 0
+E
+loincloth cloth~
+   This loincloth is not much more than a dirty old rag.  It is marked with
+grime and grease stains, and looks to be quite old.  Made from coarse wool, it
+has aged well but the cleanliness of the former owner leaves much to be
+desired.~
+#1884 3
+jerkin leather soft~
+a soft leather jerkin~
+A soft leather jerkin has been left here.~
+~
+9 0 9 0
+12 0 0 0
+1 0 0 0
+40 2400 240 0 0 0
+E
+jerkin leather soft~
+   A short, closefitting vest of soft leather, this jerkin isn't much in the
+way of armor but it would protect somewhat from the occasional stab or slash.
+Made of a thinner leather, it has been tanned and oiled to a supple softness
+while retaining the durability of sturdy animal hide.~
+#99999
+$~

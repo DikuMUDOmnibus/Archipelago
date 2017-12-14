@@ -1,0 +1,983 @@
+#2000 3
+fountain large marble water~
+a grand marble fountain~
+A marble fountain sprays a fine mist of water droplets into the air.~
+~
+23 0 1 0
+999999 999999 0 0
+0 1 0 0
+99999 1 1 0 0 0
+E
+fountain marble basin~
+   The fountain is a large circular affair carved from blocks of white
+marble.  The decorations and embellishments on the rim of the basin are
+impressive, although a little florid and overstated.  In the basin stands
+a tall marble statue out of which fresh, clear water flows.~
+#2001 3
+box sturdy iron collection~
+a sturdy iron bound box with a slotted top~
+A large sturdy iron-bound collection box gathers dust in corner.~
+~
+15 1048576 0 0
+100000 5 0 0
+0 0 0 0
+9999 1 1 0 0 0
+E
+collection box iron~
+   This iron box is simple in design.  It is built entirely of iron to
+last long.  There is a decoration of the poor receiving alms from wealthy
+benefactors inscribed on the box.~
+#2002 3
+stocks wooden~
+a set of wooden stocks~
+A sturdy set of wooden stocks stands here, spattered with rotten fruit.~
+
+~
+13 2097152 0 0
+0 0 0 0
+0 0 0 0
+999999 1 1 0 0 0
+E
+stocks wooden~
+   This set of wooden stocks does not look pretty.  It is a heavy piece of
+weathered wood with cutouts for hands, feet, and a head.  The stocks lift
+up to admit the punished, and then clamped down and secured with a rusty
+iron lock.  The prisoner is then at the mercy of the public.  Whether or
+not he is fed or cared for, it is up to them.  You just hope you have the
+good sense not to end up locked in stocks.~
+#2003 3
+coppers copper coin money treasure~
+a few coppers~
+A piddling amount of money.~
+~
+20 0 1 0
+30 0 0 0
+0 0 0 0
+10 1 1 0 0 0
+#2004 3
+button coat~
+a coat button~
+A cheap coat button.~
+~
+13 0 1 0
+0 0 0 0
+0 0 0 0
+40 1 1 0 0 0
+E
+button coat~
+   This coat button is made of polished wood, with several holes in its
+middle where thread can be used to anchor the button into place.  The
+button, unfortunately looks cracked, making it totally useless, save as
+a token of sorts.~
+#2005 3
+steak knife weapon~
+a sharp steak knife~
+A sharp steak knife lies here gathering dust.~
+~
+5 0 8193 0
+0 3 3 2
+0 0 0 0
+100 2500 250 0 0 0
+#2006 3
+large marble pestle weapon~
+a large marble pestle~
+A large marble pestle lies here.~
+~
+5 2 8193 0
+0 3 4 1
+0 0 0 0
+100 4000 2000 0 0 0
+#2007 3
+hat floppy white~
+a floppy white hat~
+A floppy white hat lies here.~
+~
+9 0 17 0
+2 0 0 0
+0 0 0 0
+20 2000 200 0 0 0
+A
+3 1
+A
+21 2
+#2008 3
+beer barrel~
+a barrel~
+A beer barrel has been left here.~
+~
+17 0 1 0
+35 35 1 0
+0 1 0 0
+650 300 100 0 0 0
+#2009 3
+beer bottle~
+a bottle~
+A beer bottle has been left here.~
+~
+17 0 1 0
+8 8 1 0
+0 0 0 0
+50 20 8 0 0 0
+#2010 3
+sack bag linen loot rough~
+a rough linen sack~
+A rough linen sack that seems perfect for stashing loot is lying here unclaimed.~
+~
+15 0 16385 0
+200 5 -1 0
+0 0 0 0
+10 200 10 0 0 0
+#2011 3
+robe singe singed purple~
+a singed purple robe~
+A purple robe covered with tiny burn holes lies on the ground here.~
+~
+9 0 1025 0
+10 0 0 0
+9 0 0 0
+50 2000 200 0 0 0
+#2012 3
+pantaloons pantaloon pair pants pant silk pile~
+a pair of silk pantaloons~
+A crumpled pile of silk is lying here.~
+~
+11 0 33 0
+0 0 0 0
+0 0 0 0
+50 650 60 0 0 0
+E
+pantaloons pantaloon pair pants pant~
+   A pair of baggy silken trousers, they are suited to temperate climes and
+keep the wearer far cooler than harsh linen.  They have been dyed a gaudy
+scarlet color, and are woven from strong silken material.~
+A
+29 -5
+#2013 3
+bread loaf wheat coarse~
+a loaf of coarse wheat bread~
+A loaf of coarse wheat bread has been left here for the birds.~
+The bread was flaky and crumbly.
+~
+19 0 1 0
+6 0 0 0
+0 0 0 4
+1 20 10 0 0 0
+#2014 3
+roll poppy seed~
+a poppy seed roll~
+A delicious-looking poppy seed roll lies here, fresh from the oven.~
+The hot poppy seed roll was moist and chewy, delicious.
+~
+19 0 1 0
+4 0 0 0
+0 0 0 0
+4 10 5 0 0 0
+#2015 3
+pie meat~
+a meat pie~
+A delicious meat pie lies on the ground here.~
+The dry meat and stale crust seems a wee bit manky.  Oh well, one has to eat.
+~
+19 8192 16385 0
+8 0 0 0
+1 0 0 0
+10 20 10 0 0 0
+E
+meat pie~
+   The crust of the meat pie is a crispy brown, almost burnt, and it is still
+steaming fresh from the oven.  It smells like food, and nothing more.
+~
+#2016 3
+dagger training weapon~
+a training dagger~
+A training dagger is here.~
+pierce~
+5 0 24577 0
+0 1 3 2
+0 0 0 0
+30 0 0 0 0 0
+#2017 3
+sword training simple~
+a simple sword~
+A simple unadorned sword lies here.~
+Although it may only be $p, $n takes good care of it.
+~
+5 524288 8193 0
+0 1 5 3
+0 0 0 0
+40 120 120 0 0 0
+E
+sword small weapon~
+The small sword seems to have an inscription of some sort inscription...~
+E
+inscription~
+It says: "May this sword be a good companion."
+~
+#2018 3
+club weapon training wooden~
+a wooden club~
+A rough hewn wooden club lies here.~
+~
+5 0 8193 0
+0 1 4 1
+0 0 0 0
+80 10 2 0 0 0
+#2019 3
+murky glass vial~
+a murky glass vial~
+A small glass vial of murky liquid lies here.~
+The vial crumbles into dust as the liquid inside is drank.
+~
+26 0 1 0
+11 3 0 0
+0 6 0 0
+10 100 100 0 0 0
+E
+vial glass murky~
+   A simple small vial of blown glass with a cork stopper in the open end.  It
+is filled with a murky greyish liquid, which shifts easily within the vial as
+you move it.~
+#2020 3
+dagger weapon~
+a dagger~
+A dagger with a long thin blade is here.~
+pierce~
+5 0 24577 0
+0 2 4 2
+0 5 0 0
+60 200 10 0 0 0
+#2021 3
+sword small weapon~
+a small sword~
+A small sword lies here.~
+$n runs $s finger along the blade of $p.~
+5 524288 8193 0
+0 1 6 3
+0 4 0 0
+50 60 10 0 0 0
+#2022 3
+sword short weapon~
+a short sword~
+A short sword has been left here.~
+~
+5 524288 8193 0
+0 1 8 3
+0 0 0 0
+80 600 10 0 0 0
+#2023 3
+club wooden weapon~
+a wooden club~
+A simple looking wooden club is here.~
+pound~
+5 0 8193 0
+0 1 5 1
+0 3 0 0
+50 12 10 0 0 0
+#2024 3
+warhammer hammer weapon~
+a warhammer~
+A medium sized warhammer is here.~
+pound~
+5 0 8193 0
+0 1 5 10
+0 0 0 0
+60 50 10 0 0 0
+#2025 3
+flail large weapon~
+a flail~
+A large flail is here.~
+èë~
+5 0 8193 0
+0 2 3 4
+0 0 0 0
+60 625 10 0 0 0
+#2026 3
+longsword sword long~
+a longsword~
+A longsword is lying here, recently discarded.~
+$n carefully wipes the blade of $p on $s arm.~
+5 524288 8193 0
+0 3 4 3
+0 0 0 0
+90 3000 300 0 0 0
+E
+sword long longsword~
+   Forged from quality tempered steel and able to hold a keen edge, this sword,
+although of average make, leaves no doubt of its usefulness in combat despite
+a nondescript appearance.~
+#2027 3
+sword two-handed 2handed weapon~
+a two-handed sword~
+A two-handed sword is lying here.~
+slash~
+5 32768 8193 0
+0 4 4 3
+0 2 0 0
+380 10000 1000 0 0 0
+#2028 3
+axe~
+an axe~
+A simple wood-handled axe lies here.~
+~
+5 0 8193 0
+0 3 2 5
+0 3 0 0
+100 600 0 0 0 0
+E
+axe~
+   Forged from unadorned steel, and set upon a plain wooden shaft.  While not
+expensive-looking, is capable of killing quite efficently with its keen edge
+and well-balanced weight.~
+#2029 3
+scabbard leather~
+a leather scabbard~
+A leather scabbard is lying here.~
+$n gropes for a hilt in $p.~
+29 0 1048577 0
+0 0 0 3
+0 0 0 0
+10 10 10 0 0 0
+E
+scabbard leather~
+   This scabbard is sewn from a single piece of leather that has been dyed
+brown.  Despite its commonness, the scabbard looks durable and that it would
+easily fit most swords.
+~
+#2030 3
+torch~
+a torch~
+A torch lies here.~
+~
+1 0 16385 0
+0 0 40 0
+0 0 0 0
+5 10 10 0 0 0
+#2031 3
+lantern metal pierced~
+a metal lantern~
+A pierced metal lantern lies by the roadside here.~
+~
+1 0 16385 0
+0 0 96 0
+0 0 0 0
+10 50 10 0 0 0
+E
+pierced metal lantern~
+   This lantern is made from metal decorated with a simple design.  A small
+amount of oil, and a tiny wick can be seen inside the lantern to afford the
+user a few hours of light.~
+#2032 3
+bag~
+a bag~
+A small bag lies discarded on the floor.~
+~
+15 0 543749 0
+70 0 -1 0
+0 0 0 0
+20 20 10 0 0 0
+E
+bag~
+   This bag is made of coarsely woven hemp fibers.  The bag is flexible, and
+can hold a few things.~
+#2033 3
+box~
+a box~
+A small box is here.~
+~
+15 0 16385 0
+10 0 0 0
+0 0 0 0
+50 50 10 0 0 0
+#2034 3
+chains chain pile rusting~
+a huge pile of chains~
+A huge rusting pile of chains has been left here.~
+~
+13 2101248 1 0
+0 0 0 0
+8 1 0 0
+100000 2 1 0 0 0
+E
+chains chain pile rusting~
+   This crudely made pile of chains was forged from poorly smelted iron.
+The chain is long and extremely heavy.  A pair of shackles are attached
+to both ends.  Woe to those shackled to this chain.~
+B
+512
+#2035 3
+water fountain water~
+the large fountain~
+A large fountain carved from blue-streaked marble is here, bubbling merrily.~
+~
+23 64 0 0
+999999 10 0 0
+0 0 0 0
+9999 0 0 0 0 0
+E
+marble blue streaked~
+It is very beautiful white marble, shot through with electric blue streaks
+that look almost like lightning dancing along the sides of the fountain.
+~
+#2036 3
+jacket padded training cloth~
+a padded jacket~
+A simple padded cloth jacket lies here.~
+~
+9 0 9 0
+10 0 0 0
+0 0 0 0
+80 10 100 0 0 0
+E
+jacket padded training cloth~
+   Made of rough worsted cloth, this jacket has padding sewn in strips along
+all surfaces on the outside.  It is somewhat awkward and not very flexible,
+but could stop a solid slash from a blade if necessary.~
+#2037 3
+skullcap cap skull leather training~
+a leather skullcap~
+A leather skullcap is lying here.~
+~
+9 0 17 0
+10 0 0 0
+0 0 0 0
+20 10 10 0 0 0
+E
+skullcap cap skull leather~
+   This skullcap is made from a single sheet of thick leather, which has then
+been boiled in wax and shaped into a simple, tight-fitting cap.  It has cheap
+cloth sewn into the inside as padding.~
+#2038 3
+shield small wooden~
+a small wooden shield~
+A small wooden shield has been left here.~
+~
+9 0 513 0
+10 0 0 0
+0 0 0 0
+90 10 180 0 0 0
+E
+shield small wooden~
+   This small shield is made from planks of solid timber layered at right
+angles and filed to a smooth, rounded edge.  While not of great quality, it
+would provide some defense in the thick of battle.~
+#2039 3
+helmet steel~
+a steel helmet~
+A steel helmet lies here.~
+~
+9 0 17 0
+28 3 0 0
+0 0 0 0
+150 10100 1010 0 0 0
+#2040 3
+breastplate breast plate steel~
+a steel breastplate~
+A steel breastplate is rusting here on the ground.~
+~
+9 524288 9 0
+32 3 0 0
+0 0 0 0
+400 10900 1090 0 0 0
+E
+breastplate breast plate steel~
+   Expertly fashioned from tempered steel by a skilled armourer, this study
+breastplate is both heavy and durable.  Aside from the test mark of the
+armourer, nary a nick from the blade of a sword nor a dent from a smashing
+mace mar the smooth surface of the breastplate.  You are certain such a
+quality armour will protect you well.~
+#2041 3
+shirt chain mail chainmail~
+a chainmail shirt~
+A chainmail shirt is lying on the ground.~
+~
+9 0 9 0
+25 2 0 0
+0 0 0 0
+28 8000 800 0 0 0
+#2042 3
+shield wood wooden~
+a wooden shield~
+A wooden shield has been dropped here on the ground.~
+~
+9 0 513 0
+18 1 0 0
+0 0 0 0
+120 5100 510 0 0 0
+E
+shield wooden wood~
+   Made from planks of solid timber layered at right angles, and edged with
+plain iron trim, this shield appears sturdy enough to provide a moderate
+defense in the thick of battle.~
+#2043 3
+jacket soft leather~
+a leather jacket~
+A soft leather jacket is lying on the ground.~
+~
+9 0 9 0
+14 0 0 0
+0 0 0 0
+80 2800 280 0 0 0
+#2044 3
+jacket studded leather~
+a studded leather jacket~
+A studded leather jacket is lying on the ground.~
+~
+9 0 9 0
+18 1 0 0
+0 0 0 0
+150 5100 510 0 0 0
+#2045 3
+jacket scale mail scalemail~
+a scalemail jacket~
+A scalemail jacket is lying on the ground.~
+~
+9 0 9 0
+24 2 0 0
+0 0 0 0
+330 8800 880 0 0 0
+A
+30 -5
+#2046 3
+breastplate bronze breast plate~
+a bronze breastplate~
+A bronze breastplate is lying on the ground.~
+~
+9 0 9 0
+30 2 0 0
+0 0 0 0
+380 9000 900 0 0 0
+#2047 3
+shield large~
+a large shield~
+A large wooden shield is lying on the ground.~
+~
+9 0 524801 0
+24 1 0 0
+0 2 0 0
+150 6300 630 0 0 0
+#2048 3
+cloak green gold pile cloth~
+a green and gold cloak~
+A pile of green and gold cloth is lying here in the dirt.~
+~
+9 0 5 0
+7 0 0 0
+0 0 0 0
+80 3800 380 0 0 0
+A
+18 1
+A
+19 1
+#2049 3
+cloak red~
+a red cloak~
+A well made red cloak hangs here.~
+~
+9 0 5 0
+8 0 0 0
+0 0 0 0
+80 1600 160 0 0 0
+#2050 3
+cantrip heavenly healing heal paper scrap~
+a cantrip of heavenly healing~
+A scrap of yellowed paper is lying here.~
+A white light glows around $n and the cantrip suddenly vanishes!
+~
+25 64 1 0
+9 339 0 0
+0 0 0 0
+6 7200 130 0 0 0
+E
+cantrip heavenly healing heal paper scrap~
+   Scribbled upon this yellowed scrap of paper is the holy glyph of divine
+and heavenly healing.~
+#2051 3
+philtre philter yolk yellow vigor vigour yolky~
+a yolky yellow philtre~
+A philtre containing a yolky yellow substance lies here abandoned.~
+The philtre dissolves as the liquid inside is drank.
+~
+26 131136 1 0
+10 343 0 0
+0 5 0 0
+10 730 30 0 0 0
+E
+philtre philter yolk yellow vigor vigour yolky~
+   One whiff of the rotten smell emanating from this philtre nearly knocks
+you back on your heels.  Some strange concoction of fermented egg yolks were
+used to make this magical broth.~
+#2052 3
+cantrip return returning recall scrap paper~
+a cantrip of returning~
+A small scrap of paper lies here covered in runes.~
+The cantrip bursts into crackling flames, disappearing with a loud -pop-!
+~
+25 0 1 0
+10 342 0 0
+0 4 0 0
+10 2220 100 0 0 0
+E
+scroll~
+The scroll has written a formulae of 'Word of Recall' upon it.
+~
+#2053 3
+rod quench thirst wet dripping blue~
+a dripping wet blue rod~
+A blue rod that is dripping wet is lying here in a small puddle of water.~
+~
+24 64 16385 0
+8 301 5 5
+0 4 0 0
+20 4000 100 0 0 0
+E
+rod~
+   This small, blue rod seems to be of a spongy wooden material.  It is wet
+to the touch as if it were perspiring.  Water seems to be dripping from one
+end of the rod.~
+#2054 3
+rod random randomness seven league stride lead~
+a rod of randomness~
+A heavy lead rod has been dropped here.~
+~
+3 32832 16385 0
+0 0 0 0
+0 0 0 0
+230 62900 1000000 0 0 0
+E
+rod random randomness lead~
+  This heavy rod of lead begins to spin in the palm of your hand the moment
+you pick it up.  After exactly seven rotations it stops and points to a far
+off destination several leagues away.  You wonder what this could mean?~
+#2055 3
+dress azure dazzling blue~
+a dazzling azure blue dress~
+A tiny blue dress is lying here.~
+~
+11 262208 1033 0
+0 0 0 0
+0 6 0 0
+10 2200 400 0 0 0
+E
+dress azure dazzling blue~
+  This tight-fitting short dress is made from a shiny, almost metalic, azure
+blue cloth.  The dress is the perfect thing to show-off a perfect hourglass
+pixie figure.~
+A
+25 1
+#2056 3
+lamp street~
+a street lamp~
+A street lamp stands here.~
+~
+28 64 0 0
+0 0 10 0
+0 0 0 0
+10000 10000 10000 0 0 20
+E
+street lamp~
+   You see a beautifully created tinted glass street lamp in the shape of
+a bunch of grapes, with each grape housing a single oil-lit flame.  The
+lamp is suspended on a slender wrought iron pole with grape vines and
+leaves wrapped all around to reach the top.~
+#2057 3
+lamp street tall~
+a tall street lamp~
+A tall street lamp burns brightly, illuminating the area.~
+~
+15 131137 0 0
+40 15 0 0
+0 0 0 0
+10 24600 2400 0 0 20
+#2058 3
+robe burgundy voluminous pile cloth~
+a voluminous burgundy robe~
+A voluminous pile of burgundy cloth is lying here.~
+~
+11 11264 1025 0
+0 0 0 0
+0 0 0 0
+10 100 1000 0 0 0
+E
+robe burgundy voluminous~
+   This loose fitting robe is worn by elite royal guardsmen.  It serves both
+as a uniform and is roomy enough to allow the guard to kick and pummel with
+out restriction.  It is made from burgundy silk cloth that is embroidered
+with gold and silver thread.  You suspect one could move silently in this
+garment.~
+#2059 3
+cutlass brazen bronze~
+a brazen cutlass~
+A A brazen cutlass is lying here.~
+~
+5 0 8193 0
+0 1 11 3
+0 0 0 0
+110 2400 240 0 0 0
+E
+cutlass bronze brazen~
+   This wickedly curved blade has been forged from bronze.  Etched into the
+blade of the cutlass is a python.  This strange, exotic blade is deadly
+sharp and balances well in your grasp.~
+#2060 3
+raft~
+a raft~
+A raft has been left here.~
+~
+22 0 1 0
+0 0 0 0
+0 0 0 0
+750 400 10 0 0 0
+E
+raft~
+The raft looks very primitive.
+~
+#2061 3
+boat blue~
+a blue boat~
+A blue boat has been left here.~
+~
+22 0 1 0
+0 0 0 0
+0 2 0 0
+320 1000 100 0 0 0
+E
+boat~
+The boat is fairly light and has been painted blue.
+~
+#2062 3
+voulge steel~
+a long steel voulge~
+A long-bladed steel voulge lies here.~
+~
+5 32768 8193 0
+0 4 4 5
+0 2 0 0
+200 42000 400 0 0 0
+E
+voulge steel~
+   This variation on the pole axe is of a shorter length than most, but its 
+use requires both hands in order to swing effectively.  The blade is squared
+off at the bottom end, and tapers gradually to meet the top end, much like a
+rounded cleaver mounted on a long, stout shaft.  The blade itself is well-made
+and holds a keen cutting edge, capable of cleaving through even thick armor if
+swung properly.~
+#2063 3
+greaves greave bronze pair~
+a pair of bronze greaves~
+A pair of bronze greaves has been left here.~
+~
+9 0 33 0
+29 2 0 0
+0 0 0 0
+230 8800 880 0 0 0
+E
+greaves bronze greave~
+   These greaves are bronze plates meant to be fastened to the shins.  The
+bronze used for the greaves is highly polished and reflect light.  The greaves
+seem quite capable of stopping even the most powerful of direct blows.~
+#2064 3
+coat square wool~
+a square wool coat~
+A soft brown wool coat with square shoulders lies here.~
+~
+11 0 1025 0
+0 0 0 0
+0 0 0 0
+60 4000 300 0 0 0
+A
+17 -6
+#2065 3
+book ledger wooden large~
+a large book with wood covers~
+A large dust covered book, with wooden covers, lies here on the floor.~
+~
+13 12288 16385 0
+0 0 0 0
+0 0 0 0
+100 2000 10 0 0 0
+#2066 3
+shirt plain woolen~
+a plain woolen shirt~
+A plain woolen shirt lies on the ground.~
+~
+11 0 9 0
+0 0 0 0
+0 0 0 0
+40 1000 100 0 0 0
+E
+shirt plain woolen~
+  This shirt is made from coarsely woven bleached wool.  While not fancy in the
+least, it is both practical and warm.  It is cut with a wide collar and broad
+sleeves.~
+A
+17 -5
+#2067 3
+rod pleasant returns twig ash recall~
+a rod of pleasant returns~
+A thin twig of ash is lying here.~
+~
+24 64 16385 0
+10 342 10 10
+0 5 0 0
+40 30000 1000 0 0 0
+E
+rod pleasant returns twig ash~
+   This thin ash twig has been debarked and then sanded so it is as smooth
+as river washed stone.  The twig is incredibly flexible and resilient, and
+withstands every attempt you make to snap it in twain.  Surprisingly, each
+time the twig is bent, a crackle of magical energy surges through the wood.
+With each energy burst, you have visions of your home city.  Surely this is a
+magical rod of pleasant returns!~
+#2068 3
+belt black leather~
+a black leather belt~
+A black leather belt is lying here.~
+~
+9 0 2049 0
+10 0 0 0
+0 0 0 0
+20 200 20 0 0 0
+#2070 3
+gauntlets bronze pair gauntlet~
+a pair of bronze gauntlets~
+A pair of bronze gauntlets is lying on the ground.~
+~
+9 0 129 0
+28 2 0 0
+0 0 0 0
+80 8600 860 0 0 0
+#2071 3
+gloves glove leather pair~
+a pair of leather gloves~
+A pair of leather gloves is lying on the ground.~
+~
+9 0 129 0
+14 0 0 0
+0 0 0 0
+20 2800 280 0 0 0
+#2072 3
+gauntlets gauntlet steel pair~
+a pair of steel gauntlets~
+A pair of steel gauntlets is lying on the ground.~
+~
+9 0 129 0
+28 3 0 0
+0 0 0 0
+190 10100 1010 0 0 0
+#2075 3
+helmet bronze~
+a bronze helmet~
+A bronze helmet is lying on the ground.~
+~
+9 0 17 0
+28 2 0 0
+0 0 0 0
+120 8600 860 0 0 0
+#2076 3
+cap leather~
+a leather cap~
+A leather cap is lying on the ground.~
+~
+9 0 17 0
+14 0 0 0
+0 0 0 0
+40 2800 280 0 0 0
+#2080 3
+leggings bronze pair~
+a pair of bronze leggings~
+A pair of bronze leggings is lying on the ground.~
+~
+9 0 33 0
+28 2 0 0
+0 0 0 0
+250 8600 860 0 0 0
+#2081 3
+pants leather pair~
+a pair of leather pants~
+A pair of leather pants is lying on the ground.~
+~
+9 0 33 0
+14 0 0 0
+0 0 0 0
+110 3000 280 0 0 0
+#2085 3
+sleeves bronze sleeve pair~
+a pair of bronze sleeves~
+A pair of bronze sleeves is lying on the ground.~
+~
+9 0 257 0
+28 2 0 0
+0 0 0 0
+210 8600 860 0 0 0
+#2086 3
+sleeves leather sleeve pair~
+a pair of leather sleeves~
+A pair of leather sleeves is lying on the ground.~
+~
+9 0 257 0
+14 0 0 0
+0 0 0 0
+80 2800 280 0 0 0
+#2087 3
+sleeves sleeve chain mail chainmail pair~
+a pair of chainmail sleeves~
+A pair of chainmail sleeves is lying here.~
+~
+9 0 257 0
+24 2 0 0
+0 0 0 0
+180 7800 780 0 0 0
+#2096 3
+board builder bulletin~
+a builder bulletin board~
+The builder's bulletin board is mounted on a wall here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0 0 0
+E
+board~
+If you can read this, the board is not working.  Make sure you are
+using the command 'LOOK BOARD', instead of 'examine board'.~
+#2097 3
+board bug bulletin~
+a bug bulletin board~
+A bulletin board for posting bugs stands here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0 0 0
+E
+board~
+If you can read this, the board is not working.  Make sure you are
+using the command 'LOOK BOARD', instead of 'examine board'.~
+#2098 3
+board holy bulletin~
+a holy bulletin board~
+A large bulletin board is mounted on a wall here.  It glows with a faint aura.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0 0 0
+E
+board~
+If you can read this, the board is not working.  Make sure you are
+using the command 'LOOK BOARD', instead of 'examine board'.~
+#2099 3
+board bulletin~
+a bulletin board~
+A large bulletin board hangs from a sturdy post here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0 0 0
+E
+board~
+If you can read this, the board is not working.  Make sure you are
+using the command 'LOOK BOARD', instead of 'examine board'.~
+#99999
+$~

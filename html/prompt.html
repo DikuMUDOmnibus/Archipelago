@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>
+PROMPT
+</title>
+</head>
+<body>
+<b>Getting Information: PROMPT</b>
+<P>
+<b>prompt (string)</b>
+<p>
+You can modify your prompt to show your hit points, movement points.
+and an assortment of other nifty things.
+<p> 
+(string) is a list of text you want in your prompt + embedded codes that are
+substituted for various useful information.
+<p>
+Example:
+<pre>
+: prompt Hp: %h/%H, Ma: %m/%M, Mo: %v/%V%nExp: %X, Gold %g, %G%n%o: %O%n:
+
+would give you a prompt like:
+ Hp: 36/36, Ma: 105/105, Mo: 70/70
+ Exp: 1456, Gold 1350, 23451
+ nobody:
+:
+
+which when you are fighting becomes:
+ Hp: 32/36, Ma: 105/105, Mo: 61/70
+
+ Exp: 1425, Gold 1350, 23451
+ The Vampire Bat: pretty hurt
+:
+
+</pre>
+The %Codes Usable in Prompts:
+<ul>
+<li> %h    -   current hit points
+<li> %H    -   maxium hit points
+<li> %v    -   current movement points
+<li> %V    -   maxium movement points
+<li> %g    -   number of coins you are carrying
+<li> %G    -   number of coins you have in the bank
+<li> %x    -   current experience
+<li> %X    -   needed experience to get to the next level
+<li> %o    -   oponent's name
+<li> %O    -   opponents condition
+<li> %a    -   alignment
+<li> %r    -   room name
+<li> %R    -   room number (Immorts only)
+<li> %n    -   newline (\n\r)
+<li> %%    -   a % sign
+<li> %l    -   Leader's name
+<li> %L    -   Leader's percentage of max hit points
+<li> %i    -   *invis* (if you are invisible)
+<li> %f    -   *fly* (if you are flying)
+<li> %w    -   *water* (if you have water breath)
+</ul>
+
+ANSI color can also be used in prompts, see <a href = "ansi.html">ANSI</a> 
+for more information.
+<p>
+See also: DISPLAY and <a href ="ansi.html">ANSI</a>
+<hr>
+<a href = "index.html">Return</a> to Archipelago Help System Index
+</body>
+</html>

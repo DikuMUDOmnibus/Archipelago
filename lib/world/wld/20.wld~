@@ -1,0 +1,2898 @@
+#2000
+Floating High Above Lamman~
+   Behold!  You stand at the brink of high adventure, pulse quickening
+danger, and magnificent treasures beyond your grandest dreams.  By some strange
+cosmic force you have materialized here: the gateway to the vast realm known as
+the Archipelago!
+   Looking around, you are surprised to discover yourself standing on a
+grayish-white cloud floating high above the ground.  Although standing here in
+the clouds is quite cozy and safe, you begin to feel restless and look for a
+way down from the sky.  Far below, you see a bubbling marble fountain in the
+middle of the busy Market Square of the great harbour city of Lamman.  A
+slender golden rope will help assist in your descent down.
+~
+20 36996 0
+D5
+A slender golden rope leads down to a fountain and the Market Square.
+~
+~
+0 0 2001
+E
+map~
+MAP OF THE CITY OF LAMMAN (see 'legend' for details)
+                                         |
+                                       North
+                                   War  Gate          Arm  Bard Weap
+                                  Guild  |             +----+----+
+                                    |    |             |   The   | Magik  East
+         Coven            Ship------+----+   Temple----+-Parade--+--+--+--Gate--
+           |              Yard           |    |        |  Ground |     |
+       +---+---+-------+   |         Lib-+    | Thrift +----+----+    City
+       |   | Hotel     |   |             |    |   |    |              Gaol
+     Troll |      Orph-+   |    Inn-+----+----+---+----+
+    Ghetto |           |   | Mail | |   The   |        |
+       |   +--+   Arm2-+   +--+---+-+--Market-+-Sigur  +
+  West |   |  |        |   Tegl     |  Square | Durrin |  
+--Gate-+-+ | Pig  Trona+       Bake-+----+----+ Smithy-+
+         | |  |    |   |            |    |    |        |
+         +-+--+----+---+-Red Bridge-+----+----+----+---+
+            The Quay   |          Herb Coutt Mink  Fish
+                     Harbor       Shop Bank  Shop  Market
+                     Master
+~
+E
+legend~
+Legend to the Map of the City of Lamman
+ ______________________________________________________________________________
+|                                        |                                     |
+| Inn   - The Warrior's Widow Inn        |  Arm2  - Stonehelm's Armour Shoppe  |
+| Magik - Yemor's Magikal Imporium       |  Fish  - Fabulous Fendle's Fish Mkt |
+| War   - Warriors Guild                 |  Mink  - Minka's Specialty Shop     |
+| Bank  - Coutts' Royal Bank of Lamman   |  Herb  - Tethra's Well              |
+| Mail  - The City of Lamman Post Office |  Tegl  - Tegl's Stable Yard         |
+| Ship  - Ahab's New-N-Used Boats        |  Thieves - Thieves Guild = ???      |
+| Thrift - Disabled Mil. Veteran's Shop  |  Bard  - The Storyteller's Circle   |
+| Trona - Trona's Workshop               |  Lib   - The Lamman Public Library  |
+| Sigur - Sigur the Armorsmith's Shop    |  Hotel - Schist Hotel               |
+| Durrin - Durrin the Blacksmith's Shop  |  Orph  - The Orphanage              |
+| Arm   - Hurgoods House of Armor        |  Pig   - The Black Pig Inn          |
+| Weap  - Jurt's Weapons of War          |  Coven - Nouveau Magicien Covenant  |
+| Bake  - Sardo's Golden Harvest Bakery  |  Temple - Temple of Small Gods      |
+|________________________________________|_____________________________________|
+~
+E
+cloud~
+   The cloud is thick and puffy.  Inscribed on one corner of the cloud, as
+if inscribed in stone, you notice a map of the city.~
+E
+rope slender golden~
+  The rope is braided from hundreds of fine gold strands.  It leads down
+through the clouds to the city of Lamman below.  It looks incredibly strong,
+able to support the heaviest of giants.
+~
+S
+#2001
+The Central Fountain~
+   This is the central hub of the entire market place.  It is dominated by an
+imposing marble basin, into which water flows from a large statue of rather
+dubious artistic merit.  Among the carefully cut flagstones surrounding the
+fountain is a squarish block of polished granite inscribed with a map. It
+seems so peaceful here with the %2gentle murmur of business activity all
+around, the occasional nicker of horses as they drink from the fountain and
+the %merry burble of water as it flows into the basin.  It's really a shame
+you can't stay here all the time.
+~
+20 61572 1
+D0
+You see North Market Square.
+~
+~
+0 0 2002
+D1
+You see East Market Square.
+~
+~
+0 0 2003
+D2
+You see South Market Square.
+~
+~
+0 0 2004
+D3
+You see West Market Square.
+~
+~
+0 0 2005
+D4
+A slender golden rope hangs just out of reach from the clouds.
+~
+~
+0 0 0
+E
+legend~
+Legend to the Map of the City of Lamman
+ ______________________________________________________________________________
+|                                        |                                     |
+| Inn   - The Warrior's Widow Inn        |  Arm2  - Stonehelm's Armour Shoppe  |
+| Magik - Yemor's Magikal Imporium       |  Fish  - Fabulous Fendle's Fish Mkt |
+| War   - Warriors Guild                 |  Mink  - Minka's Specialty Shop     |
+| Bank  - Coutts' Royal Bank of Lamman   |  Herb  - Tethra's Well              |
+| Mail  - The City of Lamman Post Office |  Tegl  - Tegl's Stable Yard         |
+| Ship  - Ahab's New-N-Used Boats        |  Thieves - Thieves Guild = ???      |
+| Thrift - Disabled Mil. Veteran's Shop  |  Bard  - The Storyteller's Circle   |
+| Trona - Trona's Workshop               |  Lib   - The Lamman Public Library  |
+| Sigur - Sigur the Armorsmith's Shop    |  Hotel - Schist Hotel               |
+| Durrin - Durrin the Blacksmith's Shop  |  Orph  - The Orphanage              |
+| Arm   - Hurgoods House of Armor        |  Pig   - The Black Pig Inn          |
+| Weap  - Jurt's Weapons of War          |  Coven - Nouveau Magicien Covenant  |
+| Bake  - Sardo's Golden Harvest Bakery  |  Temple - Temple of Small Gods      |
+|________________________________________|_____________________________________|
+~
+E
+map stone block granite mapstone~
+MAP OF THE CITY OF LAMMAN (see 'legend' for details)
+                                         |
+                                       North
+                                   War  Gate          Arm  Bard Weap
+                                  Guild  |             +----+----+
+                                    |    |             |   The   | Magik  East
+         Coven            Ship------+----+   Temple----+-Parade--+--+--+--Gate--
+           |              Yard           |    |        |  Ground |     |
+       +---+---+-------+   |         Lib-+    | Thrift +----+----+    City
+       |   | Hotel     |   |             |    |   |    |              Gaol
+     Troll |      Orph-+   |    Inn-+----+----+---+----+
+    Ghetto |           |   | Mail | |   The   |        |
+       |   +--+   Arm2-+   +--+---+-+--Market-+-Sigur  +-- Palace
+  West |   |  |        |   Tegl     |  Square | Durrin |   Gardens
+--Gate-+-+ | Pig  Trona+       Bake-+----+----+ Smithy-+
+         | |  |    |   |            |    |    |        |
+         +-+--+----+---+-Red Bridge-+----+----+----+---+
+            The Quay   |          Herb Coutt Mink  Fish
+                     Harbor       Shop Bank  Shop  Market
+                     Master
+~
+E
+fountain marble basin~
+The fountain is a large circular affair made from blocks of carved white
+marble. The decorations and embellishments on the rim of the basin are
+impressive although a little florid and overstated. In the middle stands
+a tall statue out of which fresh, clear water flows.
+~
+S
+#2002
+North Market Square~
+   You are standing in a broad expanse that constitutes the northern portion
+of Lamman's market square.  To the north you see Monastery Road lead north
+out of town.  The huge Temple of Lamman is to the northeast.  Somewhat to
+the west, you can make out the entrance to the Warrior's Widow, reputed to
+offer the finest lodgings in town.  Just to the south you can see the large
+central fountain surrounded, as always, by a throng of adventurers taking
+a well-earned break.
+~
+20 0 1
+D0
+You see Monastery Road.
+~
+~
+0 0 2033
+D1
+You see North-East Market Square.
+~
+~
+0 0 2007
+D2
+The Central Fountain.
+~
+~
+0 0 2001
+D3
+You see North-West Market Square.
+~
+~
+0 0 2008
+S
+#2003
+East Market Square~
+      This is the eastern portion of Lamman's market square. Just to the east
+hangs the shingle of Sigur the Blacksmith. A bit to the north you can make 
+the Temple of Lamman, whilst to the west lies the fountain surrounded as ever
+by dangerous looking adventurers.
+~
+20 0 1
+D0
+The noise of commerce and business filters over from northeast market square.
+~
+~
+0 0 2007
+D1
+The acrid smell of tin and iron fumes floats over from Sigur's Blacksmith.
+~
+~
+0 0 2011
+D2
+The noise of commerce and activity filters over from southeast market square.
+~
+~
+0 0 2009
+D3
+A marvelous marble fountain spurts and burbles water high into the air.
+~
+~
+0 0 2001
+S
+#2004
+South Market Square~
+      This is the southern most part of Lamman's famous market square. To the 
+north you can see the fountain. Across Harbour Road to the south you can see
+the Bank of Lamman, where adventurers and the local burghers alike store their
+money for safekeeping.
+~
+20 0 1
+D0
+you see the fountain.
+~
+~
+0 0 2001
+D1
+You see South-East Market Square.
+~
+~
+0 0 2009
+D2
+You see Harbour Road.
+~
+~
+0 0 2040
+D3
+You see South-West Market Square.
+~
+~
+0 0 2010
+S
+#2005
+West Market Square~
+   The flagstones that pave the Lamman Market Square are probably the most
+heavily trodden on real estate in the entire archipelago.  All around you
+there is activity.  As you stand here, you brush shoulders with a wide range
+of people, everyone from wealthy merchants to poor tramps and beggars.  You
+hear the soothing babble of water dancing in a large marble fountain to the
+east.  The Market Square extends off to the north and south, while a small
+courtyard opens up to the west between the Warrior Widow Inn and a bakery.
+~
+20 0 1
+D0
+You see North-West Market Square.
+~
+~
+0 0 2008
+D1
+You see the fountain.
+~
+~
+0 0 2001
+D2
+You see South-West Market Square.
+~
+~
+0 0 2010
+D3
+You see Courtyard Lane.
+~
+~
+0 0 2020
+S
+#2006
+The Temple Offices~
+   This is the rather impressive entry hall to the offices of the temple
+clery.  There are tapestries and fine paintings adorned on the walls
+containing the illustrious history of the temple.  The entrance into the
+High Priest's inner sanctum, to the north, is an archway of alternating dark
+and light marble blocks, and filligree and scrollwork covering much of the
+stone.  The temple offices exits south.
+~
+20 12 0
+D0
+You see the Inner Sanctum.
+~
+~
+0 0 2023
+D2
+You see the steps of the temple.
+~
+~
+0 0 2017
+S
+#2007
+Northeast Market Square~
+   The busy market square of Lamman is filled with activity and noise.  There
+are people everywhere you turn, each face unrecognizable from the last.
+Everyone is busy running around on some errand, or busy hawking something you
+may not need.  Loaming above this chaos, is the orderly Temple of Lamman to
+the north.  Set up in this corner of the market are quite a few lending tables
+set up by usurers interested in making quite a bit of money by bilking temple
+worshippers and pilgrims of their gold.  Pauper's Row lies to the east.  The
+market continues south and west.
+~
+20 0 1
+D0
+You see the Temple Steps.
+~
+~
+0 0 2017
+D1
+You see Pauper Row.
+~
+~
+0 0 2050
+D2
+You see East Market Square.
+~
+~
+0 0 2003
+D3
+You see North Market Square.
+~
+~
+0 0 2002
+S
+#2008
+Northwest Market Square~
+   The northwest corner of market square is traditionally where public
+humiliations and the occasional public execution are carried out.  To the
+west residents of the Warrior's Widow -- the finest inn in Lamman, get fine
+views of the fun from their bedroom windows.  The city's central fountain is
+to the southeast.
+~
+20 0 1
+D0
+You see the side of Lamman Library blocking the way to the north.
+~
+~
+0 0 0
+D1
+You see North Market Square.
+~
+~
+0 0 2002
+D2
+You see West Market Square.
+~
+~
+0 0 2005
+D3
+You see the foyer of the Warrior's Widow Inn, hmm looks pricey.
+~
+~
+0 0 2014
+S
+#2009
+Southeast Market Square~
+   This is the southeastern corner of Lamman's market square.  It is busy
+here on the cobblestone street.  The rich and poor alike stroll the market
+searching for bargains from the many merchants and traders who have set up
+shop here.  Almost obscured from view, on the ground, is a squarish block of
+polished granite inscribed with a map.  To the south lies Harbour Road.  The
+market square extends to the north and west.
+~
+20 0 1
+D0
+You see East Market Square.
+~
+~
+0 0 2003
+D1
+The side of the smithy blocks the way to the east.
+~
+~
+0 0 0
+D2
+You see Harbour Road.
+~
+~
+0 0 2038
+D3
+You see South Market Square.
+~
+~
+0 0 2004
+E
+map stone block granite mapstone~
+MAP OF THE CITY OF LAMMAN (see 'legend' for details)
+                                         |
+                                       North
+                                   War  Gate          Arm  Bard Weap
+                                  Guild  |             +----+----+
+                                    |    |             |   The   | Magik  East
+         Coven            Ship------+----+   Temple----+-Parade--+--+--+--Gate--
+           |              Yard           |    |        |  Ground |     |
+       +---+---+-------+   |         Lib-+    | Thrift +----+----+    City
+       |   | Hotel     |   |             |    |   |    |              Gaol
+     Troll |      Orph-+   |    Inn-+----+----+---+----+
+    Ghetto |           |   | Mail | |   The   |        |
+       |   +--+   Arm2-+   +--+---+-+--Market-+-Sigur  +-- Palace
+  West |   |  |        |   Tegl     |  Square | Durrin |   Gardens
+--Gate-+-+ | Pig  Trona+       Bake-+----+----+ Smithy-+
+         | |  |    |   |            |    |    |        |
+         +-+--+----+---+-Red Bridge-+----+----+----+---+
+            The Quay   |          Herb Coutt Mink  Fish
+                     Harbor       Shop Bank  Shop  Market
+                     Master
+~
+E
+legend~
+ ______________________________________________________________________________
+|                                        |                                     |
+| Inn   - The Warrior's Widow Inn        |  Arm2  - Stonehelm's Armour Shoppe  |
+| Magik - Yemor's Magikal Imporium       |  Fish  - Fabulous Fendle's Fish Mkt |
+| War   - Warriors Guild                 |  Mink  - Minka's Specialty Shop     |
+| Bank  - Coutts' Royal Bank of Lamman   |  Herb  - Tethra's Well              |
+| Mail  - The City of Lamman Post Office |  Tegl  - Tegl's Stable Yard         |
+| Ship  - Ahab's New-N-Used Boats        |  Thieves - Thieves Guild = ???      |
+| Thrift - Disabled Mil. Veteran's Shop  |  Bard  - The Storyteller's Circle   |
+| Trona - Trona's Workshop               |  Lib   - The Lamman Public Library  |
+| Sigur - Sigur the Armorsmith's Shop    |  Hotel - Schist Hotel               |
+| Durrin - Durrin the Blacksmith's Shop  |  Orph  - The Orphanage              |
+| Arm   - Hurgoods House of Armor        |  Pig   - The Black Pig Inn          |
+| Weap  - Jurt's Weapons of War          |  Coven - Nouveau Magicien Covenant  |
+| Bake  - Sardo's Golden Harvest Bakery  |  Temple - Temple of Small Gods      |
+|________________________________________|_____________________________________|
+~
+S
+#2010
+Southwest Market Square~
+   A little way to the southwest you can see the bridge that takes Harbour
+Road over the river Ronnan. You can also see a dark, mysterious house.
+To the west you can smell the wonderful aroma of fresh baked bread.
+~
+20 0 1
+D0
+You see West Market Square.
+~
+~
+0 0 2005
+D1
+You see South Market Square.
+~
+~
+0 0 2004
+D2
+You see Harbour Road.
+~
+~
+0 0 2041
+D3
+You see the Bakery.
+~
+~
+0 0 2066
+T
+2010 1
+The smell of freshly baked bread wafts by your nose from the west.
+~
+$n rushes into the bakery.
+~
+~
+S
+#2011
+Sigur's Armour Repair Smithy~
+   Everyone knows that dwarves make the best blacksmiths, something to do with
+surface area to volume ratios or some such thing.  To be sure, in Lamman the
+blacksmiths are all dwarves.  No one is sure exactly how this came to be, but
+some time ago a few trolls tried to set up a rival smithy in the heart of the
+Troll Quarter.  Rumour has it there was an accident one night, and they were
+found melted down in their own forge the next morning.
+   Sigur is usually to be found here in his shop shaping steel plates into
+armour for the City Watch.  By virtue of his skill at smithing armour, he has
+a contract to forge armours for the King and the city guard.  Of course, a lack
+of competition more than encourages it.  Despite a regular income, he still
+insists in making a little extra coin on the side, and if not busy with other
+things repairs the armour of adventurers in need.
+~
+20 8 0
+D2
+You see Durrin's smithy.
+~
+~
+0 0 2083
+D3
+You see East Market Square.
+~
+~
+0 0 2003
+S
+#2012
+Hurgoods House of Armour~
+      You are standing in the finest armoury in all of Lamman, at least that's
+what Hurgood always says.  All manner of armour adorns the wall, armour for bits
+of the body you never imagined needed armour and some for bits of the body you
+can't imagine having! Hurgood himself is sitting at a bench hammering dents
+from a breastplate.
+~
+20 8 0
+D2
+You see the Parade Ground.
+~
+~
+0 0 2058
+S
+#2013
+Jurt's Weapons of War~
+      This place is packed from floor to ceiling with more types of vicious
+weaponry than you have ever seen in your life. Many of the weapons you can
+only guess at their purpose and supress a shudder. Jurt is standing in the 
+back of the shop, calmly adding a killing edge to a huge axe. The grinding
+wheel shoots sparks everywhere.
+~
+20 12 0
+D2
+You see the Parade Ground.
+~
+~
+0 0 2064
+S
+#2014
+The Foyer of the Warrior's Widow Inn~
+   This is the plush entry hall of the Warrior's Widow.  Small paintings of
+slain heroes and dead fighters adorn the walls, their memories kept alive
+here in this small gallery.  Also on the wall is a well-detailed map of
+the city.  Scattered around the room are a few rickety tables and chairs of
+unvarnished pine.  More tables and chairs can be found in the inn's bar and
+restaurant to the north.
+   A set of stairs leads up to the lodgings reception, if you want a room for
+the night, that is where you should go.  The inn exits south onto a quaint
+little road, and east onto the northwest part of Market Square.
+~
+20 12 0
+D0
+You see the public bar, it sure sounds like folks are having fun.
+~
+~
+0 0 2015
+D1
+You see North-West Market Square.
+~
+~
+0 0 2008
+D2
+You see Courtyard Lane.
+~
+~
+0 0 2020
+D4
+You see the Reception, boy! just looking makes you feel tired.
+~
+~
+0 0 2016
+E
+legend~
+Legend to the Map of the City of Lamman
+ ______________________________________________________________________________
+|                                        |                                     |
+| Inn   - The Warrior's Widow Inn        |  Arm2  - Stonehelm's Armour Shoppe  |
+| Magik - Yemor's Magikal Imporium       |  Fish  - Fabulous Fendle's Fish Mkt |
+| War   - Warriors Guild                 |  Mink  - Minka's Specialty Shop     |
+| Bank  - Coutts' Royal Bank of Lamman   |  Herb  - Tethra's Well              |
+| Mail  - The City of Lamman Post Office |  Tegl  - Tegl's Stable Yard         |
+| Ship  - Ahab's New-N-Used Boats        |  Thieves - Thieves Guild = ???      |
+| Thrift - Disabled Mil. Veteran's Shop  |  Bard  - The Storyteller's Circle   |
+| Trona - Trona's Workshop               |  Lib   - The Lamman Public Library  |
+| Sigur - Sigur the Armorsmith's Shop    |  Hotel - Schist Hotel               |
+| Durrin - Durrin the Blacksmith's Shop  |  Orph  - The Orphanage              |
+| Arm   - Hurgoods House of Armor        |  Pig   - The Black Pig Inn          |
+| Weap  - Jurt's Weapons of War          |  Coven - Nouveau Magicien Covenant  |
+| Bake  - Sardo's Golden Harvest Bakery  |  Temple - Temple of Small Gods      |
+|________________________________________|_____________________________________|
+~
+E
+map~
+MAP OF THE CITY OF LAMMAN (see 'legend' for details)
+                                         |
+                                       North
+                                   War  Gate          Arm  Bard Weap
+                                  Guild  |             +----+----+
+                                    |    |             |   The   | Magik  East
+         Coven            Ship------+----+   Temple----+-Parade--+--+--+--Gate--
+           |              Yard           |    |        |  Ground |     |
+       +---+---+-------+   |         Lib-+    | Thrift +----+----+    City
+       |   | Hotel     |   |             |    |   |    |              Gaol
+     Troll |      Orph-+   |    Inn-+----+----+---+----+
+    Ghetto |           |   | Mail | |   The   |        |
+       |   +--+   Arm2-+   +--+---+-+--Market-+-Sigur  +-- Palace
+  West |   |  |        |   Tegl     |  Square | Durrin |   Gardens
+--Gate-+-+ | Pig  Trona+       Bake-+----+----+ Smithy-+
+         | |  |    |   |            |    |    |        |
+         +-+--+----+---+-Red Bridge-+----+----+----+---+
+            The Quay   |          Herb Coutt Mink  Fish
+                     Harbor       Shop Bank  Shop  Market
+                     Master
+~
+E
+stairs staircase~
+   A narrow wooden staircase leads up from the foyer.  The staircase looks
+worn and in need of repairs, but luckily it will not collapse any time soon.~
+E
+wall walls gallery~
+   You see a few paintings and a map on the bare brick walls, perhaps you
+should take a look at them?~
+E
+painting paintings~
+   Most of these paintings are crudely rendered portraits of famous dead
+adventurers.  Some you may even recognize, but most you will not.  Under
+each portrait is a name.  You see the names of <insert names here>.
+   There also some paintings of legendary heroes who after wonderous deeds
+and other labors, were raised to immortality.  There are names as innoculous
+as Xero, and as pompous as Magnifico.  You also see the names of Ponder,
+Kalliste, Saladin and Pulgh, heroes as old as, well, as old as you can imagine.~
+S
+#2015
+The Commons Room of the Warrior Widow Inn~
+   This place is just bustling with activity.  There are several buxom
+serving lasses running about carrying foaming mugs of ale and mead.  Several
+merchants are here getting pretty drunk.  The city watch also likes to pop
+in here every so often, for a quick libation.  Nearby, the bartender is
+polishing a pewter mug while eavesdropping in on various conversations for
+any juicy information that he can later sell to the secret police.  The
+common room exits south into the foyer, and west into the inn's kitchens.
+~
+20 8 0
+D2
+You see the foyer of the Warrior's Widow Inn.
+~
+~
+0 0 2014
+D3
+You can see the kitchens, hmm something smells good.
+~
+~
+0 0 2018
+S
+#2016
+The Reception of the Warrior's Widow Inn~
+   This is the cozy reception area of the Warrior's Widow Inn.  Many a weary
+adventurer comes here after a long days adventuring, safe in the knowledge
+that his or her valuables will be well guarded.  However, this sort of service
+doesn't come cheap, perhaps that note on the counter is the Inn's tariff.
+~
+20 57352 0
+D5
+You see the foyer of the Warrior's Widow Inn.
+~
+~
+0 0 2014
+E
+note sign tariff~
+To receive a rent quotation type offer.~
+S
+#2017
+At the foot of the Temple Steps~
+   Brightly polished marble steps lead up to the magnificent Temple of Lamman.
+Many citizens of this fair city traipse up this rather grandiose staircase to
+pay homage to the various deities that make their puny mortal lives worth
+living.  To the south, the hustle and bustle of commerce, takes place out on
+market square.  To the north, the ornate entrance to the temple offices can
+be seen.  Before you take another step in any direction, you notice a squarish
+block of polished granite embedded in the ground.  The stone is handsomely
+inscribed with a map to aid those unfamilar with the layout of this fine city.
+~
+20 0 1
+D0
+You see the lavish offices of the temple clery to the north.
+~
+~
+0 0 2006
+D2
+You see North-East Market Square.
+~
+~
+0 0 2007
+D4
+You see the Commoners Entrance.
+~
+~
+0 0 2035
+E
+map stone granite block~
+MAP OF THE CITY OF LAMMAN (see 'legend' for details)
+                                         |
+                                       North
+                                   War  Gate          Arm  Bard Weap
+                                  Guild  |             +----+----+
+                                    |    |             |   The   | Magik  East
+         Coven            Ship------+----+   Temple----+-Parade--+--+--+--Gate--
+           |              Yard           |    |        |  Ground |     |
+       +---+---+-------+   |         Lib-+    | Thrift +----+----+    City
+       |   | Hotel     |   |             |    |   |    |              Gaol
+     Troll |      Orph-+   |    Inn-+----+----+---+----+
+    Ghetto |           |   | Mail | |   The   |        |
+       |   +--+   Arm2-+   +--+---+-+--Market-+-Sigur  +-- Palace
+  West |   |  |        |   Tegl     |  Square | Durrin |   Gardens
+--Gate-+-+ | Pig  Trona+       Bake-+----+----+ Smithy-+
+         | |  |    |   |            |    |    |        |
+         +-+--+----+---+-Red Bridge-+----+----+----+---+
+            The Quay   |          Herb Coutt Mink  Fish
+                     Harbor       Shop Bank  Shop  Market
+                     Master
+~
+E
+legend~
+Legend to the Map of the City of Lamman
+ ______________________________________________________________________________
+|                                        |                                     |
+| Inn   - The Warrior's Widow Inn        |  Arm2  - Stonehelm's Armour Shoppe  |
+| Magik - Yemor's Magikal Imporium       |  Fish  - Fabulous Fendle's Fish Mkt |
+| War   - Warriors Guild                 |  Mink  - Minka's Specialty Shop     |
+| Bank  - Coutts' Royal Bank of Lamman   |  Herb  - Tethra's Well              |
+| Mail  - The City of Lamman Post Office |  Tegl  - Tegl's Stable Yard         |
+| Ship  - Ahab's New-N-Used Boats        |  Thieves - Thieves Guild = ???      |
+| Thrift - Disabled Mil. Veteran's Shop  |  Bard  - The Storyteller's Circle   |
+| Trona - Trona's Workshop               |  Lib   - The Lamman Public Library  |
+| Sigur - Sigur the Armorsmith's Shop    |  Hotel - Schist Hotel               |
+| Durrin - Durrin the Blacksmith's Shop  |  Orph  - The Orphanage              |
+| Arm   - Hurgoods House of Armor        |  Pig   - The Black Pig Inn          |
+| Weap  - Jurt's Weapons of War          |  Coven - Nouveau Magicien Covenant  |
+| Bake  - Sardo's Golden Harvest Bakery  |  Temple - Temple of Small Gods      |
+|________________________________________|_____________________________________|
+~
+S
+#2018
+The Kitchens of the Warrior' Widow Inn~
+   This is where all the food for the inn's guests is stored and prepared.
+It is a busy place.  The chef is hurrying about sampling dishes, and tasting
+stuff.  His long beard is stained in many different colours and flavors.
+There are also a few surly kitchen boys running about carrying cutlery and
+dishes.  The inn's kitchen exits east.
+~
+20 24 0
+D1
+You can see the public bar.
+~
+~
+0 0 2015
+S
+#2019
+Yemor's Magikal Emporium~
+      Old Yemor's magic seems to be considerably better than his spelling. 
+As you step through the door reality seems to waver, you arn't quite sure
+which way is up, or whether the walls are solid. There is so much magic
+stored in this one place that it is warping the fabric of space. This is
+probably not a place you want to stay in for very long, that is assuming you
+want to leave in approximately the same shape that you arrived.
+~
+20 8 0
+D2
+You see Temple Avenue
+~
+~
+0 0 2069
+S
+#2020
+Courtyard Lane~
+   Wonderful smells that could only mean fresh baked bread waft through an
+open shop window on the south side of the courtyard.  On the north side of
+the lane looms the Warrior Widow Inn looms casting an almost perpetual gloom
+over the flagstones.  Through the inn's entrance, you hear the noisy ruckus
+of tavern patrons.  Despite the inn's name, much mirth and merriment seems to
+be taking place inside.  The lane continues to the west, while to the east
+you see the Market Square.
+~
+20 0 1
+D0
+You see the Warrior's Widow Inn.
+~
+~
+0 0 2014
+D1
+You see West Market Square.
+~
+~
+0 0 2005
+D2
+The side of the bakery blocks the way south.
+~
+~
+0 0 0
+D3
+Courtyard Lane continues west past the Royal Post Office.
+~
+~
+0 0 2096
+S
+#2021
+Courtyard Lane~
+   The courtyard ends overlooking the gently rolling River Ronnan to the west.
+The courtyard is paved with carefully cut flagstones and your footsteps echo
+off the high walls on the north and south side of the courtyard.  One stone,
+in particular, catches your eye.  It is a stone seemingly out of place.  It is
+large and polished with a map inscribed on it.  An arched wooden gateway is on
+the southside of the courtyard and the strong smell of horses can be detected
+in that direction.  Courtyard Lane continues to the east, past the Warrior
+Widow Inn and back towards the Market Square.  A dirt path leads north along
+the River Ronnan.
+~
+20 0 1
+D0
+A dirt path leads along the River Ronnan.
+~
+~
+0 0 2027
+D1
+You see Courtyard Lane.
+~
+~
+0 0 2096
+D2
+An arched wooden gateway with a large gate is to the south.
+~
+gate gateway~
+1 0 1880
+D3
+A low wall prevents you from falling headlong into the river!
+~
+~
+0 0 0
+E
+map stone block granite mapstone~
+MAP OF THE CITY OF LAMMAN (see 'legend' for details)
+                                         |
+                                       North
+                                   War  Gate          Arm  Bard Weap
+                                  Guild  |             +----+----+
+                                    |    |             |   The   | Magik  East
+         Coven            Ship------+----+   Temple----+-Parade--+--+--+--Gate--
+           |              Yard           |    |        |  Ground |     |
+       +---+---+-------+   |         Lib-+    | Thrift +----+----+    City
+       |   | Hotel     |   |             |    |   |    |              Gaol
+     Troll |      Orph-+   |    Inn-+----+----+---+----+
+    Ghetto |           |   | Mail | |   The   |        |
+       |   +--+   Arm2-+   +--+---+-+--Market-+-Sigur  +-- Palace
+  West |   |  |        |   Tegl     |  Square | Durrin |   Gardens
+--Gate-+-+ | Pig  Trona+       Bake-+----+----+ Smithy-+
+         | |  |    |   |            |    |    |        |
+         +-+--+----+---+-Red Bridge-+----+----+----+---+
+            The Quay   |          Herb Coutt Mink  Fish
+                     Harbor       Shop Bank  Shop  Market
+                     Master
+~
+E
+legend~
+Legend to the Map of the City of Lamman
+ ______________________________________________________________________________
+|                                        |                                     |
+| Inn   - The Warrior's Widow Inn        |  Arm2  - Stonehelm's Armour Shoppe  |
+| Magik - Yemor's Magikal Imporium       |  Fish  - Fabulous Fendle's Fish Mkt |
+| War   - Warriors Guild                 |  Mink  - Minka's Specialty Shop     |
+| Bank  - Coutts' Royal Bank of Lamman   |  Herb  - Tethra's Well              |
+| Mail  - The City of Lamman Post Office |  Tegl  - Tegl's Stable Yard         |
+| Ship  - Ahab's New-N-Used Boats        |  Thieves - Thieves Guild = ???      |
+| Thrift - Disabled Mil. Veteran's Shop  |  Bard  - The Storyteller's Circle   |
+| Trona - Trona's Workshop               |  Lib   - The Lamman Public Library  |
+| Sigur - Sigur the Armorsmith's Shop    |  Hotel - Schist Hotel               |
+| Durrin - Durrin the Blacksmith's Shop  |  Orph  - The Orphanage              |
+| Arm   - Hurgoods House of Armor        |  Pig   - The Black Pig Inn          |
+| Weap  - Jurt's Weapons of War          |  Coven - Nouveau Magicien Covenant  |
+| Bake  - Sardo's Golden Harvest Bakery  |  Temple - Temple of Small Gods      |
+|________________________________________|_____________________________________|
+~
+S
+#2022
+Ahab's End Row~
+   Small bits of garbage swirls around in the light breeze coming off the
+River Ronnan to the west.  The broken cobblestones and strewn rubbish seem
+to suggest a state of neglect and abandonment unusual to this great harbour
+city.  On the south side of the row, you see the back of an inn.  To the
+north is the run-down entrance of the Guild of the Warriors.
+~
+20 0 1
+D0
+The rather shabby entrance of the Guild of the Warriors is to the north.
+~
+~
+0 0 2030
+D1
+You see further down Ahab's End Row.
+~
+~
+0 0 2048
+D3
+You see further down Ahab's End Row.
+~
+~
+0 0 2025
+S
+#2023
+The Inner Sanctum~
+   This quiet room is a prime example of the glory that the clerics of the
+city formerly commanded.  This place is opulent in the extreme.  Beautiful
+carvings adorn the walls and all visible furniture is made of the finest of
+materials.  The High Priest sits on a velvet trimmed chair behind a huge oak
+table, this place being the center of his power in the city.
+~
+20 12 0
+D2
+You see the entrance hall to the temple offices.
+~
+~
+0 0 2006
+S
+#2024
+Disabled Military Veterans Store~
+      This is the place where all the stuff donated by sucessful adventurers
+turns up. The king actively encourages and supports this charity, and it is
+his own spinster sister who runs the shop.
+~
+20 12 0
+D2
+You see Pauper Row.
+~
+~
+0 0 2050
+S
+#2025
+Ahab's End Row~
+   A stiff breeze blowing from the west carries the odour of dead fish past
+your ever alert nose.  A dilapidated wharf rests on the river's bank almost
+completely out of the water.  There appears to be a quiet boat yard at the
+near end of the wharf.  The row continues on to the east.
+~
+20 0 1
+D0
+~
+~
+0 0 1893
+D1
+Ahab's End Row continues eastward.
+~
+~
+0 0 2022
+D3
+You see the Chandler's Yard.
+~
+~
+0 0 2028
+S
+#2026
+On the bank of the River Ronnan~
+   The path along the river bank is muddy and slippery.  Down in the slow
+moving water, tiny water bugs dart in and out among the hollow reeds.
+Periodically, the shrill song of a river warbler is heard over the gentle
+current.  The path continues along the bank to the south past some willow
+trees and north where it ends in a wide yard.
+~
+20 0 1
+D0
+The Chandler's yard lies to the north.
+~
+~
+0 0 2028
+D2
+The path continues to follow along the bank.
+~
+~
+0 0 2027
+S
+#2027
+On the bank of the River Ronnan~
+   A few sorry looking willows hang over the high, grassy bank of the River
+Ronnan and dip their leaves into the slow moving water.  Occasionally anglers
+will sit beneath these trees and try their luck fishing.  A well worn dirt
+path leads further north along the river bank.  A courtyard is south of here.
+~
+20 0 1
+D0
+The path continues to follow along the bank.
+~
+~
+0 0 2026
+D2
+You see Courtyard Lane.
+~
+~
+0 0 2021
+S
+#2028
+The Chandler's Yard~
+   The Chandler's Yard is a wide open space, stacked with boats of all
+shapes and sizes.  It is unusually quiet and there doesn't seem to be anyone
+about here.  Hey!  Wait a minute, the sound of cursing seems to be coming
+from that dilapidated shack at the end of the jetty to the west.  A well
+worn path leads south along the bank of the River Ronnan.
+~
+20 0 1
+D1
+You see further down Ahab's End Row.
+~
+~
+0 0 2025
+D2
+A dirt path leads along the bank of the River Ronnan.
+~
+~
+0 0 2026
+D3
+You see Ahab's New'n'Used Boats.
+~
+~
+0 0 2029
+S
+#2029
+Ahab's New'n'Used Boats~
+      Ahab himself comes out onto the jetty to greet you. He's a crusty old
+salt, every bit the sailor - right down to the wooden leg. There is a ladder
+that leads down to the river Ronnan.
+~
+20 8388608 1
+D1
+You see the Chandler's Yard.
+~
+~
+0 0 2028
+S
+#2030
+The Entrance to the Warrior Guild~
+   Like the other Guild Houses in Lamman, the Warrior Guild boasts a purely
+ceremonial Guildguard.  To the west, you can hear the ring of steel on steel,
+that must be the proving grounds.
+~
+20 8 0
+D2
+You see Ahab's End Row.
+~
+~
+0 0 2022
+D3
+You see the Proving Grounds.
+~
+~
+0 0 2031
+S
+#2031
+The Proving Grounds~
+   The practice field is a marked-off sandy square of roughly 20' by 20'.  The
+room is huge, the large mortared stone blocks of the city walls forming the back
+wall of the grounds.  Banners hang from the walls, representing the various
+mercenary companies allied with the city and various racks are evenly spaced
+around the room to hold weapons not in use.  The Master of the Warrior's Guild
+is usually to be found here, training the city guard and other aspiring 
+novices in the warrior's art.
+~
+20 12 0
+D1
+You see the entrance to the Guild of the Warriors.
+~
+~
+0 0 2030
+E
+banners~
+   They cover the walls in abundance, of every color imaginable.  The city of
+Lamman serves a great many mercenary companies, and each leaves its mark of
+recognition here.~
+S
+#2032
+The Lamman Public Library~
+   This is a beautiful facility provided by the townsfolk for the betterment
+of the general populace.  Here, you can relax unmolested in peace, and catch
+up on the latest news, and perhaps learn something new.  The library has many
+books available, all of which are chained to rickety wooden shelves to help
+prevent theft.  There are also maps displayed on the walls.  One map in
+particular catches your eye.  This library exits east onto a wide paved muddy
+road.
+~
+20 12 0
+D1
+You see Monastery Road.
+~
+~
+0 0 2033
+E
+moby dick~
+Call me Ishmael. Some years ago--never mind how long precisely--having
+little or no money in my purse, and nothing particular to interest me on
+shore, I thought I would sail about a little and see the watery part of
+the world. It is a way I have of driving off the spleen, and regulating
+the circulation. Whenever I find myself growing grim about the mouth;
+whenever it is a damp, drizzly November in my soul; whenever I find myself
+involuntarily pausing before coffin warehouses, and bringing up the rear
+of every funeral I meet; and especially whenever my hypos get such an
+upper hand of me, that it requires a strong moral principle to prevent me
+from deliberately stepping into the street, and methodically knocking
+people's hats off--then, I account it high time to get to sea as soon as I
+can. This is my substitute for pistol and ball. With a philosophical
+flourish Cato throws himself upon his sword; I quietly take to the ship.
+There is nothing surprising in this. If they but knew it, almost all men
+in their degree, some time or other, cherish very nearly the same feelings
+towards the ocean with me...
+~
+E
+hint3~
+   
+   Fifth, when you are able to enjoy a moment of rest, type 'commands'.  This,
+coupled with the help files, might make life on Archipelago a bit easier.
+   Finally you will need a place to rent when you are tired.  The nearest inn
+is the Warrior's Widow.  The innkeeper can be found 2 west, 1 north, and 1 up
+from the fountain.
+   Best of luck!  Please feel free to ask for help, and do not feel shy in
+directing any comments, complaints, or suggestions you may have on the
+various boards about town.  To write on a board type `write <name of topic>'.
+(Remember to include a carriage return <CR> after each line.)
+~
+E
+hint2~
+ 
+   Third, you will probably want to start gaining experience.  The best way
+to do this is to start slowly.  Try battling the various bugs and other small
+critters that surround the fountain.  Bugs, toads, and sparrows all make
+excellent fodder for your sword.  Also avoid attacking any being with the
+word `(citizen)' it its title.  If you do, they will alert the guards to your
+murderous attacks and will whisper to other citizens - who will then become
+hostile toward you.
+   Fourth, you may want to visit the various guilds and wandering guildmasters
+to obtain new skills, spells, and weapon proficiencies.  At the guildmaster,
+type `learn' (for skills), `study' (for spells), and `train' (for weapons).  
+As an example, to learn four levels of magic theory, type `learn 4 magic'.
+The difficulty, or ease, in learning skills, spells and weapons is determined
+by your ability statistics.
+~
+E
+hint1~
+ 
+   First, give yourself a title by typing `title %n the great!'.  The %n in
+the title is your name and is necessary.  Other %codes includable can be
+found in the help file by typing 'help title'.  You can also add colour to
+your title to give it that special pizzazz.  Type 'help ansi' to see what
+%colour codes you can add.
+   Second, although the immorts are generally stingy and not given to bouts
+of gift giving, they recognize that you are new on the Archipelago and have
+granted you some equipment.  Type `i' (inventory), and `eq' (equipment), to
+see what has been bestowed upon you.  Your equipment has been resized to
+personally fit you.  If you notice, there is a sword nestled in a scabbard.
+To use that weapon, type `draw'.  To sheathe it, type `sheathe'.
+~
+E
+immigration parchment government~
+
+          -=  W E L C O M E   T O   T H E   A R C H I P E L A G O  =-
+
+   You have chosen a wondrous realm to explore full of high adventure, great
+comradeship, and fantastic treasure.  Before you venture forth into the lands,
+there are a few tips and tricks you should know to make your hard life here a
+wee bit easier.  Type `look hint1' to see the first hint, type `look hint2'
+to see the second hint, and type `look hint3' for the third hint.
+
+We also have a web page -- several actually, and will consolidate all of them
+as soon as possible -- at URL
+
+            http://ruby.ils.unc.edu/~czecd/archjump.html
+
+The beginner's tip sheet, which is a bit more detailed than this itty bitty
+sign, is also located at the website.
+
+                                            -- The Immorts of Archipelago
+                                               updated 96.06.23
+~
+E
+book books shelf shelves~
+     On the bookshelf, are several interesting items:
+One is fine leather tome titled ''The Canterbury Tales''.
+Another is a well-thumbed goverment parchment titled ''Immigration''.
+A third weighty book, bound in white leather, is titled, ''Moby Dick''.
+~
+E
+map~
+MAP OF THE CITY OF LAMMAN (see 'legend' for details)
+                                         |
+                                       North
+                                   War  Gate          Arm  Bard Weap
+                                  Guild  |             +----+----+
+                                    |    |             |   The   | Magik  East
+         Coven            Ship------+----+   Temple----+-Parade--+--+--+--Gate--
+           |              Yard           |    |        |  Ground |     |
+       +---+---+-------+   |         Lib-+    | Thrift +----+----+    City
+       |   | Hotel     |   |             |    |   |    |              Gaol
+     Troll |      Orph-+   |    Inn-+----+----+---+----+
+    Ghetto |           |   | Mail | |   The   |        |
+       |   +--+   Arm2-+   +--+---+-+--Market-+-Sigur  +-- Palace
+  West |   |  |        |   Tegl     |  Square | Durrin |   Gardens
+--Gate-+-+ | Pig  Trona+       Bake-+----+----+ Smithy-+
+         | |  |    |   |            |    |    |        |
+         +-+--+----+---+-Red Bridge-+----+----+----+---+
+            The Quay   |          Herb Coutt Mink  Fish
+                     Harbor       Shop Bank  Shop  Market
+                     Master
+~
+E
+legend~
+Legend to the Map of the City of Lamman
+ ______________________________________________________________________________
+|                                        |                                     |
+| Inn   - The Warrior's Widow Inn        |  Arm2  - Stonehelm's Armour Shoppe  |
+| Magik - Yemor's Magikal Imporium       |  Fish  - Fabulous Fendle's Fish Mkt |
+| War   - Warriors Guild                 |  Mink  - Minka's Specialty Shop     |
+| Bank  - Coutts' Royal Bank of Lamman   |  Herb  - Tethra's Well              |
+| Mail  - The City of Lamman Post Office |  Tegl  - Tegl's Stable Yard         |
+| Ship  - Ahab's New-N-Used Boats        |  Thieves - Thieves Guild = ???      |
+| Thrift - Disabled Mil. Veteran's Shop  |  Bard  - The Storyteller's Circle   |
+| Trona - Trona's Workshop               |  Lib   - The Lamman Public Library  |
+| Sigur - Sigur the Armorsmith's Shop    |  Hotel - Schist Hotel               |
+| Durrin - Durrin the Blacksmith's Shop  |  Orph  - The Orphanage              |
+| Arm   - Hurgoods House of Armor        |  Pig   - The Black Pig Inn          |
+| Weap  - Jurt's Weapons of War          |  Coven - Nouveau Magicien Covenant  |
+| Bake  - Sardo's Golden Harvest Bakery  |  Temple - Temple of Small Gods      |
+|________________________________________|_____________________________________|
+~
+E
+canterbury caunterbury tales tome~
+ One of the books on the shelves catches your eye.  You read the golden letters
+on the spine and discover that it is a copy of ``The Canterbury Tales''.  It
+begins...
+
+   Here bygynneth the Book of the Tales of Caunterbury.
+Whan that Aprill with his shoures soote
+The droghte of March hath perced to the roote,
+And bathed every veyne in swich licour
+Of which vertu engendred is the flour;
+Whan Zephirus eek with his sweete breeth
+Inspired hath in every holt and heeth
+The tendre croppes, and the yonge sonne
+Hath in the Ram his half cours yronne,
+And smale foweles maken melodye,
+That slepen al the nyght with open ye
+(So priketh hem nature in hir corages),
+Thanne longen folk to goon on pilgrimages,
+And palmeres for to seken straunge strondes,
+To ferne halwes, kowthe in sondry londes;
+And specially from every shires ende
+Of Engelond to Caunterbury they wende,
+The hooly blisful martir for to seke,
+That hem hath holpen whan that they were seeke.
+
+~
+S
+#2033
+Monastery Road~
+Monastery Road seems to be quite a busy thoroughfare.  The street seems to
+throb with moise as folks scurry back and forth.  %0Pungent odours waft by
+you, a strange mixture of animals, dung, freshly baked bread and human sweat.%
+An imposing building sits off to the west standing out as a beacon of calm 
+amid a frenzied human sea.
+~
+20 0 1
+D0
+You see Monastery Road.
+~
+~
+0 0 2034
+D2
+You see North Market Square.
+~
+~
+0 0 2002
+D3
+You see the Lamman Public Library.
+~
+~
+0 0 2032
+S
+#2034
+Monastery Road~
+   To the north you can make out one of the three fortified gates of Lamman.
+A small row street lies just to the west.  To the south Monastery Road leads
+back to the Market Square.
+~
+20 0 1
+D0
+You see the North gate.
+~
+~
+0 0 2047
+D2
+You see Monastery Road.
+~
+~
+0 0 2033
+D3
+You see Ahab's End Row.
+~
+~
+0 0 2048
+S
+#2035
+The Commoner's Entrance~
+   This is the commoner's entrance to the Temple of Lamman.  The altar itself
+lies in an open shrine to the north.  Brightly polished marble steps lead down
+from here towards a narrow lane, and the noise of market square can easily be
+heard from here.
+~
+20 0 1
+D0
+You see the altar to the Small Gods.
+~
+~
+0 0 2036
+D5
+You see marble steps leading down towards Market Square.
+~
+~
+0 0 2017
+S
+#2036
+The High Altar~
+   You stand by the High Altar in the Temple of Lamman.  This open air shrine
+is one of the most holy places in the known world.  The very air seems hushed,
+as if in deference to the various deities.  The area surrounding the altar
+itself is open to the sky, the shrine laid bare to the heavens.  To the south
+lies the commoner's entrance, while to the east is the covered royal entrance.
+~
+20 1073762436 1
+D1
+You see the Royal Entrance.
+~
+~
+0 0 2037
+D2
+You see the Commoner's Entrance.
+~
+~
+0 0 2035
+S
+#2037
+The Royal Entrance~
+   This is the Royal Entrance to the Temple of Lamman, through which the King
+comes to pay his respects.  The King only comes here once a year, and in
+keeping with the proletarian atmosphere of Lamman, anyone can use this
+entrance at any other time.  To the west lies the High Altar and from here
+covered steps lead down towards the Parade Ground.
+~
+20 8 0
+D3
+You see the High Altar.
+~
+~
+0 0 2036
+D5
+You see the Temple steps.
+~
+~
+0 0 2065
+S
+#2038
+Harbour Road~
+   You are standing at the corner of the market square to the north and
+west.  To the east, this slimy harbour road leaves the square and connect
+with the cleaner road bordering the palace.  To the south is the small shop
+of Minka the merchant.
+~
+20 0 1
+D0
+You see South-East Market Square.
+~
+~
+0 0 2009
+D1
+You see the Harbour Road.
+~
+~
+0 0 2046
+D2
+You see a small shop.
+~
+~
+0 0 2039
+D3
+You see Harbour Road.
+~
+~
+0 0 2040
+S
+#2039
+Minka's Specialty Shop~
+   A small whiff of spicy perfume barely masks the salty sea air of Lamman's
+harbour nearby.  The shop is dimly-lit by candle, and from glowing incense
+graciously lit by Minka.  The shop is stocked with all sorts of exotic goods
+and wares manufactured from far and away places on Archipelago.  Of the many
+items stocked here, you haven't the foggiest idea what they are, or do.  All
+you know is you just got to have them.  The shop exits north.
+~
+20 12 0
+D0
+You see Harbour Road.
+~
+~
+0 0 2038
+S
+#2040
+Harbour Road~
+To the north the vast bustling expanse of market square opens up before 
+you.  To the south lies the heavily guarded Royal Bank. The road continues
+both east and west.
+~
+20 0 1
+D0
+You see the southern end of Market Square.
+~
+~
+0 0 2004
+D1
+You see Harbour Road.
+~
+~
+0 0 2038
+D2
+You see the door to the Royal Bank of Lamman.
+~
+door bank~
+2 0 2042
+D3
+You see Harbour Road.
+~
+~
+0 0 2041
+S
+#2041
+Harbour Road~
+   Running alongside Lamman's great harbour, Harbour Road is the main artery
+between the uptown of the palace and temple and lowertown running alongside
+the quay: home to the dwarven quarter and the troll ghetto.  To the north,
+the grand Market Square extends before you.  A quaint, magical little shop
+borders the south side of the road.  Harbour Road runs to the east and west.
+~
+20 0 1
+D0
+You see the Market Square.
+~
+~
+0 0 2010
+D1
+You see Harbour Road.
+~
+~
+0 0 2040
+D3
+You see Harbour Road.
+~
+~
+0 0 2051
+S
+#2042
+Coutts' Royal Bank of Lamman~
+   The stately black marble floor and the gilded fixtures and ornaments makes
+the interior of this bank seem to exude wealth.  This is where citizens of
+Lamman can bank their hard won crowns.  To ensure the safety of the wealth of
+the citizenry, the King has posted two of his Royal Guard here.  A door on
+the western wall, leads to the bank manager's office.  An open arched doorway
+exits to the road to the north.
+~
+20 12 0
+D0
+The door leads out of the bank and onto Harbour Road.
+~
+door bank~
+2 0 2040
+D3
+~
+door~
+1 0 1876
+E
+sign till note~
+ 
+      -----------------------------------------------------------------
+     |  o                                                           o  |
+     |     =======================================================     |
+     |    |                                                       |    |
+     |    |     To make a transaction in the bank, use the        |    |
+     |    |     DEPOSIT and WITHDRAW commands, in conjunction     |    |
+     |    |     with the amount of either crowns, groats, or      |    |
+     |    |     pennies/coins you have on hand.                   |    |
+     |    |                                                       |    |
+     |    |     To see how much you have in your bank account,    |    |
+     |    |     use the BALANCE command.                          |    |
+     |    |                                                       |    |
+     |     =======================================================     |
+     |  o                                                           o  |
+      -----------------------------------------------------------------
+
+~
+S
+#2043
+An Odd Room to be a Gaol~
+   This strange little room seems out of place in the middle of the Lamman
+city goal.  The walls are smooth and polished.  The floor is constructed from
+sturdy planks.  Strangely, however, you feel as if you are being closely
+watched.  Someone may be lurking here in the shadows.  The only way out of
+this small room is the portal to the north and an odd trapdoor in the floor.
+~
+20 9 0
+D0
+You see the jail corridor extending northwards through the darkness.
+~
+~
+0 0 2074
+D5
+An odd little trapdoor is set into the floor.
+~
+trapdoor door trap~
+1 0 2044
+T
+2043 10
+You have an uneasy feeling, as if you were being watched.
+~
+~
+~
+S
+#2044
+The Thieves' Den~
+   Hey, a real thieves' den.  Its really dark in here, but you can see your
+guildmaster counting money at a large table, hey wait a minute!  Where has
+your wallet gone?  The trapdoor leads back up to the entrance.
+~
+20 8 0
+D4
+You see a hatchway.
+~
+trapdoor~
+1 0 2043
+S
+#2045
+The Red Bridge Over the River Ronnan~
+   This is a sturdy bridge built of redwood and stone.  Leaning against the
+thick stone wall of the bridge, you relax a little and view the picturesque
+bay to the south.  You see many ships of many sizes and shapes, many of which
+come from exotic locales.  From distant lands they sail to Lamman conveying
+valuable cargoes and information.  At the mouth of the bay, you see the Lamman
+Lighthouse; it is there to safely guide these ships into port.  Harbour Road
+runs east into Market Square, and over the bridge west toward the Quay.
+~
+20 0 1
+D1
+You see Harbour Road.
+~
+~
+0 0 2084
+D3
+You see the other end of the Red Bridge.
+~
+~
+0 0 2067
+S
+#2046
+Harbour Road~
+ The cobbled surface of the street seems covered in guano here.  All about
+the incessant cries of gulls echo off the surrounding buildings. To the 
+west you can also hear the bustle of market square and to the south you
+can see Fendle's Fish Market.
+~
+20 0 1
+D0
+The south end of the smith blocks the way north.
+~
+~
+0 0 0
+D1
+You see Palace Lane.
+~
+~
+0 0 2053
+D2
+You see Fabulous Fendle's Fish Market.
+~
+~
+0 0 1875
+D3
+You see Harbour Road.
+~
+~
+0 0 2038
+T
+2046 32
+You smell something rather fishy to the south.  Perhaps you should investigate?
+~
+~
+~
+S
+#2047
+The North Gate~
+   You are standing at Lamman's North Gate.  There are always a least two
+Cityguards on duty here enforcing the kings levies, and keeping the peace.
+Monastery Road runs north and south through the gate.  To the west, built in
+to the gateway is the Watch House.
+~
+20 0 1
+D2
+You see Monastery Road.
+~
+~
+0 0 2034
+D3
+You see the watch house.
+~
+~
+0 0 2049
+S
+#2048
+Ahab's End Row~
+   You nearly trip over a few loose cobblestones as you walk along Ahab's End
+Row here.  On the south side of the street, you see the back of the Lamman
+Public Library.  The row street continues on to the west and empties onto
+Monastery Road.
+~
+20 0 1
+D1
+You see the junction with Monastery Road.
+~
+~
+0 0 2034
+D3
+You see the end of Ahab's End Row.
+~
+~
+0 0 2022
+S
+#2049
+The Watch House~
+   The boot steps of the city watch echo off the cold slate flagstones that
+pave Lamman's northern gateway.  Occasionally, one of these stalwart keepers
+of the peace stop inside this small, cramped office and file a report.  Row
+upon row of pigeonholes cover the entire back wall, each overflowing with
+paperwork.  Despite the chaos and clutter, this building serves its function:
+as an administration center and occasionally an overflow gaol.
+~
+20 12 0
+D1
+You see the North Gate.
+~
+~
+0 0 2047
+T
+2049 299
+Someone exclaims 'Aha! Now I've caught you in the act!'
+ 
+Someone grabs you by the scruff of the neck and knocks you unconscious.
+ 
+~
+$n disappears in a mushroom cloud.
+~
+~
+S
+#2050
+Pauper Row~
+   Pauper Row runs between the massive bulk of the Temple of Lamman to the
+north, and the blacksmithy to the south.  To the west, you see and hear the
+commotion of Lamman's market square.  There is a small humble shop to the
+north with dirty windows, and peeling paint.  Its handpainted sign had faded
+long ago, but you can still barely make out some of the lettering.  Palace
+Lane and the parade ground lies to the east.
+~
+20 0 1
+D0
+You see the Disabled Miliitary Veterans Store.
+~
+~
+0 0 2024
+D1
+You see Palace Lane.
+~
+~
+0 0 2055
+D3
+You see North West Market Square.
+~
+~
+0 0 2007
+E
+sign handpainted lettering~
+It reads, Disabled Military Veteran's Store.~
+S
+#2051
+Harbour Road~
+   The flagstones of Harbour Road are disfigured by small pocks and nicks.
+The result of the salty sea water spraying up as waves crash against the
+stone breakers.  As you look south, you see the entire harbour before you
+hundreds of ships are anchored awaiting the following morn to set sail on
+their seabourn voyages.  The road leads on to the east past some rickety
+shops and west toward a red bridge.
+~
+20 0 1
+D1
+Harbour Road extends east past some weathered store fronts.
+~
+~
+0 0 2041
+D3
+Harbour Road leads west toward a red bridge.
+~
+~
+0 0 2084
+S
+#2052
+The Lamman City Post Office~
+      You are standing the the Lamman City Post Office. Stacks of mail lie
+awaiting collection. Several packages which have been opened by curious
+revenue officials lie against the wall. There is a large sign here.
+~
+20 20620 0
+D2
+You see Courtyard Lane.
+~
+~
+0 0 2096
+E
+poster sign~
+
+=============================================================================
+=       .---.        .----------- =  How to use Archipelago Postal Service  =
+=      /     \  __  /    ------   =         ~~~~~~~~~~~~~~~~~~~~~~          =
+=     / /     \(  )/    -----     = to send, type: MAIL <player name>       =
+=    //////   ' \/ `   ---        = to check if you have mail, type: CHECK  =
+=   //// / // :    : ---          = to receive your mail, type: RECEIVE     =
+=  // /   /  /`    '--            ===========================================
+= //          //..\\              =    Postage stamps cost 15 pennies.      =
+=        ====UU====UU====         =   Mail to Ponder and Kalliste is free.  =
+=            '//||\\`             ===========================================
+=              ''``               =  For more information, type: HELP MAIL  =
+=============================================================================
+~
+S
+#2053
+Palace Lane~
+   Extending far above you to the east lies the impressive stone wall
+that surrounds the palace.  The masonry is smooth and cool to the touch
+and you doubt you could even get a blade of grass between the blocks of
+stone.  The lane to the north turns west here and becomes somewhat wider
+leading off towards the harbour.
+~
+20 0 1
+D0
+~
+~
+0 0 2076
+D1
+The tall stone wall of the palace runs north and south.
+~
+~
+0 0 0
+D3
+You see Harbour Road.
+~
+~
+0 0 2046
+S
+#2054
+Palace Lane~
+   Palace Lane runs north and south here, bounded to the west by the back
+of small business.  To the east there is a small wrought iron gate that
+leads into the Palace grounds.
+~
+20 0 1
+D0
+You see Palace Lane.
+~
+~
+0 0 2055
+D2
+You see Palace Lane.
+~
+~
+0 0 2076
+D3
+The side of the smithy blocks the way west.
+~
+~
+0 0 0
+E
+gate~
+   A pretty gate of wrought iron stands before you.  The gate is decorated
+with ivy leaves and other ornaments.  Beyond the arched ivy-covered entry
+way are the palace gardens.  It seems tranquil and serene in there.  You
+hear the singing of birds and the rustling of leaves swaying in cool
+breezes.~
+S
+#2055
+Palace Lane~
+   A narrow, poorly maintained street to the west opens off of the grand
+Palace Lane to the south.  To the north, you can see smooth cobblestones that
+pave the Parade Ground.  To aid the traveler unfamilar with this part of town,
+a small polished map stone was embedded into the ground here.
+~
+20 0 1
+D0
+You see the Parade Ground.
+~
+~
+0 0 2056
+D1
+The tall stone wall of the palace gardens runs north and south.
+~
+~
+0 0 0
+D2
+You see Palace Lane.
+~
+~
+0 0 2054
+D3
+You see Pauper Row.
+~
+~
+0 0 2050
+E
+map stone block granite mapstone~
+MAP OF THE CITY OF LAMMAN (see 'legend' for details)
+                                         |
+                                       North
+                                   War  Gate          Arm  Bard Weap
+                                  Guild  |             +----+----+
+                                    |    |             |   The   | Magik  East
+         Coven            Ship------+----+   Temple----+-Parade--+--+--+--Gate--
+           |              Yard           |    |        |  Ground |     |
+       +---+---+-------+   |         Lib-+    | Thrift +----+----+    City
+       |   | Hotel     |   |             |    |   |    |              Gaol
+     Troll |      Orph-+   |    Inn-+----+----+---+----+
+    Ghetto |           |   | Mail | |   The   |        |
+       |   +--+   Arm2-+   +--+---+-+--Market-+-Sigur  +-- Palace
+  West |   |  |        |   Tegl     |  Square | Durrin |   Gardens
+--Gate-+-+ | Pig  Trona+       Bake-+----+----+ Smithy-+
+         | |  |    |   |            |    |    |        |
+         +-+--+----+---+-Red Bridge-+----+----+----+---+
+            The Quay   |          Herb Coutt Mink  Fish
+                     Harbor       Shop Bank  Shop  Market
+                     Master
+~
+E
+legend~
+Legend to the Map of the City of Lamman
+ ______________________________________________________________________________
+|                                        |                                     |
+| Inn   - The Warrior's Widow Inn        |  Arm2  - Stonehelm's Armour Shoppe  |
+| Magik - Yemor's Magikal Imporium       |  Fish  - Fabulous Fendle's Fish Mkt |
+| War   - Warriors Guild                 |  Mink  - Minka's Specialty Shop     |
+| Bank  - Coutts' Royal Bank of Lamman   |  Herb  - Tethra's Well              |
+| Mail  - The City of Lamman Post Office |  Tegl  - Tegl's Stable Yard         |
+| Ship  - Ahab's New-N-Used Boats        |  Thieves - Thieves Guild = ???      |
+| Thrift - Disabled Mil. Veteran's Shop  |  Bard  - The Storyteller's Circle   |
+| Trona - Trona's Workshop               |  Lib   - The Lamman Public Library  |
+| Sigur - Sigur the Armorsmith's Shop    |  Hotel - Schist Hotel               |
+| Durrin - Durrin the Blacksmith's Shop  |  Orph  - The Orphanage              |
+| Arm   - Hurgoods House of Armor        |  Pig   - The Black Pig Inn          |
+| Weap  - Jurt's Weapons of War          |  Coven - Nouveau Magicien Covenant  |
+| Bake  - Sardo's Golden Harvest Bakery  |  Temple - Temple of Small Gods      |
+|________________________________________|_____________________________________|
+~
+S
+#2056
+The Parade Ground~
+      You are standing in the Royal Parade Ground where the king inspects
+his troops and his royal guard. The Parade ground stretches north and east 
+from here.
+~
+20 0 1
+D0
+You see the Parade Ground.
+~
+~
+0 0 2057
+D1
+You see the Parade Ground.
+~
+~
+0 0 2059
+D2
+You see Palace Lane.
+~
+~
+0 0 2055
+S
+#2057
+The Parade Ground~
+      You are standing in the Royal Parade Ground where the king inspects
+his troops and his royal guard. The Parade ground stretches north, east
+and south from here. To the west lie the steps to the Royal entrance to the
+Temple of Lamman.
+~
+20 0 1
+D0
+You see the Parade Ground.
+~
+~
+0 0 2058
+D1
+You see the Parade Ground.
+~
+~
+0 0 2060
+D2
+You see the Parade Ground.
+~
+~
+0 0 2056
+D3
+The Temple Steps.
+~
+~
+0 0 2065
+S
+#2058
+The Parade Ground~
+      You are standing in the Royal Parade Ground where the king inspects
+his troops and royal guard. The Parade ground extends to the south and east 
+from here. To the north lies Hurgood's House of Armour.
+~
+20 0 1
+D0
+You see Hurgood's House of Armour.
+~
+~
+0 0 2012
+D1
+You see the Parade Ground.
+~
+~
+0 0 2061
+D2
+You see the Parade Ground.
+~
+~
+0 0 2057
+S
+#2059
+The Parade Ground~
+   A thick stone wall separates the parade ground from the palace gardens on
+the other side.  The masoned stones of the wall were white-washed with lime a
+long time ago, but has long since deteriorated with the passage of time. Lush
+green ivy now grow on the wall, their spindly tendrils anchored in place into
+minute cracks in the surface.%3  Looking closely, the cracks seem to form a
+small archway, with the contour meandering around the sharp edges of stones.%
+~
+20 0 1
+D0
+You see the Parade Ground.
+~
+~
+0 0 2060
+D1
+You see the Parade Ground.
+~
+~
+0 0 2062
+D2
+A stone in the palace garden wall looks particularly loose.
+~
+stone loose crack~
+1 0 4008
+D3
+You see the Parade Ground.
+~
+~
+0 0 2056
+E
+crack stone wall archway ivy~
+   You brush aside the thick ivy covering the wall and find an impossibly
+long and thick crack in the wall.  The crack seems to contour into a curved
+archway.  The stones bordering the portal edge are loose and seem pryable.~
+S
+#2060
+The Parade Ground~
+      You are standing in the Royal Parade Ground where the king inspects
+his troops and his royal guard. The Parade Ground stretches north, east, west
+and south from here.
+~
+20 0 1
+D0
+You see the Parade Ground.
+~
+~
+0 0 2061
+D1
+You see the Parade Ground.
+~
+~
+0 0 2063
+D2
+You see the Parade Ground.
+~
+~
+0 0 2059
+D3
+You see the Parade Ground.
+~
+~
+0 0 2057
+S
+#2061
+The Parade Ground~
+      You are standing in the Royal Parade Ground where the King inspects
+his troops and his royal guard. The Parade Ground stretches east, west and
+south from here. To the north there is a small two storey building from
+which you can hear the sound of gentle music.
+~
+20 0 1
+D0
+You see the entrance to the Bard's Guild.
+~
+~
+0 0 2089
+D1
+You see the Parade Ground.
+~
+~
+0 0 2064
+D2
+You see the Parade Ground.
+~
+~
+0 0 2060
+D3
+You see the Parade Ground.
+~
+~
+0 0 2058
+S
+#2062
+The Parade Ground~
+You are standing in the Royal Parade Ground where the King inspects his
+troops and royal guard.  The parade ground is also used for a variety of
+civic events, including the Lamman Fair.
+~
+20 0 1
+D0
+You see the Parade Ground.
+~
+~
+0 0 2063
+D1
+The tall stone wall of the palce runs roughly northeast and southwest.
+~
+~
+0 0 0
+D2
+The tall stone wall of the palace runs roughly northeast and southwest.
+~
+~
+0 0 0
+D3
+You see the Parade Ground.
+~
+~
+0 0 2059
+S
+#2063
+The Parade Ground~
+       You are standing in the Royal Parade Ground where the king inspects
+his troops and royal guard. The Parade Ground stretches west, north and
+south from here. Temple Avenue runs east from here.
+~
+20 0 1
+D0
+You see the Parade Ground.
+~
+~
+0 0 2064
+D1
+You see Temple Avenu~
+~
+0 0 2069
+D2
+You see the Parade Ground.
+~
+~
+0 0 2062
+D3
+You see the Parade Ground.
+~
+~
+0 0 2060
+S
+#2064
+The Parade Ground~
+   This is one corner of the royal parade ground where the king inspects
+his troops and royal guard.  The grass here is dry and withered brown from
+all that marching.  The parade ground stretches west and south from here.
+A small shop, housed in a stone building, lies to the north.  Glittering
+implements of war shine from behind the shop windows.
+~
+20 0 1
+D0
+You see Jurt's Weapons of War.
+~
+~
+0 0 2013
+D2
+You see the Parade Ground.
+~
+~
+0 0 2063
+D3
+You see the Parade Ground.
+~
+~
+0 0 2061
+S
+#2065
+The Temple Steps~
+   Brightly polished marble steps lead up to the magnificent Temple of Lamman.
+Many citizens of this fair city traipse up this rather grandiose staircase to
+pay homage to the various deities that make their puny mortal lives worth
+living.  To the east, a fine display of military might is no doubt taking
+place out on the parade ground.
+~
+20 0 1
+D1
+You see the Parade Ground.
+~
+~
+0 0 2057
+D4
+You see the Royal Entrance.
+~
+~
+0 0 2037
+S
+#2066
+Sardo's Golden Harvest Bakery~
+   Waves of moist heat billow over you from the back of the bakery where three
+brick bread ovens are radiating heat.  These huge ovens are the source of
+Sardo's wealth and all the bread to be commercially found in Lamman.  You 
+look about this uncomfortably hot bakery, all around the room are delicious
+looking loaves of freshly baked bread slowly cooling on shelves.
+~
+20 12 0
+D1
+You see the Market Square.
+~
+~
+0 0 2010
+S
+#2067
+The Red Bridge Over the River Ronnan~
+   You travel across the Red Bridge aptly named for the color of the wood used
+in its construction; which to no great surprise, is redwood.  The bridge spans
+the River Ronnan just before it drains into the picturesque bay to the south.
+You hear the cries of seagulls in the air and the shouts of rowdy dockworkers
+unloading ships nearby.  The bridge extends east further across the river to
+Market Square.  To the west, is the Quay.  A small rosewood hatch has been set
+in the roadbed of the bridge.
+~
+20 16777216 1
+D1
+You see the other end of the Red Bridge.
+~
+~
+0 0 2045
+D3
+You see the Quay
+~
+~
+0 0 2068
+S
+#2068
+The Quay~
+   This is the eastern end of the city of Lamman's Quay.  To the south lies
+the office of the harbour master, which is the place to negotiate passage on
+a ship.  The Quay extends west from here.  You have never seen so many exotic
+looking boats and people in one place.  The harbour area is notoriously rough,
+the city watch usually maintains only a token presence to quell major riots.
+To aid the one unfamiliar with this part of the city, a beautiful granite map
+stone has been embedded into the ground here.  If you're wandering around here,
+you had better watch your back, and not to get lost.  Lime street runs north
+from here into the dwarven section of town.
+~
+20 0 1
+D0
+You see Lime Street.
+~
+~
+0 0 1862
+D1
+You see the Red Bridge.
+~
+~
+0 0 2067
+D2
+You see the Harbour Master's Office.
+~
+~
+0 0 2097
+D3
+You see the Quay.
+~
+~
+0 0 2085
+E
+map stone block granite mapstone~
+MAP OF THE CITY OF LAMMAN (see 'legend' for details)
+                                         |
+                                       North
+                                   War  Gate          Arm  Bard Weap
+                                  Guild  |             +----+----+
+                                    |    |             |   The   | Magik  East
+         Coven            Ship------+----+   Temple----+-Parade--+--+--+--Gate--
+           |              Yard           |    |        |  Ground |     |
+       +---+---+-------+   |         Lib-+    | Thrift +----+----+    City
+       |   | Hotel     |   |             |    |   |    |              Gaol
+     Troll |      Orph-+   |    Inn-+----+----+---+----+
+    Ghetto |           |   | Mail | |   The   |        |
+       |   +--+   Arm2-+   +--+---+-+--Market-+-Sigur  +-- Palace
+  West |   |  |        |   Tegl     |  Square | Durrin |   Gardens
+--Gate-+-+ | Pig  Trona+       Bake-+----+----+ Smithy-+
+         | |  |    |   |            |    |    |        |
+         +-+--+----+---+-Red Bridge-+----+----+----+---+
+            The Quay   |          Herb Coutt Mink  Fish
+                     Harbor       Shop Bank  Shop  Market
+                     Master
+~
+E
+legend~
+Legend to the Map of the City of Lamman
+ ______________________________________________________________________________
+|                                        |                                     |
+| Inn   - The Warrior's Widow Inn        |  Arm2  - Stonehelm's Armour Shoppe  |
+| Magik - Yemor's Magikal Imporium       |  Fish  - Fabulous Fendle's Fish Mkt |
+| War   - Warriors Guild                 |  Mink  - Minka's Specialty Shop     |
+| Bank  - Coutts' Royal Bank of Lamman   |  Herb  - Tethra's Well              |
+| Mail  - The City of Lamman Post Office |  Tegl  - Tegl's Stable Yard         |
+| Ship  - Ahab's New-N-Used Boats        |  Thieves - Thieves Guild = ???      |
+| Thrift - Disabled Mil. Veteran's Shop  |  Bard  - The Storyteller's Circle   |
+| Trona - Trona's Workshop               |  Lib   - The Lamman Public Library  |
+| Sigur - Sigur the Armorsmith's Shop    |  Hotel - Schist Hotel               |
+| Durrin - Durrin the Blacksmith's Shop  |  Orph  - The Orphanage              |
+| Arm   - Hurgoods House of Armor        |  Pig   - The Black Pig Inn          |
+| Weap  - Jurt's Weapons of War          |  Coven - Nouveau Magicien Covenant  |
+| Bake  - Sardo's Golden Harvest Bakery  |  Temple - Temple of Small Gods      |
+|________________________________________|_____________________________________|
+~
+S
+#2069
+Temple Avenue~
+      Temple Lane runs due east from the parade ground. Your attention is
+caught by the sudden smell of brimstone and the odd flashes of light
+emanating from the small shop to the north. Sure enough Yemor's Magikal
+Imporium lies to the north.
+~
+20 0 1
+D0
+You see Yemor's Magikal Imporium.
+~
+~
+0 0 2019
+D1
+You see Temple Avenue.
+~
+~
+0 0 2070
+D3
+You see the parade ground.
+~
+~
+0 0 2063
+S
+#2070
+Temple Avenue~
+      You are standing in Temple Avenue, to the south you can see the 
+main Watch House and City Gaol. To the east lies the east gate. Temple 
+Avenues runs west from here.
+~
+20 0 1
+D1
+You see the East Gate.
+~
+~
+0 0 2071
+D2
+You see The City Watch Headquarters.
+~
+~
+0 0 2072
+D3
+You see Temple Avenue
+~
+~
+0 0 2069
+S
+#2071
+The East Gate~
+      You are standing at the East Gate of the city of Lamman. There
+are always at least two Cityguards on duty here enforcing the Kings's
+levies and keeping the peace. The Great Eastern Road starts just outside
+the gate to the east, Temple Avenue runs west.
+~
+20 0 1
+D3
+You see Temple Avenue
+~
+~
+0 0 2070
+S
+#2072
+The City Watch House~
+   You are standing in the headquarters of Lamman's City Watch.  A sturdy door
+to the south leads to the City Gaol.  You notice the door itself has no lock.
+Normally this would be an indication of lax security, however, here the locks
+and bars are mental and enforced by the ample Corporal Carrot.  He'd rather
+like it if someone tried to escape, as he would get to arrest them all over
+again.
+~
+20 8 0
+D0
+You see Temple Avenue.
+~
+~
+0 0 2070
+D2
+You see the entrance to the gaol.
+~
+door sturdy~
+1 0 2073
+S
+#2073
+The Entrance to the Gaol~
+      You are standing at the entrance to the city gaol. This is where
+most of the city's undesirable elements end up, usually by the hand of
+Corporal Carrot. You notice a think chalk line across the doorway and a 
+sign hanging next to the door.
+~
+20 12 0
+D0
+You see the Watch House.
+~
+door sturdy~
+1 0 2072
+D5
+You see the gaol.
+~
+~
+0 0 2074
+E
+sign~
+It reads:
+
+
+        Any prisoner crossing this line will be liable to re-arrest
+        by me - Cpl. Carrot, City Watch.
+
+                                        Yours Cordially, 
+
+                                         Carrot (Cpl. City Watch).
+
+~
+S
+#2074
+The Gaol~
+      You are standing in the Lamman city gaol. A long corridor with cells
+to either side leads north. You notice that most of the cells are open and
+several inmates are wandering about.
+~
+20 9 0
+D0
+You see a corridor.
+~
+~
+0 0 2075
+D2
+You see a portal that looks suspiciously like an entrance to a guild hall.
+~
+~
+0 0 2043
+D4
+You see the entrance to the gaol.
+~
+~
+0 0 2073
+S
+#2075
+A Corridor in the Gaol~
+   It is dark and dingy in here.  Petty thieves and criminals compete
+with rats and roaches for what little space is available in the gaol.
+An awful stench of rot and decay permeates throughout the gaol.  The
+corridor extends north and south.
+~
+20 9 0
+D0
+You see a corridor.
+~
+~
+0 0 2078
+D2
+~
+~
+0 0 2074
+D3
+You see a prison cell.
+~
+cell door~
+1 0 2077
+S
+#2076
+Palace Lane~
+   Palace Lane runs north to south here past the wall of the Palace Garden.
+The scent of fresh, fragrant flowers wafts over the garden walls.  Harbour
+Road lies just to the south of here.  The busy back entrance to a small, but
+booming business lies to the west.
+~
+20 0 1
+D0
+You see Palace Lane.
+~
+~
+0 0 2054
+D1
+The tall stone wall of the palace gardens runs north and south.
+~
+~
+0 0 0
+D2
+~
+~
+0 0 2053
+D3
+~
+~
+0 0 2083
+S
+#2077
+A Prison Cell~
+      They have gone out of their way to make this place uncomfortable.
+There is a foul smelling drain in the corner - clearly used as a toilet
+and nowhere but the floor to sit or lie down.
+~
+20 8 0
+D1
+You see the corridor.
+~
+cell door~
+1 0 2075
+S
+#2078
+A Corridor in the Gaol~
+   It is dark and damp here underground.  The floors are covered with a
+putrid slime which emanates a sickening stench. To the north, east, and
+west are jail cells secured behind blackend iron bars.  This corridor
+extends south.
+~
+20 9 0
+D0
+You see a prison cell
+~
+cell door~
+1 0 2079
+D1
+You see a prison cell.
+~
+cell door~
+1 0 2080
+D2
+You see the corridor.
+~
+~
+0 0 2075
+D3
+You see a prison cell.
+~
+cell door~
+1 0 2081
+S
+#2079
+A Prison Cell~
+      They have gone out of their way to make this place uncomfortable.
+There is a foul smelling drain in the corner - clearly used as a toilet
+and nowhere but the floor to sit or lie down.
+~
+20 9 0
+D2
+You see the corridor.
+~
+cell door~
+1 0 2078
+S
+#2080
+A Prison Cell~
+      They have gone out of their way to make this place uncomfortable.
+There is a foul smelling drain in the corner - clearly used as a toilet
+and nowhere but the floor to sit or lie down.
+~
+20 8 0
+D3
+You see the corridor.
+~
+cell door~
+1 0 2078
+S
+#2081
+A Prison Cell~
+      They have gone out of their way to make this place uncomfortable.
+There is a foul smelling drain in the corner - clearly used as a toilet
+and nowhere but the floor to sit or lie down.
+~
+20 9 0
+D1
+You see the corridor.
+~
+cell door~
+1 0 2078
+S
+#2082
+On the River Ronnan~
+     The river Ronnan is wide and sluggish here. Just to the south it
+flows into the harbour.  You can see steps leading up to Harbour Road and
+hear the sound of the gulls along the wharf.
+~
+20 0 6
+D0
+You see the river.
+~
+~
+0 0 3117
+D2
+You look upstream and see the River Ronnan.
+~
+~
+0 0 1533
+S
+#2083
+Durrin's Weapon Reapair Shop~
+   Everyone knows that dwarves make the best blacksmiths, something to do with
+surface area to volume ratios or some such thing.  To be sure, in Lamman the
+blacksmiths are all dwarves.  No one is sure exactly how this came to be, but
+some time ago a few trolls tried to set up a rival smithy in the heart of the
+Troll Quarter.  Rumor has it there was an accident one night, and they were
+found melted down in their own forge the next morning.
+   Durrin can usually be found here in his shop.  As the official blacksmith
+of Lamman, he turns a tidy profit repairing weapons and crafting arms for the
+King.  When not too busy, he makes a bit of spare coin on the side repairing
+weapons for adventurers.
+~
+20 8 0
+D0
+You see Sigur's smithy.
+~
+~
+0 0 2011
+D1
+~
+~
+0 0 2076
+S
+#2084
+Harbour Road~
+   The aptly named Harbour Road runs alongside the busy harbour front.  As
+you look south across the picturesque bay, you see ships of all sizes riding
+at anchor in the calm waters.  To the west, you see the famous Red Bridge of
+Lamman.  Harbour Road continues on to the east.
+~
+20 4 1
+D1
+You see Harbour Road.
+~
+~
+0 0 2051
+D3
+You see the Red Bridge.
+~
+~
+0 0 2045
+S
+#2085
+The Quay~
+      You are standing on the waterfront. The Quay extend east and west 
+from here. To the north you can see a small workshop. To the south you
+can see a gangplank that might lead to a ship.
+~
+20 0 1
+D0
+You see Trona's Workshop.
+~
+~
+0 0 1874
+D1
+You see the Quay.
+~
+~
+0 0 2068
+D2
+You see a gangplank.
+~
+~
+0 0 2098
+D3
+You see the Quay.
+~
+~
+0 0 2086
+S
+#2086
+The Quay~
+      The Lamman City Quay extends east and west from here. To the north
+you can see the Black Pig Inn the most notorious brothel in Lamman. The
+hangout of ruffneck sailors, thugs and spies, the Black Pig is the spiritual
+home of the debauched and depraved.
+~
+20 0 1
+D0
+You see the tavern door.
+~
+tavern door~
+1 0 1800
+D1
+You see the Quay.
+~
+~
+0 0 2085
+D2
+~
+~
+0 0 1884
+D3
+You see the Quay.
+~
+~
+0 0 2087
+S
+#2087
+The Quay~
+   North from here Wharf Lane runs between a large warehouse and the Black
+Pig Inn, the rowdiest tavern in all Lamman.  You can see several seedy
+looking characters hanging about in the lane, it would probably not be
+prudent to venture in there alone or unprepared.  The Quay extends west and
+east from here.
+~
+20 0 1
+D0
+You see Wharf Lane.
+~
+~
+0 0 1822
+D1
+You see the Quay.
+~
+~
+0 0 2086
+D3
+You see the Quay.
+~
+~
+0 0 1891
+S
+#2088
+The Quay~
+   You are standing at the western end of the Lamman City Quay.  To the north
+you can see the Great Western Road which leads west to the West gate and
+ultimately to parts unknown.  To the south you can see another berth for a
+ship and to the west you can see Winkle Lane.  A small granite map stone has
+been embedded into the ground here.
+~
+20 0 1
+D0
+You see the Great Western Road.
+~
+~
+0 0 2091
+D1
+You see the Quay.
+~
+~
+0 0 1891
+D2
+You see a gangplank.
+~
+~
+0 0 2099
+E
+map stone block mapstone granite~
+MAP OF THE CITY OF LAMMAN (see 'legend' for details)
+                                         |
+                                       North
+                                   War  Gate          Arm  Bard Weap
+                                  Guild  |             +----+----+
+                                    |    |             |   The   | Magik  East
+         Coven            Ship------+----+   Temple----+-Parade--+--+--+--Gate--
+           |              Yard           |    |        |  Ground |     |
+       +---+---+-------+   |         Lib-+    | Thrift +----+----+    City
+       |   | Hotel     |   |             |    |   |    |              Gaol
+     Troll |      Orph-+   |    Inn-+----+----+---+----+
+    Ghetto |           |   | Mail | |   The   |        |
+       |   +--+   Arm2-+   +--+---+-+--Market-+-Sigur  +-- Palace
+  West |   |  |        |   Tegl     |  Square | Durrin |   Gardens
+--Gate-+-+ | Pig  Trona+       Bake-+----+----+ Smithy-+
+         | |  |    |   |            |    |    |        |
+         +-+--+----+---+-Red Bridge-+----+----+----+---+
+            The Quay   |          Herb Coutt Mink  Fish
+                     Harbor       Shop Bank  Shop  Market
+                     Master
+~
+E
+legend~
+Legend to the Map of the City of Lamman
+ ______________________________________________________________________________
+|                                        |                                     |
+| Inn   - The Warrior's Widow Inn        |  Arm2  - Stonehelm's Armour Shoppe  |
+| Magik - Yemor's Magikal Imporium       |  Fish  - Fabulous Fendle's Fish Mkt |
+| War   - Warriors Guild                 |  Mink  - Minka's Specialty Shop     |
+| Bank  - Coutts' Royal Bank of Lamman   |  Herb  - Tethra's Well              |
+| Mail  - The City of Lamman Post Office |  Tegl  - Tegl's Stable Yard         |
+| Ship  - Ahab's New-N-Used Boats        |  Thieves - Thieves Guild = ???      |
+| Thrift - Disabled Mil. Veteran's Shop  |  Bard  - The Storyteller's Circle   |
+| Trona - Trona's Workshop               |  Lib   - The Lamman Public Library  |
+| Sigur - Sigur the Armorsmith's Shop    |  Hotel - Schist Hotel               |
+| Durrin - Durrin the Blacksmith's Shop  |  Orph  - The Orphanage              |
+| Arm   - Hurgoods House of Armor        |  Pig   - The Black Pig Inn          |
+| Weap  - Jurt's Weapons of War          |  Coven - Nouveau Magicien Covenant  |
+| Bake  - Sardo's Golden Harvest Bakery  |  Temple - Temple of Small Gods      |
+|________________________________________|_____________________________________|
+~
+S
+#2089
+The Storyteller's Circle~
+      You are standing in the entrance to the Bard's Guild.  Until recently
+The Bards Guild was retained exclusively by the King. Now, however, they 
+are free to give lessons to one and all.
+~
+20 8 0
+D2
+You see the Parade Ground.
+~
+~
+0 0 2061
+D4
+You see the Music Room.
+~
+~
+0 0 2090
+S
+#2090
+The Music Room~
+      All around you, you can see musical instrument of all shapes and 
+sizes.  The master bard is standing in the corner restringing an elderly
+lute. He stares intently at the strings, seeming to caress them with his 
+gaze. He doesn't seem to have noticed you, perhaps you should cough or
+something.
+~
+20 12 0
+D5
+You see the Entrance to the Bard's Guild.
+~
+~
+0 0 2089
+S
+#2091
+The Great Western Road~
+      This is the start of the Great Western Road. To the west lies the
+West Gate of the City of Lamman and beyond that miles of desolate waste
+land, a haven for bandits, pirates and criminals of every discription.
+To the south lies the relative safety of the Lamman City Quay.
+~
+20 0 1
+D2
+You see the Quay.
+~
+~
+0 0 2088
+D3
+You see the Great Western Road.
+~
+~
+0 0 2092
+S
+#2092
+The Great Western Road~
+    The Great Western Road runs east-west here. To the south you can see the
+western outpost of the city watch, the building seems to be more neglected
+and run down than the other watch houses. To the north a road leads into
+the troll ghetto.
+~
+20 0 1
+D0
+You see the entrance to the Troll Ghetto.
+~
+~
+0 0 1837
+D1
+You see The Great Western Road.
+~
+~
+0 0 2091
+D2
+You see the Watch House.
+~
+~
+0 0 2094
+D3
+You see the West Gate.
+~
+~
+0 0 2093
+S
+#2093
+The West Gate~
+      You are standing at the west gate of the City of Lamman. To the
+west the road extends into a bleak wilderness and it there are many
+leagues of bandit infested territory between here and the next town.
+The King would love to police the area, but it is just too big. So
+beyond these gates you are on your own.
+~
+20 0 1
+D1
+You see The Great Western Road.
+~
+~
+0 0 2092
+#2094
+The Western Watch House~
+      This watch house is not as big as the others, nor anywhere like
+as tidy. This has a lot to do with who is in charge here, namely, Lance
+Corporal Nobbs. Nobbs is not very houseproud, but at least the place is 
+free of vermin, I wonder why?
+~
+20 8 0
+D0
+You see the Great Western Road.
+~
+~
+0 0 2092
+S
+#2096
+Courtyard Lane~
+   Your ears are filled with the resounding echoes of the clomping of horse
+hooves and the stomping of adventurers' boots as you move along this narrow,
+high-walled lane.  Contributing to the reverberations is the important
+looking marble facade of the Royal Post Office of Lamman, the entrance to
+which can be gained by going north.  Courtyard Lane continues to the east
+toward the Market Square and west to the River Ronnan.
+~
+20 0 1
+D0
+You see the Royal Post Office of Lamman.
+~
+~
+0 0 2052
+D1
+You see Courtyard Lane.
+~
+~
+0 0 2020
+D3
+You see the end of Courtyard Lane.
+~
+~
+0 0 2021
+S
+#2097
+The Harbour Master's Office~
+      You are standing in the Harbour Master's office. The Harbour Master is 
+overworked and drinks a bit too much, but he is the man to talk to is you need
+to catch a boat to anywhere.
+~
+20 140 0
+D0
+You see the Quay.
+~
+~
+0 0 2068
+S
+#2098
+A Gangplank~
+   The rickety woden ganplank sways alarmingly as you step on to it. The
+sailors you can see dashing about seem not to notice however.  You can 
+return north to the safety of the quay or continue on southward onto 
+the boat.
+~
+20 4 1
+D0
+You see the quay.
+~
+~
+0 0 2085
+S
+#2099
+A Gangplank~
+   You are standing on a Gangplank.  Hopefully one day, a captain will be
+found brave enough to risk his ship to sail across the ocean to the fabled
+land of Zanzibar.  Unfortunately as of now, no captain has been persuaded
+to take the dangerous voyage.  Maybe someday...  The only choice you have
+is to return north, back to the quay.
+~
+20 0 1
+D0
+You see the quay.
+~
+~
+0 0 2088
+S
+#99999
+$~

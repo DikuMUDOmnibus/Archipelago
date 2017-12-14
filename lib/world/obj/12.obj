@@ -1,0 +1,808 @@
+#1210 3
+board imp stone slab~
+the imp board~
+A strange stone slab is lying here with odd scratching on it.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+500 0 0 0 0 0
+E
+board stone slab~
+   This is a slab of smooth onyx.  It is incredibly large and due to its
+weight, has sunken deep into the ground.  Apparently some strange markings
+have been etched on to its surface.
+~
+#1211 3
+cape night~
+a night cape~
+A dark cape, perfect for lurking in shadows, is lying here.~
+~
+11 0 1029 0
+0 0 0 0
+0 0 0 0
+50 7500 750 0 0 0
+E
+cape night~
+   This cape has been fashioned from a heavy woolen fabric and lined with
+a rich maroon silk.  A golden chain secures the cape around the wearer's
+neck.  The night cape is dark and billowy, the perfect thing to wear when
+lurking at midnight or out stalking.~
+A
+40 -5
+#1212 3
+bib~
+a bib~
+A small bib is lying here.~
+~
+11 0 5 0
+0 0 0 0
+0 0 0 0
+10 0 0 0 0 0
+#1213 3
+statue arg~
+a statue of Arg~
+A marble statue of Arg is here.~
+~
+28 65 0 0
+0 0 0 0
+0 0 0 0
+800 800000 8000 0 0 20
+E
+arg statue~
+Boy is it ugly.
+~
+#1214 3
+tunic blue~
+a blue tunic~
+A simple blue tunic is lying here.~
+~
+11 0 9 0
+0 0 0 0
+0 4 0 0
+50 100 10 0 0 0
+#1215 3
+tunic leather black~
+a black leather tunic~
+A black leather tunic is lying here.~
+~
+9 0 9 0
+13 1 0 0
+0 0 0 0
+120 4300 450 0 0 0
+E
+tunic leather black~
+   Three strips of leather, dyed balck, have been worked together to make a
+stout, sleeveless tunic.  It looks quite sinister and more than adequate
+protection in a street brawl.~
+#1216 3
+lamb haunch roast~
+a haunch of roast lamb~
+A thick haunch of roast lamb lies here getting dirty.~
+The lamb is delicious.
+~
+19 4097 16385 0
+6 0 0 0
+0 0 0 0
+100 10 5 0 0 0
+E
+lamb roast meat~
+The lamb is cooked perfectly.  Your own mother couldn't have produced
+a more perfectly succulent joint of meat.
+~
+#1217 3
+ball light~
+a ball of light~
+A light ball lies here.~
+~
+1 4097 16385 0
+0 0 20 0
+0 6 0 0
+10 10 5 0 0 0
+E
+ball~
+It seems to hover in the air.
+~
+#1218 3
+mail paper letter note~
+a piece of mail~
+Someone has left a piece of mail here.~
+~
+16 0 16385 0
+0 0 0 0
+0 0 0 0
+10 10 5 0 0 0
+#1219 3
+mask~
+a white partial face mask~
+A dangerous looking dummy object.
+~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+100 10000 10000 0 0 0
+#1220 3
+portal mystical~
+a mystical portal~
+An eerie mystical portal floats in mid-air.~
+$$n steps into a mystical portal and vanishes.
+~
+15 0 0 0
+0 0 0 0
+0 1 0 0
+100 10000 10000 0 0 0
+#1221 3
+vest dwarven leather~
+a dwarven leather vest~
+A finely made leather vest is lying here.~
+~
+9 0 9 0
+13 1 0 0
+0 4 0 0
+20 4100 410 0 0 0
+#1222 3
+pen quill~
+a quill pen~
+A quill pen lies here dripping ink.~
+~
+21 6 16385 0
+0 0 0 0
+0 0 0 0
+5 10 10 0 0 0
+#1223 3
+cloak mages embroidered~
+an embroidered mages cloak~
+A cloak covered with sigils and signs lies here.~
+~
+11 0 0 0
+0 0 0 0
+0 0 0 0
+100 10000 10000 0 0 0
+#1224 3
+bag mailbag mail~
+a bag of mail~
+A bag of mail lies here.~
+(null)~
+15 66 524289 0
+1000 5 0 0
+0 0 0 0
+30 100000 1000 0 0 20
+#1225 3
+basin pearl oyster shell~
+a pearl oyster shell basin~
+The pearl half shell of an enormous oyster rests here, filled with clear water.~
+~
+23 12352 0 0
+9999999 99999999 15 0
+0 2 1 0
+10000 10000 10000 0 0 0
+E
+basin pearl oyster shell~
+  The delicately scalloped oyster shell is a beautious thing to gaze upon.
+The shell seems to be made entirely of a soft pink mother-of-pearl and
+reflects perfectly your image.  The oyster shell is filled nearly to the
+brim with crystal clear water that is pleasantly cool to your touch.
+~
+#1226 3
+crutches flash~
+some flash looking crutches~
+A set of spiffy looking crutches lies here gleaming.~
+~
+11 2 257 0
+0 0 0 0
+0 0 10 0
+100 10000 10000 0 0 0
+#1227 3
+board building proposals~
+a building proposal board~
+A board is here for posting building proposals.~
+~
+13 2 0 0
+0 0 0 0
+0 0 0 0
+100000 10000 10000 0 0 0
+E
+board~
+If you see this message, the board is not working.  Make sure you are
+using the command 'LOOK BOARD', instead of 'examine board'.~
+#1228 3
+wrinkle fabric time~
+a wrinkle in time~
+~
+~
+15 1048576 0 0
+200000 5 0 0
+0 0 0 0
+100000 10000 10000 0 0 0
+#1229 3
+implement torture iron maiden~
+an iron maiden~
+A sinister implement of torture rests in the center of the floor.~
+~
+15 1048576 1 0
+200000 37 -1 1217
+-1 1 0 0
+100000 10000 10000 0 0 0
+E
+implement torture iron maiden coffin~
+   A solid iron coffin lies on the floor in the center of the room.  Forged
+out of pitch black metal, its age is plainly apparent in the many rusty
+stains marring the smooth surface.  Made by specification to fit any would
+be offenders it represents the final solution to any who have strayed beyond
+the boundaries of law.  The Iron Maiden awaits, her hinged door inviting all
+comers to experience the very limits of pain and pleasure, the horrors of
+the flesh and the teasings of the soul.~
+#1230 3
+cart small red~
+a small red cart~
+A dinky little red cart has been left here.~
+~
+15 3145793 0 0
+60000 1 -1 1216
+0 5 0 0
+1000 10000 10000 0 0 20
+#1231 3
+carrot~
+a carrot~
+A long, orange carrot has recently been left here.~
+The carrot is quite crunchy and tastes good. *CHOMP* *CHOMP*
+~
+19 143360 278529 0
+6 3 8 0
+0 3 0 0
+10 100 10 0 0 0
+E
+carrot~
+   Carrots are crunchy, orange-red roots that are quite tasty to eat.  This
+particular carrot is elegantly tapered to a fine point and smells very much
+like a delicious snack.  On the top of the carrot, the part of the root that
+would be above ground, are frilly, green leaves.~
+A
+18 3
+#1232 3
+apron black leather~
+a black leather apron~
+A black leather apron is lying here.~
+~
+9 0 3081 0
+12 1 0 0
+0 0 0 0
+60 3900 390 0 0 0
+#1233 3
+twinkie cake~
+a twinkie~
+A dangerous looking twinkie lies here.~
+Yum!!!
+~
+19 18 0 0
+1 0 0 0
+0 0 0 0
+100 10000 10000 0 0 0
+#1234 3
+bottle glass~
+a small glass bottle~
+You see a finely shaped small glass bottle.~
+~
+15 1179648 0 0
+60000 21 -1 1213
+0 4 0 0
+10 10000 10000 0 0 0
+#1235 3
+coat small red~
+a small red coat~
+A small red coat lies here.~
+~
+9 0 1025 0
+4 0 0 0
+0 5 0 0
+100 10000 10000 0 0 0
+#1236 3
+fez hat felt red~
+a tiny red felt hat~
+A tiny red felt fez lies here cumpled.~
+~
+9 0 17 0
+3 0 0 0
+0 5 0 0
+100 10000 10000 0 0 0
+#1237 3
+bone gaspode's ~
+Gaspode's bone~
+A disgusting bone is here half covered in rotting chewed meat.~
+~
+5 131074 8193 0
+0 1 1 1
+10 0 0 0
+50 100 100 0 0 0
+E
+bone~
+   The bone is gnawed with large teethmarks and is slick with dog saliva.  It
+is repulsive and disgusting, but oddly reassuring.  You are certain that this
+is Gaspode's bone.~
+A
+19 1
+#1238 3
+opal ring fire~
+a fire opal ring~
+A fire opal set in a gold ring burns with inner light.~
+~
+11 65 3 0
+0 0 0 0
+0 1 200 0
+100 10000 10000 0 0 20
+#1239 3
+key future~
+the key to your future~
+The key to your future has suddenly appeared!~
+~
+18 1 1 0
+1239 0 0 0
+-1 4 10 0
+10 10 10 0 0 0
+E
+key future~
+   It is a key...~
+#1240 3
+sack coarse woven bulky genericobj~
+a sack~
+A bulky coarse woven sack lies here, probably concealing a few things.~
+~
+15 4194304 16385 0
+350 1 -1 0
+0 0 0 0
+50 3000 100 0 0 0
+E
+sack coarse woven bulky genericobj~
+   The sack was coarse woven from hemp fibers.  The sack looks plain and
+utilitarian.  It can hold a few things.~
+#1241 3
+board meeting immortal~
+the meeting board~
+Floating above the floor is the meeting board.~
+~
+13 2 0 0
+0 0 0 0
+0 0 0 0
+100 10000 10000 0 0 0
+E
+board meeting~
+If you can read this, you should know better than that by now. *poke*
+Drop the board and LOOK at the board.
+~
+#1242 3
+fish-n-chips fish chips food chip~
+some fish-n-chips~
+A small basketfull of fish and chips has been left here waiting to be eaten.~
+The fried fish was hot and cripsy, the chips were golden brown and crunchy.
+~
+19 8192 1 0
+10 0 0 0
+0 0 0 5
+8 70 10 0 0 0
+E
+fish chips food chip~
+   Fresh fish was delicately seasoned, dipped in egg and flour batter, and
+fried to a golden brown.  Hearty potatoes were sliced thick and fried to
+perfection.  There is a generous amount of fish and chips here for everybody
+to partake in, that is if you do not mind sharing this delectable treat.
+~
+#1243 3
+vest~
+a quilted vest~
+A quilted vest lies forgotten on the ground here.~
+~
+9 0 9 0
+10 0 0 0
+1 0 0 0
+60 200 10000 0 0 0
+#1244 3
+mitts pair mitt oven~
+a pair of oven mitts~
+A quilted pair of oven mitts lie discarded here on the ground.~
+~
+9 0 129 0
+8 0 0 0
+1 0 0 0
+10 460 160 0 0 0
+E
+mitts pair mitt oven~
+   The oven mitts are made from a heavy quilted fabric.  They seem to be
+thick and you suspect they could protect one's hand while handling warm
+objects.~
+#1245 3
+box insulated~
+an insulated box~
+An insulated box is here and is hopefully keeping its contents warm.~
+~
+15 0 2049 0
+300 5 -1 0
+0 0 0 0
+150 15000 10000 0 0 0
+E
+box insulated~
+   The box looks insulated by some heavy quilted fabric.  Stamped on front
+of the box, in big gold letters are the words: ``Rogan's Manky Meat Pies''.
+Attached to the sides of the insulated box are two leather straps that can
+be looped around a person's waist, making the box easier to carry.  The top
+of the box looks as if it can easily be opened.~
+#1246 3
+shoes shoe leather pair genericobj~
+a pair of leather shoes~
+A pair of leather shoes lie willy-nilly on the floor.~
+~
+11 0 65 0
+0 0 0 0
+0 3 0 0
+150 2400 240 0 0 0
+E
+shoes shoe leather~
+   The leather used in this pair of shoes is soft and thick.  The shoes fit
+comfortably on your feet and are secured with leather laces.~
+A
+29 -12
+#1247 3
+pants pair dirty~
+a dirty pair of pants~
+A dirty pair of pants lie discarded on the ground here.~
+~
+11 0 33 0
+0 0 0 0
+3 0 0 0
+80 100 10 0 0 0
+E
+pants pair dirty~
+   This simple pair of cloth pants are deeply grass stained and covered with
+caked mud.  They are not attractive.~
+A
+29 -5
+#1248 3
+shield flimsy~
+a flimsy shield~
+A flimsy shield lies here.~
+~
+9 0 513 0
+1 0 0 0
+0 0 0 0
+50 50 0 0 0 0
+E
+shield flimsy~
+      This shield is made from a thin sheet of metal that seems to ripple and
+wobble as you pick it up.  It does not look very strong.~
+#1249 3
+ring shiny~
+a shiny ring~
+A shiny ring lies here glinting in the light.~
+~
+8 0 3 0
+0 0 0 0
+0 0 0 0
+10 100 1500 0 0 0
+E
+ring shiny~
+   Ooo, purdy.  This ring glints and sparkles as you hold it up in the light.
+It sure looks nice, especially to people who like nice shiny rings.~
+#1250 3
+earring hoop golden~
+a golden hoop earring~
+A golden hoop earring has fallen off of someone's ear here.~
+~
+8 131072 131073 0
+0 0 0 0
+0 3 0 0
+10 200 50 0 0 0
+E
+hoop earring~
+   The hoop earring is made of from gold plated copper and looks as if it
+would be popular with a certain type of sailor.  It dangles about two inches
+below its wearer's ear when attached.~
+#1251 3
+cloak flashy orange~
+a flashy orange cloak~
+Someone has lost their flashy orange cloak here.~
+~
+9 0 5 0
+7 0 0 0
+-1 0 0 0
+80 9500 200 0 0 0
+E
+cloak flashy orange~
+   The cloak has been sewn from a large bright orange piece of cloth.  It
+is quite flashy and ostentatious.  The wearer of such a cloak must have an
+unusual sense of fashion, verging almost into that of tacky.  More simply,
+the cloak can be used to cut the chill on a windy night and help stop the
+slashes from an opponent's sword.  A small golden chain affixes the cloak
+around the wearer's neck.~
+#1252 3
+claymore orange lead sword~
+an orange lead claymore~
+A huge sword, brilliant orange, lies on the ground here.~
+~
+5 557056 8193 0
+0 2 11 3
+0 1 0 0
+220 12600 900 0 0 0
+E
+claymore orange lead sword~
+   Although this claymore was forged from lead, a soft metal.  A strange,
+magical mineral was added to the lead to make a brilliant orange alloy and
+an extremely sharp blade.  The claymore looks incredibly keen and able to
+slice anything (or anyone for that mater) in two!~
+A
+18 1
+#1253 3
+codpiece piece cod leather cup~
+a codpiece~
+A hard leather cup is lying here, waiting to be worn.~
+~
+24 0 18433 0
+11 1 20 19
+0 0 0 0
+140 4500 450 0 0 0
+E
+codpiece piece cod leather cup~
+   The codpiece can be worn to protect one's nether region.  It is made
+from hardened leather and is quite rugged, not to mention stylish.~
+#1254 3
+elegant diamond ring wedding~
+an elegant diamond wedding ring~
+A beautiful diamond wedding ring on the floor glistens in the sunlight.~
+~
+11 0 3 0
+0 0 0 0
+0 4 0 0
+10 4000 400 0 0 0
+E
+inscription~
+It reads:
+          ...with love always ... bobo HURMPH!
+~
+E
+ring diamond elegant wedding~
+ This ring is beautiful.  The diamond was expertly cut and fitted into
+a thin gold and platinum band, and surrounded by thin tendrils of silver.
+You notice an inscription inside the ring.
+~
+A
+34 1
+A
+25 1
+#1255 3
+collar dog leather~
+a leather dog collar~
+A hand stiched leather dog collar lies here.~
+~
+9 0 5 0
+2 0 0 0
+1 4 0 0
+50 500 20 0 0 0
+A
+31 -1
+#1256 3
+boots soft black boot pair~
+a pair of soft black boots~
+A pair of black boots are lying here.~
+~
+9 0 65 0
+10 5 0 0
+0 3 0 0
+100 10000 950 0 0 0
+#1257 3
+shirt soiled~
+a soiled shirt~
+A soiled shirt is lying here in the dirt.~
+~
+11 0 9 0
+0 0 0 0
+0 0 0 0
+20 800 80 0 0 0
+E
+shirt soiled~
+   This simpl shirt is stained from sweat beneath the arms and soiled with
+dirt.  It looks grungy and smells awful.~
+A
+17 -4
+#1258 3
+Sphere~
+a crystal sphere~
+The crystal sphere hovers above the ground~
+~
+1 139393 16385 0
+0 0 -1 0
+0 3 2 0
+100 1000000 15000 0 0 0
+E
+sphere~
+The sphere shimmers with a soft glow.. you can see a purple light spark within the heart~
+A
+38 2
+#1259 3
+knife sharp~
+a sharp knife~
+A sharp knife has been stuck in the ground here.~
+~
+5 524288 8193 0
+0 2 6 6
+0 4 0 0
+120 2880 280 0 0 0
+E
+knife sharp~
+   A fine blade of steel, perfect for stabbing someone in the back.  A bit of
+blood seems to have stained the blade near the hilt.~
+#1260 3
+scabbard jeweled ornate sheath~
+an ornate jewled scabbard~
+An ornate jewled scabbard lies here~
+$p glints wickedly as $n grasps it.~
+29 0 1572865 0
+2113 0 0 0
+0 0 0 0
+100 10000 10000 0 0 0
+#1261 3
+jacket leather~
+a leather jacket~
+A warm looking leather jacket.~
+~
+9 0 9 0
+10 2 0 0
+0 0 0 0
+100 9000 900 0 0 0
+A
+30 -5
+A
+34 2
+#1262 3
+couch ragged shabby~
+a ragged couch~
+Orange plaid and tacky, a shabby old couch lies here in the corner.~
+~
+13 0 1 0
+0 0 0 0
+11 0 0 0
+100000 10 10 0 0 0
+#1263 3
+snowball ball snow~
+a snowball~
+A snowball is melting into a small pool of water here.~
+The snow dissolves in your mouth.
+~
+19 0 0 0
+0 0 0 0
+0 0 0 0
+10 10 10 0 0 0
+E
+snowball ball snow~
+   The snowball is melting, but still looks really cold.~
+#1264 3
+bagel~
+a bagel~
+A dangerous looking dummy object.
+~
+~
+19 0 0 0
+0 0 0 0
+0 0 0 0
+100 10000 10000 0 0 0
+#1265 3
+sword gleaming sharp~
+a gleaming sharp sword~
+A sword of sharpness.~
+~
+5 2 8193 0
+0 2 6 2
+0 0 0 0
+150 5200 520 0 0 0
+A
+19 1
+A
+43 1
+#1266 3
+shield sturdy steel small~
+a small steel shield~
+A small sturdy looking steel shield.~
+~
+9 0 524801 0
+10 4 0 0
+0 0 0 0
+100 8000 800 0 0 0
+#1267 3
+ring grey dull tarnished~
+a tarnished ring~
+A dull grey tarnished ring~
+~
+8 0 3 0
+0 0 0 0
+0 0 0 0
+10 2000 200 0 0 0
+A
+1 1
+#1268 3
+ring olive green~
+an olive green ring~
+An olivine ring.~
+~
+8 0 3 0
+0 0 0 0
+0 0 0 0
+10 2000 2000 0 0 0
+A
+38 1
+#1269 3
+sword small wicked sharp~
+a gleaming small sharp sword~
+A small sword of sharpness~
+~
+5 2 8193 0
+0 2 6 2
+0 4 0 0
+130 5200 520 0 0 0
+A
+19 1
+A
+43 1
+#1270 3
+pants pair leather rough~
+a pair of rough leather pants~
+A pair of leather pants is lying on the ground.~
+~
+9 0 33 0
+14 0 0 0
+0 0 0 0
+110 3000 280 0 0 0
+E
+pants pair leather rough~
+   The leather used to make these pants is unfinished and rough.  It would
+irritate your skin if you wore it, however, it does look like good leather
+armour.~
+#1271 3
+dress ragged~
+a ragged dress~
+A patched and ragged dress is lying here.~
+~
+11 0 1033 0
+0 0 0 0
+6 4 0 0
+10 150 20 0 0 0
+E
+dress ragged~
+  The dress is a hand-me-down and has been patched and mended a dozen times
+or more.  It is begining to look quite ragged.~
+A
+40 -1
+#1272 3
+stiletto black~
+a black stiletto~
+An evil-looking black stiletto lies here on the ground.~
+~
+5 576 8193 0
+0 7 2 2
+0 0 0 0
+110 7000 1000 0 0 0
+#1273 3
+boots boot leather pair dirty~
+a dirty pair of leather boots~
+A dirty pair of leather boots is lying here in the mud.~
+~
+11 0 65 0
+0 0 0 0
+5 3 0 0
+150 3000 300 0 0 0
+E
+boots boot leather pair dirty~
+   This pair of boots is covered with dirt and mud from having been worn out
+in a farmer's field all day.  The boots are made from thick black leather and
+are secured with strong string laces.~
+A
+29 -15
+#1274 3
+dummy object~
+hmm..~
+A dangerous looking dummy object.
+~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+100 10000 10000 0 0 0
+#99999
+$~

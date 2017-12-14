@@ -1,0 +1,50 @@
+autoscript killed Fri Jul 12 18:23:31 BST 1996
+autoscript starting game Fri Jul 12 18:24:27 BST 1996
+Fri Jul 12 18:24:27 :: Quick boot mode -- rent check suppressed.
+Fri Jul 12 18:24:27 :: loading levels table
+Fri Jul 12 18:24:27 :: Running game on port 4000.
+Fri Jul 12 18:24:27 :: Using lib as data directory.
+Fri Jul 12 18:24:27 :: Signal trapping.
+Fri Jul 12 18:24:27 :: Opening mother connection.
+Fri Jul 12 18:24:28 :: Boot db -- BEGIN.
+Fri Jul 12 18:24:28 :: Booting the Slave.
+Fri Jul 12 18:24:28 :: Resetting the game time:
+Fri Jul 12 18:24:28 ::    Current Gametime: 15H 33D 7M 174Y.
+Fri Jul 12 18:24:28 :: Reading news, credits, help, bground, info & motds.
+slave_log
+RFC 1413 Slave: slave booted
+Fri Jul 12 18:24:28 :: Opening help file.
+Fri Jul 12 18:24:29 :: loading object limit data.
+Fri Jul 12 18:24:29 :: Loading zone table.
+Fri Jul 12 18:24:29 :: Loading rooms.
+Fri Jul 12 18:24:30 :: Checking start rooms.
+Fri Jul 12 18:24:30 :: Loading mobs and generating index.
+Fri Jul 12 18:24:30 :: Loading objs and generating index.
+Fri Jul 12 18:24:31 :: Renumbering object (carts etc.).
+Fri Jul 12 18:24:31 :: Renumbering zone table.
+Fri Jul 12 18:24:31 :: Building zone object table.
+Fri Jul 12 18:24:31 :: Generating player index.
+Fri Jul 12 18:24:31 ::    1 players in database.
+Fri Jul 12 18:24:31 :: Checking Obj limit data.
+Fri Jul 12 18:24:31 :: Loading fight messages.
+Fri Jul 12 18:24:31 :: Loading social messages.
+Fri Jul 12 18:24:31 :: Loading shops.
+Fri Jul 12 18:24:31 :: Assigning function pointers:
+Fri Jul 12 18:24:31 ::    Shopkeepers.
+Fri Jul 12 18:24:31 ::    Mobiles.
+Fri Jul 12 18:24:31 ::    Objects.
+Fri Jul 12 18:24:31 ::    Rooms.
+Fri Jul 12 18:24:31 ::    Commands.
+Fri Jul 12 18:24:31 ::    Spells.
+Fri Jul 12 18:24:31 :: Sorting command list.
+Fri Jul 12 18:24:31 :: Booting mail system.
+Fri Jul 12 18:24:31 ::    0 bytes read.
+Fri Jul 12 18:24:31 ::    Mail file read -- 0 messages.
+Fri Jul 12 18:24:31 :: Reading banned site and invalid-name list.
+Fri Jul 12 18:24:31 :: Resetting Limbo (rooms 0-2).
+Fri Jul 12 18:24:31 :: Resetting God Rooms (rooms 3-1299).
+Fri Jul 12 18:24:31 :: Resetting The Docks (Ponder) (rooms 1300-1899).
+Fri Jul 12 18:24:31 :: Resetting Market Area (Ponder) (rooms 1900-2099).
+Fri Jul 12 18:24:31 :: Boot db -- DONE.
+Fri Jul 12 18:24:31 :: Entering game loop.
+RFC 1413 Slave: shutdown since parent is 1

@@ -1,0 +1,23 @@
+#0
+The Void~
+  Blackness surrounds and envelopes you.  Thick velvety blackness, stygian,
+blacker than a ravens back it carresses you whispering forbidden secret in
+your ear.
+~
+0 8 1
+D4
+void~
+~
+0 -1 2001
+S
+#1
+Limbo~
+   You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 8 1
+S
+#99999
+$~

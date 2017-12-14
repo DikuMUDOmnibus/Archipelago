@@ -1,0 +1,1945 @@
+#1800
+The Black Pig~
+   The noise and furore dies as you enter the tavern. All the patrons turn and
+look at you. Then, as suddenly as it all stopped, the frenzied activity starts
+up again and you are ignored. Looking around you realise just what a vipers
+den you have stumbled into. The floor is covered with foul rotting rushes,
+stained with blood, vomit and many other indescribable fluids. All around the
+room degenerates from every race and corner of the world vie with each other
+in grim competitions of depravity. Several sullen, sullied lasses flounce
+about serving ale and trying to stay (mostly) in their clothing.
+   At the back of the room you can see a staircase leading up to a balcony.
+Lounging around the balcony are several bored-looking semidressed women.
+Occassionally a drunked sailor will stumble up the stairs, to be led off into
+the shadows by one of the women. A hard nosed bartender watches you carefully
+and yet somehow manages to never take his eyes off a small door leading north.
+~
+18 8 0
+D0
+You see a small door way.
+~
+door small~
+1 0 1801
+D1
+You see a dark corner.
+~
+~
+0 0 1821
+D2
+You see the tavern door.
+~
+tavern door~
+1 0 2086
+D4
+You see a balcony.
+~
+~
+0 0 1807
+T
+1800 10
+You hear someone quietly puking in a corner.
+~
+~
+~
+S
+#1801
+A Narrow Passage~
+   This is a narrow and dimly lit passageway at the back of the inn.  The
+hallway is strewn with trash and other debris.  To the south is a small
+wooden doorway.  This passageway runs east and west.
+~
+18 12 0
+D1
+You see a narrow passage.
+~
+~
+0 0 1802
+D2
+You see a small door.
+~
+door small~
+1 0 1800
+D3
+You see a narrow passage.
+~
+~
+0 0 1803
+S
+#1802
+A Narrow Passage~
+      You are at the eastern end of a narrow passage. The passage extends to
+the west, but a small set of stairs leads down from here. You think you can
+make out the sound of laughter from below.
+~
+18 8 0
+D3
+You see a narrow passage.
+~
+~
+0 0 1801
+D5
+You see a narrow stair.
+~
+~
+0 0 1804
+S
+#1803
+A Narrow Passage~
+   This is a narrow passageway little used save as a toilet for a desperate
+few.  The plaster walls of this hallway are cracked and chipping.  Large
+chunks of plaster are scattered here on the floor among piles of trash and
+debris.  There is a door to the west leading outside.  This hallway continues
+east.
+~
+18 8 0
+D1
+You see a narrow passage.
+~
+~
+0 0 1801
+D3
+You see a narrow doorway.
+~
+door~
+1 0 1825
+S
+#1804
+The Inn's Cellar~
+      This must be a cellar below the inn. Stairs lead up, but there are two
+other doors, one to the west and one to the south. Each door is guarded by a
+sturdy looking thug.
+~
+18 8 0
+D2
+You see a thick wooden door.
+~
+wooden door~
+1 0 1805
+D3
+You see an iron bound door.
+~
+iron door~~
+1 1800 1806
+D4
+You see a narrow stair.
+~
+~
+0 0 1802
+E
+door wooden~
+This stout wooden door is shabby and worn-down.  It is set on creaky wooden
+hinges which creak ever so eerily.  The door never fully closes, it is left
+slightly ajar allowing only a dim shaft of light to escape from the room beyond.~
+S
+#1805
+Headquarters of the Royal Inquisitors~
+   You can only imagine the terror which must normally assail the people who
+do not come willingly to this room.  The room is dimly lit, you imagine all
+sorts of torture instrument half seen amidst the flickering shadows.  Oddly
+enough the room seems devoid of life.
+~
+18 9 0
+D0
+You see a wooden door.
+~
+wooden door~
+1 0 1804
+E
+door wooden~
+This door is shabby and worn-down.  It is set on rusty iron hinges which
+creak ever so eerily.  The door never fully closes, but left ajar with only
+a shaft of dim light to escape from the room beyond.~
+S
+#1806
+The Inn's Cell~
+      This room is very dark, and you can hear moaning coming from the corner.
+Judging by the overpowering stench in here, this must be some sort of prison
+cell.
+~
+18 9 0
+D1
+You see and iron bound door.
+~
+iron door~
+1 1800 1804
+S
+#1807
+On the Balcony~
+      You are on the balcony overlooking the tavern. Several half undressed
+women standing here trying to catch your eye. There are stairs leading down to
+the tavern and the balcony continues west.
+~
+18 8 0
+D3
+You see the balcony.
+~
+~
+0 0 1808
+D5
+You see the tavern.
+~
+~
+0 0 1800
+S
+#1808
+On the Balcony~
+      The balcony comes to an end here, there is a door leading north and the
+balcony extends to the east. You think you can hear moaning coming from the
+other side if the door.
+~
+18 12 0
+D0
+You see a door.
+~
+door~
+1 0 1809
+D1
+You see the balcony.
+~
+~
+0 0 1807
+S
+#1809
+A Passageway~
+You are in a narrow passage. There are doors to the south and west. The
+passage continues north. Through the door to the south you can hear the
+raucous din of a tavern. You think you can hear moaning coming from the
+one of the other doors.
+~
+18 8 0
+D0
+You see a passageway.
+~
+~
+0 0 1811
+D2
+You see a door.
+~
+door~
+1 0 1808
+D3
+A wood door serves as an exit from here.
+~
+door~
+1 0 1810
+S
+#1810
+A Bedroom~
+  Oops, this appears to be someone's bedroom.  They probably wouldn't be too
+pleased to have you snooping about.  Hope you haven't disturbed anything
+or they are certain to notice.
+~
+18 8 0
+D1
+A wood door serves as an exit from here.
+~
+door~
+1 0 1809
+S
+#1811
+A Passageway~
+   You are in a narrow passageway upstairs in a brothel.  The dirty wooden
+floor is creaky and covered in a fine layer of silt.  To the north is a
+plain wooden door.  This passageway continues around the corner to the east
+and south.
+~
+18 8 0
+D0
+You see a door.
+~
+door~
+1 0 1812
+D1
+You see a passageway.
+~
+~
+0 0 1813
+D2
+You see a passageway.
+~
+~
+0 0 1809
+S
+#1812
+A Bedroom~
+   Oops, you seem to have stumbled into someone's bedroom.  Hope you haven't
+disturbed anything?  In the middle of the room, there is a large bed with a
+soft, fuzzy, pink comforter thrown across it.  The scent of cheap perfume
+lingers in the stuffy air.
+~
+18 8 0
+D2
+You see a door.
+~
+door~
+1 0 1811
+S
+#1813
+A Passageway~
+      You are standing in a narrow passageway running east and west. All around
+you, you can hear vague human noises. The whole corridor is suffused with a
+strange musty scent you can't quite place.
+~
+18 8 0
+D1
+You see a passageway.
+~
+~
+0 0 1814
+D3
+You see a passageway.
+~
+~
+0 0 1811
+S
+#1814
+A Passageway~
+   You find yourself in a narrow passageway inside a shabby brothel.  You
+hear giggling and deep moaning sounds from behind doors to the north and
+east.  This passageway continues around the corner to the south and west.
+~
+18 8 0
+D0
+You see a door.
+~
+door~
+1 0 1815
+D1
+You see a door.
+~
+door~
+1 0 1816
+D2
+You see a passageway.
+~
+~
+0 0 1817
+D3
+You see a passageway.
+~
+~
+0 0 1813
+S
+#1815
+A Bedroom~
+This bedroom looks like it hasn't been used in quite some time.  The
+air is stale, and there is a layer of dust on all the furnishings.  There
+is a faded covelet on the bed - also covered in dust.
+~
+18 8 0
+D2
+You see a door.
+~
+door~
+1 0 1814
+S
+#1816
+A Bedroom~
+This room is really messy,  there are stockings and bits of lingerie
+lying all over the place.  There is a bed, unmade, it's sheets rumpled
+and stained.  Whoever sleeps here is obviously not too fussy.
+~
+18 8 0
+D3
+You see a door.
+~
+door~
+1 0 1814
+S
+#1817
+A Passageway~
+   This is a narrow dimly lit passageway.  The air is a bit warm, and you
+feel a bit uncomfortable as you listen to all the deep moaning sounds and
+smell the perfumes emanating from all corners inside this brothel.  To the
+east is a doorway.  There is a set of stairs leading up.  This passageway
+continues north.
+~
+18 8 0
+D0
+You see a passageway.
+~
+~
+0 0 1814
+D1
+You see a door.
+~
+door~
+1 0 1818
+D4
+You see a narrow stair.
+~
+~
+0 0 1819
+S
+#1818
+A Bedroom~
+The lighting in this room is subdued, a soft pink light suffuses the
+room. Cool air circulates from the outside mingled with the sounds
+of the quay.  There is a neatly made bed in the middle of the north wall.
+~
+18 8 0
+D3
+You see a door.
+~
+door~
+1 0 1817
+S
+#1819
+An Opulent Bedroom~
+      This is clearly the personal bedroom of the owner of the Inn. Lavish
+furnishings fill the room, and exotic incence fills the air with a seductive
+aroma. There is a large canopy covered bed in the corner.
+~
+18 262152 0
+D5
+You see a narrow stair.
+~
+~
+0 0 1817
+S
+#1820
+On a Large Bed~
+      This must be the most decadent bed you have ever seen. Leather thongs are
+fastened at strategic places on the frame, and the deep feather matress is
+covered in red silk sheets. Pillows, also silk covered are scattered all
+around.
+~
+18 262152 0
+S
+#1821
+A Dark Corner~
+      The moment you set foot here you feel uneasy. There is a large table here
+surrounded by some desperate looking characters, all drinking heavily.
+Belatedly you realise this might not be such a good idea as you sense that you
+have become the center of attention.
+~
+18 12 0
+D3
+You see the main tavern.
+~
+~
+0 0 1800
+S
+#1822
+Wharf Lane~
+   Wharf Lane runs between a derelict warehouse to the west and a rather
+rowdy inn to the east.  The lane is narrow and constantly shadow cast due
+to the great height of the buildings on either side of the lane.  This
+perpetual semi-darkness is ideal for unsavory characters to lurk about in
+and conduct business.
+~
+18 4 1
+D0
+You can't see much in the hazy darkness.
+~
+~
+0 0 1823
+D2
+You can't see much in the hazy darkness.
+~
+~
+0 0 2087
+S
+#1823
+Wharf Lane~
+   Wharf Lane is narrow and dark.  Looking about you notice you haven't seen
+any of the city watch for quite a while.  An uneasy feeling begins to creep
+into your mind... this place doesn't seem to be very safe.  You notice a
+dark alley opening up to the east.
+~
+18 0 2
+D0
+You can't see much in the hazy darkness.
+~
+~
+0 0 1826
+D1
+You see a dark alley.
+~
+~
+0 0 1824
+D2
+You can't see much in the hazy darkness.
+~
+~
+0 0 1822
+S
+#1824
+In a Dark Alley~
+      This place is realy dark and spooky. Looking up between the buildings you
+can just make out the sky. You notice a peculiar odour, it seems to be coming
+from the east.
+~
+18 1 3
+D1
+You see a dark alley.
+~
+~
+0 0 1825
+D3
+You see Wharf Lane.
+~
+~
+0 0 1823
+S
+#1825
+In a Dark Alley~
+   This is a filthy alleyway you find yourself in.  The air smell strongly
+of urine and excrement as countless number of people have used this alley-
+way as a convenient toilet to pee and sh*t in semi-darkness.  There is a
+door to the east.  This alleyway runs out west.
+~
+18 1 3
+D1
+You see a narrow doorway.
+~
+door~
+1 0 1803
+D3
+You see a dark alley.
+~
+~
+0 0 1824
+S
+#1826
+Wharf Lane~
+   North from here you can see a small square with a fountain.  Wharf Lane
+continues to the south.  You have the suspicion that you are being watched.
+~
+18 0 2
+D0
+You see a small square.
+~
+~
+0 0 1827
+D2
+You can't see much in the hazy darkness.
+~
+~
+0 0 1823
+S
+#1827
+A Small Square~
+   A deserted crossroads is probably a better description for this lonely
+place.  The city wall itself lies to the north, while tall creepy buildings
+all around you hem in the square.  A strange grilled door is sunk deep in
+the city wall and seems to provide access to a dark tunnel.  There is a small
+water fountain set in the middle of the square splashing water onto the
+dingy flagstones.  One of the flagstones near the fountain is much different
+than the rest.  It is an upraised squarish block of polished granite.
+Examining the stone carefully, you find a small map inscribed on it.  A road
+runs east from here, while a shadowy lane extends to the west.  Wharf Lane
+lies to the south.
+~
+18 8196 2
+D0
+A heavy iron yett hangs in the doorway, keeping out intruders.
+~
+yett iron~
+1 0 1886
+D1
+You see Skree Street.
+~
+~
+0 0 1838
+D2
+Wharf Lane is to the south.
+~
+~
+0 0 1826
+D3
+You see the Troll Ghetto.
+~
+~
+0 0 1828
+E
+yett door~
+   This door is made of iron bars crossing each other to form a long grille
+that hangs from heavy hinges in a vaulted stone doorway sunk deep into the
+middle of the northern wall.  This yett is a massive iron grille and a strong
+draw-bars slide across the inside, as to secure it from being opened.
+~
+E
+map stone granite block~
+MAP OF THE CITY OF LAMMAN (see 'legend' for details)
+                                         |
+                                       North
+                                   War  Gate          Arm  Bard Weap
+                                  Guild  |             +----+----+
+                                    |    |             |   The   | Magik  East
+         Coven            Ship------+----+   Temple----+-Parade--+--+--+--Gate--
+           |              Yard           |    |        |  Ground |     |
+       +---+---+-------+   |         Lib-+    | Thrift +----+----+    City
+       |   | Hotel     |   |             |    |   |    |              Gaol
+     Troll |      Orph-+   |    Inn-+----+----+---+----+
+    Ghetto |           |   | Mail | |   The   |        |
+       |   +--+   Arm2-+   +--+---+-+--Market-+-Sigur  +-- Palace
+  West |   |  |        |   Tegl     |  Square | Durrin |   Gardens
+--Gate-+-+ | Pig  Trona+       Bake-+----+----+ Smithy-+
+         | |  |    |   |            |    |    |        |
+         +-+--+----+---+-Red Bridge-+----+----+----+---+
+            The Quay   |          Herb Coutt Mink  Fish
+                     Harbor       Shop Bank  Shop  Market
+                     Master
+~
+E
+legend~
+Legend to the Map of the City of Lamman
+ ______________________________________________________________________________
+|                                        |                                     |
+| Inn   - The Warrior's Widow Inn        |  Arm2  - Stonehelm's Armour Shoppe  |
+| Magik - Yemor's Magikal Imporium       |  Fish  - Fabulous Fendle's Fish Mkt |
+| War   - Warriors Guild                 |  Mink  - Minka's Specialty Shop     |
+| Bank  - Coutts' Royal Bank of Lamman   |  Herb  - Tethra's Well              |
+| Mail  - The City of Lamman Post Office |  Tegl  - Tegl's Stable Yard         |
+| Ship  - Ahab's New-N-Used Boats        |  Thieves - Thieves Guild = ???      |
+| Thrift - Disabled Mil. Veteran's Shop  |  Bard  - The Storyteller's Circle   |
+| Trona - Trona's Workshop               |  Lib   - The Lamman Public Library  |
+| Sigur - Sigur the Armorsmith's Shop    |  Hotel - Schist Hotel               |
+| Durrin - Durrin the Blacksmith's Shop  |  Orph  - The Orphanage              |
+| Arm   - Hurgoods House of Armor        |  Pig   - The Black Pig Inn          |
+| Weap  - Jurt's Weapons of War          |  Coven - Nouveau Magicien Covenant  |
+| Bake  - Sardo's Golden Harvest Bakery  |  Temple - Temple of Small Gods      |
+|________________________________________|_____________________________________|
+~
+S
+#1828
+The Troll Ghetto~
+      You are standing at the entry to the troll ghetto. Trolls provide most
+of the unskilled labour force in town, especially on the waterfront. The 
+ghetto consists mainly of houses with open doorways and no windows, and holes
+cut into the sides of the massive city wall. The old saying 'you can take the
+Troll from the cave, but you can't take the cave from the Troll' seems to hold
+true. As they provide a valuable service, by doing jobs no-one else will touch,
+they are left to pretty well live as they choose.
+~
+18 0 1
+D0
+You see a troll hole.
+~
+~
+0 0 1829
+D1
+You see a small square.
+~
+~
+0 0 1827
+D3
+You see the Troll Ghetto.
+~
+~
+0 0 1830
+S
+#1829
+A Troll Hole~
+      Your average troll isn't one for creature comforts. In fact, if he didn't
+break a chair by sitting on it, he would probably just eat it. The Troll Hole
+is big, but barren. There is a firepit near the center of the cave, the lack 
+of adequate ventilation, however, means that the wholecave is full of smoke.
+~
+18 9 0
+D2
+You see the entrance to the Ghetto.
+~
+~
+0 0 1828
+D3
+You see the Troll's sleeping area.
+~
+~
+0 0 1831
+S
+#1830
+In the Troll Ghetto~
+      You are in the Troll Ghetto in the city of Lamman. To the south you can
+see the entrance to a Troll's house. To the west you can see that the street
+turns south to follow the city wall. This close to the city wall not much light
+ever gets down here, mosses and lichens cover the walls and flagstones. It must
+make the Trolls feel at home.
+~
+18 0 1
+D0
+~
+~
+0 0 1883
+D1
+You see the Troll Ghetto.
+~
+~
+0 0 1828
+D2
+You see a Troll's House.
+~
+~
+0 0 1832
+D3
+You see the Troll Ghetto.
+~
+~
+0 0 1834
+S
+#1831
+A Troll Sleeping Room~
+      There are rocks scattered hither and thither, they must be pillows you
+realise. Other than the pillow rocks the room if devoid of furnishings. Most
+times of the day or night you will find trolls here sleeping. You can hear what
+might be the sound of several trolls snoring, reverberating through the cave.
+~
+18 13 0
+D1
+You see a Troll Hole.
+~
+~
+0 0 1829
+S
+#1832
+A Troll House~
+      This house clearly is the abode of an affluent troll clan, though to
+the untrained eye it looks just like a cave, no windows and no door - just
+a hole in the wall, more careful inspection would reveal several refinements.
+Consider, for example, the running water. It's not every troll family that can
+afford water running down their cave walls. To the south you can see the Troll
+sleeping chamber.
+~
+18 9 0
+D0
+You see the Troll Ghetto.
+~
+~
+0 0 1830
+D2
+You see the sleeping chamber.
+~
+~
+0 0 1833
+S
+#1833
+A Troll Sleeping Room~
+      There are rocks scattered hither and thither, they must be pillows you
+realise. Other than the pillow rocks the room if devoid of furnishings. Most
+times of the day or night you will find trolls here sleeping. You can hear what
+might be the sound of several trolls snoring, reverberating through the cave.
+~
+18 13 0
+D0
+You see a Troll's House.
+~
+~
+0 0 1832
+S
+#1834
+In the Troll Ghetto~
+   This is a dark and narrow alleyway you find yourself in.  It winds its
+way south and east under the shadows of the city wall.  The dirt pathway
+here is strewn with trash and debris.  It is a neglected section of town.
+To the west you notice someone had removed a few bricks comprising the
+city wall to create a hole large enough to crawl into.
+~
+18 0 1
+D1
+You see the Troll Ghetto.
+~
+~
+0 0 1830
+D2
+You see the Entrance to the Troll Ghetto.
+~
+~
+0 0 1837
+D3
+You see a large hole in the wall.
+~
+~
+0 0 1835
+S
+#1835
+The Troll's Temple~
+      Well, well, who would have thought that trolls would have gone in for
+organised religion. There are several bench like rocks arranged in rows and
+a stone altar, stained darkly. To the north you can see a small chamber and
+to the east you can return to the street.
+~
+18 8 0
+D0
+You see The Shaman's Chamber.
+~
+~
+0 0 1836
+D1
+You see the Troll Ghetto.
+~
+~
+0 0 1834
+E
+altar~
+Eeeeuuuueeeww! the altar is covered in blood and bones!
+~
+E
+bones~
+Hey those look like human bones!
+~
+S
+#1836
+The Shaman's Chamber~
+      This is the personal room of the Troll Shaman. There is the ubiquitous
+rock pillow in the corner. As befits his status, there is a nail hammered into
+the rock for him to hang up his official robes - when not officiating over
+a ceremony.
+~
+18 8 0
+D2
+You see the Troll Temple.
+~
+~
+0 0 1835
+S
+#1837
+Entrance to the Troll's Ghetto~
+      North from here you will enter the troll's ghetto, the home for the 
+trolls that provide the menial labour force for the city. To the south lies
+Great Western Road.
+~
+18 0 1
+D0
+You see the Troll Ghetto.
+~
+~
+0 0 1834
+D2
+You see Great Western Road.
+~
+~
+0 0 2092
+S
+#1838
+Skree Street~
+   Skree street is the demesne of the dwarven population in the city of Lamman.
+Few of the dwarves actually live here permanently, usually they come as young
+dwarves sent to the big city to make their way in the world, earning their
+fortunes and hopefully sending most of it back home.  The dwarves usually
+stay in one of many dwarf hostels, run by elderly dwarven ladies of good
+character.  Skree street is lined by these hostels, accessible by small 
+doorways on either side of the road.
+~
+18 0 1
+D0
+You see a small doorway.
+The sign above the door reads:
+   "Granite House (No Vacancies)"
+~
+door small~
+1 0 1839
+D1
+You see Skree Street.
+~
+~
+0 0 1858
+D2
+You see a small doorway.
+The sign above the door reads:
+    "Schist Hotel (No Vacancies)"
+~
+door small~
+1 0 1840
+D3
+You see a small square.
+~
+~
+0 0 1827
+S
+#1839
+The Main Room in Granite House~
+      The ceiling is very low in here. There are several low tables which fill
+the center of the room. By the door is a row of neat coat hooks set about 3
+feet from the floor. In one corner there is a large stove with several pots
+bubbling, the delicious smell of stewed rat fills the room. There is a stair in
+one corner leading down.
+~
+18 2097160 0
+D2
+You see a small doorway.
+~
+door small~
+1 0 1838
+D5
+You see the foot of the stairs.
+~
+~
+0 0 1841
+S
+#1840
+The Public Room of the Schist Hotel~
+      The ceiling is very low as befits a dwarven residence.  There are several
+small comfortable looking chairs arranged about a large fireplace. To the east
+you can see a small dining room and a set of stairs leads down. judging by the
+neatness and decor this is clearly a superior quality establishment.
+~
+18 2097160 0
+D0
+You see a small doorway.
+~
+door small~
+1 0 1838
+D1
+You can see the dining room.
+~
+~
+0 0 1845
+D5
+You see a small Hallway.
+~
+~
+0 0 1847
+S
+#1841
+A Small Hallway~
+      You are standing in a small hallway at the foot of a set of stairs. To
+the north and west there are doorways. To the south you see a particularly
+strong looking door.
+~
+18 2097160 0
+D0
+You see a small doorway.
+~
+small door~
+1 0 1842
+D2
+You see a sturdy doorway.
+~
+sturdy door~
+1 1808 1844
+D3
+You see a small doorway.
+~
+small door~
+1 0 1843
+D4
+You see the top of the stairs.
+~
+~
+0 0 1839
+S
+#1842
+A Dwarven Dormitory~
+      You are in a low ceilinged room full of small beds. The beds line the
+walls, each has a small table next to it and a candle holder fixed to the wall.
+Everything is very neat and tidy, clearly Ms. Raspite takes good care of
+everyone.
+~
+18 2097160 0
+D2
+You see a small doorway.
+~
+small door~
+1 0 1841
+S
+#1843
+A Small Bedroom~
+      You are standing in a small bedroom, very tidy and quite feminine. This
+is probably the personal chamber of Ms. Raspite the hostel's proprieter. There
+is feather bed in one corner, and a smaller bed in another corner, probably
+for the Ms. Raspite's pet styral.
+~
+18 2097160 0
+D1
+You see a small doorway.
+~
+small door~
+1 0 1841
+S
+#1844
+A Store Room~
+      This is the cellar where Ms. Raspite stores all her supplies. With a 
+large number of hungry young dwarves about, its not suprising that she keeps
+it locked.
+~
+18 2097161 0
+D0
+You see a sturdy doorway.
+~
+sturdy door~
+1 1808 1841
+D1
+~
+nail~
+1 0 1863
+S
+#1845
+The Schist Hotel Dining Room~
+      The room is dominated by a large low table. There is space for about
+six dwarves to sit around it. There is a small door leading south to what
+must be the kitchen. to the west you can see the main sitting room of the 
+hotel.
+~
+18 2097160 0
+D2
+You see a small doorway.
+~
+door kitchen small~
+1 0 1846
+D3
+You see the sitting room.
+~
+~
+0 0 1840
+S
+#1846
+The Schist Hotel's Kitchen~
+      Cooking smells overwhelm you as you enter the kitchen. Looking about
+you realise you have entered the realm of a true master cook. All about there
+are bundles of herbs and spices hanging, along with bundles of dried rat
+and other dwarven delicasies. The cooking of Mrs Jarosite, proprieter of the
+Schist Hotel in Lamman, is famed the length of the land.
+~
+18 2359304 0
+D0
+You see a small doorway.
+~
+kitchen door small~
+1 0 1845
+S
+#1847
+A Hallway~
+      You are in a low hallway below the sitting room of the Schist Hotel.
+There are doors leading east, north and south. The hallway extends to the 
+west and a staircase leads up.
+~
+18 2097160 0
+D0
+You see a small doorway.
+~
+bedroom door small~
+1 0 1848
+D1
+You see a small doorway.
+~
+bedroom door small~
+1 0 1849
+D2
+You see a small doorway.
+~
+bedroom door small~
+1 0 1850
+D3
+You see the Hallway.
+~
+~
+0 0 1851
+D4
+You see the sitting room.
+~
+~
+0 0 1840
+S
+#1848
+A Bedroom~
+      The bedrooms in the schist hotel are mainly for single occupancy, though
+arrangements can be made for visitor who wish to house their pets with them.
+There is a single bed against one wall, a low table and candle holder sit next
+to the bed.
+~
+18 2097160 0
+D2
+You see a small doorway.
+~
+bedroom door small~
+1 0 1847
+S
+#1849
+A Bedroom~
+      You are in a small bedroom, there is one small bed against the north 
+wall and another against the south wall. There is a small desk in one corner
+with a cadle holder on it.
+~
+18 2097160 0
+D3
+You see a small doorway.
+~
+bedroom door small~
+1 0 1847
+S
+#1850
+A Bedroom~
+      Against the east wall there is a small bed, next to the bed there is 
+a small basket, presumably a bed for a pet styral. In the south east corner
+there is a desk and candle holder.
+~
+18 2097160 0
+D0
+You see a small doorway.
+~
+bedroom door small~
+1 0 1847
+S
+#1851
+A Hallway~
+      You are in a low hallway in the sleeping quarters of the Schist Hotel.
+To the west you can see some stairs leading down, there are doors noth and 
+south and the hallway extends to the east.
+~
+18 2097160 0
+D0
+You see a small doorway.
+~
+bedroom door small~
+1 0 1852
+D1
+You see the Hallway.
+~
+~
+0 0 1847
+D2
+You see a small doorway.
+~
+bedroom door small~
+1 0 1853
+D3
+You see the Hallway.
+~
+~
+0 0 1854
+S
+#1852
+A Bedroom~
+      You are standing in a small bedroom in the Schist Hotel. Like the rest 
+of the accomodation here everything is neat and tidy. Unlike most of the rooms
+this room is designed for two. There is a relativly large double bed against 
+the west wall.
+~
+18 2097160 0
+D2
+You see a small doorway.
+~
+bedroom door small~
+1 0 1851
+S
+#1853
+A Bedroom~
+      This room must be Mrs. Jarosite's own bedroom. The room is decorated to
+suit the tastes of an elderly dwarven widow. There are familty portraits on 
+the walls, some unfinished needlepoint lying on a comfortable looking chair
+and a fairly large, comfortable looking bed in the corner.
+~
+18 2097160 0
+D0
+You see a small doorway.
+~
+bedroom door small~
+1 0 1851
+S
+#1854
+A Hallway~
+      You are at the western end of a hallway in the Schist Hotel. There is
+a small door to the north and a set of stairs leads down. The hallway extends
+to the east.
+~
+18 2097160 0
+D0
+You see a small doorway.
+~
+bedroom door small~
+1 0 1855
+D1
+You see the Hallway.
+~
+~
+0 0 1851
+D5
+You see a Hallway.
+~
+~
+0 0 1856
+S
+#1855
+Opal's Bedroom~
+      This is the bedroom of Mrs. Jarosite's granddaughter Opal. Opal is a
+young dwarf barely 50 years old and the decor of her room reflects her
+adolescence. There are posters on the wall and the whole room is a bit 
+untidy.
+~
+18 2097160 0
+D2
+You see a small doorway.
+~
+bedroom door small~
+1 0 1854
+E
+poster posters~
+The posters are typical crude street sketches of various Lamman teen idols.
+There is one of Corporal Carrot, and another of Rogan the Pie seller.
+~
+S
+#1856
+A Hallway~
+      This is the deepest level of the Schist Hotel, where the best rooms
+are to be found. To a dwarf the deeper the room the better. There is a door to
+the north and the stairs lead up.
+~
+18 2097160 0
+D0
+You see a small doorway.
+~
+bedroom door small~
+1 0 1857
+D4
+You see the Hallway.
+~
+~
+0 0 1854
+S
+#1857
+A Large Bedroom~
+      You are standing in a very large bedroom in the Schist Hotel. Clearly
+this is the most luxurious accomodation the hotel offers. There are thick
+rugs on the floor, a large feather bed in the corner and a large splendid oak
+table which dominates the center of the room. Only the wealthiest of dwarves
+could afford such splendid luxury.
+~
+18 2097160 0
+D2
+You see a small doorway.
+~
+bedroom door small~
+1 0 1856
+S
+#1858
+Skree Street~
+      Skree street runs east west through the dwarven section of town. Either
+side of the street is lined by low houses. The city wall towers over the houses
+to the north.
+~
+18 0 1
+D1
+You see Skree Street.
+~
+~
+0 0 1859
+D3
+You see Skree Street.
+~
+~
+0 0 1838
+S
+#1859
+Skree Street~
+      You are standing on Skree Street in the heart of the Dwarven enclave.
+To the north you can see the entrance to Hornblende's stables, where visiting
+dwarves will come to house their beasts. Skree street runs west from here, to
+the east you can see an intersection.
+~
+18 0 1
+D0
+You see a low gate.
+~
+gate low~
+1 0 1867
+D1
+You see an intersection.
+~
+~
+0 0 1860
+D3
+You see Skree Street.
+~
+~
+0 0 1858
+S
+#1860
+Intersection of Lime and Skree Streets~
+      You stand at the intersection of Lime street to the south and Skree
+street to the west. There is a narrow alleyway running north from here it
+seems to be full of trash. There is a strange building to the east that seems
+to jut out over the river.
+~
+18 0 1
+D0
+You see a grubby alley.
+~
+~
+0 0 1865
+D2
+You see Lime Street.
+~
+~
+0 0 1861
+D3
+You see Skree Street.
+~
+~
+0 0 1859
+S
+#1861
+Lime Street~
+       Lime Street runs north and south along the banks of the river Ronnan.
+You can tell you are now in the dwarven section of town by the height of the 
+buildings and their doorways. To the north you can see an intersection of some
+sort, there is a small door to the west and Lime street continues to the south.
+~
+18 0 1
+D0
+You see an intersection.
+~
+~
+0 0 1860
+D2
+You see Lime Street.
+~
+~
+0 0 1877
+D3
+You see a small door.
+The sign next to the door reads:
+
+    Dwarven Orphanage and Childrens Home
+        Ms. Agenine Proprieter.
+~
+door small~
+1 0 1869
+S
+#1862
+Lime Street~
+      Lime street is officially part of the dwarven sector. This narrow road
+runs north from the quay along the west bank of the river Ronnan. The bustle
+of the harbour can be heard to the south, but Lime street seems very peacfull
+with the river flowing lazily by.
+~
+18 4 1
+D0
+You see Lime Street.
+~
+~
+0 0 1877
+D2
+You see the Quay.
+~
+~
+0 0 2068
+D3
+You see Trona's workshop.
+~
+~
+0 0 1874
+S
+#1863
+A secret room~
+      Gosh, you seem to have stumbled on secret room. This must be where
+Ms. Raspite hides her hidden treasure. There is a large chest in the room.
+~
+18 4194313 0
+D3
+~
+nail~
+1 0 1844
+S
+#1865
+A Grubby Alley~
+You are standing on a narrow ledge. To the west is the wall of the
+dwarven stables. To the east the ground slopes away sharply into the river.
+There is lots of rubbish strewn about including many partially eaten fish
+carcases. It looks as if some wild creature has its home here. The alley
+continues north.
+~
+18 0 1
+D0
+You see the lair of the insane dwarf.
+~
+~
+0 0 1866
+D2
+You see and intersection.
+~
+~
+0 0 1860
+S
+#1866
+A Dirty Cul-de-sac~
+      You have stumbled upon the lair of the mad dwarf. He lives here right
+next to the city wall.  The rest of the dwarven community do what they can
+by bringing him food and occasionally clothing. Normally he shuns company
+prefering to be left alone to his visions.
+      Most people tread carefuly in his presence, he has been known to attack
+without provocation, claiming that he was cleansing the world of evil.
+~
+18 0 2
+D2
+You see a grubby alley.
+~
+~
+0 0 1865
+S
+#1867
+Horneblende's Stables~
+      Horneblende's stables are where dwarves who have brought their battle
+pigs stable their valuable mounts. There are few things more valuable to a 
+dwarf than its battle pig, but Hornblende is renowned for the quality of his
+care.
+      The pig pen lies to the west, and the low wide gate to the south leads 
+to Skree street.
+~
+18 2097160 0
+D2
+You see a low wide gate.
+~
+gate low~
+1 0 1859
+D3
+You see the pig pen.
+~
+~
+0 0 1868
+S
+#1868
+The Pig Pen~
+      You are standing in the pig pen of Hornblende's stable. There are usually
+several battle pigs in here, tended by Horneblende's trusted stable boy Minium.
+To the east you can see the entrance to the stables.
+~
+18 2097160 0
+D1
+You see the stable entrance.
+~
+~
+0 0 1867
+S
+#1869
+Foyer of the Orphanage~
+      The dwarven community is very stong and supportive, hence a totaly
+dwarf run and supported childrens home. The foyer is spartan but functional
+there are tiny coat hooks for all the childrens coats there is a staircase
+leading down and to the north you can see the dining room and kitchen.
+~
+18 2097160 0
+D0
+you see the orphanage kitchen.
+~
+~
+0 0 1870
+D1
+You see a small doorway.
+~
+door small~
+1 0 1861
+D5
+You see a hallway.
+~
+~
+0 0 1871
+S
+#1870
+The Orphanage Kitchen~
+      This is where Ms. Aeginine prepares the food for all the children, it is
+also where they all come to eat. Against the north wall there is a large stove
+running almost the width of the room is a large oak table, set very low to the
+ground. Surrounding the table are several tiny chairs and one slightly larger.
+There is a small basket containing bedding next to the stove - presumably for
+a pet styral.
+~
+18 2097160 0
+D2
+You see the Foyer of the Orphanage.
+~
+~
+0 0 1869
+S
+#1871
+A Hallway~
+      You are standing in a hallway in the sleeping quarters of the dwarven
+orphanage. There is a door to the north and another to the south. The stairs
+lead back up to the foyer.
+~
+18 2097160 0
+D0
+You see a small bedroom door.
+~
+bedroom door small~
+1 0 1872
+D2
+You see a small bedroom door.
+~
+bedroom door small~
+1 0 1873
+D4
+You see the Foyer of the Orphanage.
+~
+~
+0 0 1869
+S
+#1872
+The Childrens Dormitory~
+   This is the children's dormitory of the orphanage.  It is a small
+room, but well kept and furnished.  There are a few small beds all neatly
+arayed along the walls.  The floor is bare rock, and kept clean and polished.
+A few dolls and playthings sit on chairs and other furniture in the room.
+The dormitory exits south.
+~
+18 2097160 0
+D2
+You see a small bedroom door.
+~
+bedroom door small~
+1 0 1871
+S
+#1873
+Ms. Aeginine's Room~
+      This is Ms. Aeginine's room. Clearly she saves everything for the young
+orphans and keeps hardly anything for herself. The room is very spartan, just
+a hard pallet and one blanket.
+~
+18 2097160 0
+D0
+You see a small bedroom door.
+~
+bedroom door small~
+1 0 1871
+S
+#1874
+Trona's Workshop~
+   Trona is a marvelously skilled dwarven armourer, famed far and wide
+for her skills.  If you need something altered or adjusted, she is your
+dwarf.  Her shop is quite large, certainly the ceiling is a good bit higher
+than most dwarven shops and yet it still manages to maintain ia cluttered
+feeling.  This little workshop exits east onto Lime Street.
+~
+18 4236 0
+D1
+You see Lime Street.
+~
+~
+0 0 1862
+D2
+Life bustles by on Harbour Road.
+~
+~
+0 0 2085
+S
+#1875
+Fabulous Fendle's Fish Market~
+   As you enter this small shop, the stench of rotting fish pollutes the
+air leaving you gasping for breath.  The wooden floor is wet and slippery
+with water and slime leaking from several display cases and a dirty wicker
+basket on the floor.  Nearby, you see a massive wood cutting block where the
+fishmonger can `dress-up' your fish after its purchase.  You see blood and
+guts, fish scales, and bones strewn all over the floor beneath this slimy
+block of wood.
+   Through a large open window at the rear of the shop, you hear the sound
+of the surf crashing onto the piers and the cries of seagulls in the air
+as they home in on the stench which emanates from this quaint shop.
+~
+18 8 0
+D0
+~
+~
+0 0 2046
+E
+case barrel cases barrels basket baskets~
+   There are several display cases here each with its own variety of fish
+and seafood.  Most of the fish sold here are fresh, however, some are not;
+some of these fish have cloudy eyes, pale skins, and emit very disagreeable
+odours.  In large open barrels, there are tiny sardines and pickled herrings,
+although available for purchase look quite disgusting.  There are some
+equally revolting fish in wicker baskets.  It may be a better policy, safer
+at least, to buy only the fresh fish.
+~
+S
+#1876
+Coutts' Office~
+   This cavernous office is twice as large as it should be.  Coutts spared
+no expense in decorating it.  The walls are covered with expensive mahogany
+paneling and the floor is of a highly polished parquet.  Conversation echoes
+off the bare walls and hard floor.  In the center of the room is a large
+desk, behind which Coutts usually sits.  On the wall behind the desk, is a
+tremendously gigantic painting.  A red brick fireplace is in the middle of 
+the north wall providing warmth.  The entire southern wall is dominated by a
+bay window overlooking Lamman's great harbour.  The only exit from the room
+seems to be the large oak door in the center of the east wall.
+~
+18 8 0
+D1
+~
+door~
+1 0 2042
+E
+painting paint~
+   The painting is huge--an ostentatious display of wealth.  Coutts must
+have spent a small fortune (of course he has a gigantic fortune) on its
+commissioning.  The subject of the painting seems to be of his royal majesty
+and Coutts signing the charter in which the king agrees to use Coutts' bank
+as the exclusive royal treasury.  Although the painting was painted by a
+superb master, it still comes across as rather cheesy.
+~
+S
+#1877
+Lime Street~
+   Lime Street is somewhat of a quaint little road running along the banks of
+the Ronnan River to the east.  The street is paved with large cobblestones
+and lit at night with oil street lamps.  This would be an idyllic part of
+Lamman, if it were not for the banging and clanging coming from a red brick
+building on the west side of the street.  Occasionally the noise ceases and
+the quiet returns.  A soothing zephyr breezes from the north past the shop
+and continues along Lime Street to the south.
+~
+18 0 1
+D0
+You see Lime Street.
+~
+~
+0 0 1861
+D2
+You see Lime Street.
+~
+~
+0 0 1862
+D3
+You see Stonehelm's Armour Shoppe
+~
+~
+0 0 1879
+S
+#1878
+Beneath the High Altar~
+   A large stone vault resides directly below the High Altar.  Centuries ago
+this space was intended to be the final resting place for the King.  But due
+to an unforeseen war, the vault was never used.  The king died hundreds of
+leagues away from royal city of Lamman and was buried with honor on the field
+of battle where he fell.  Over time the vault was forgotten by all, but a few
+shadier individuals who used the space as a secret storeroom.
+~
+18 1073741833 0
+T
+1805 295
+The Chief Inquisitor coughs loudly.
+The Chief Inquisitor whispers to you, 'I think you have used up enough of my
+valuable time.  Be gone with you!'
+
+You have a strange feeling that you are no longer standing where you once were!
+
+~
+The secret police man whispers something to $n.
+$n vanishes!
+~
+$n seems a bit confused by recent events.~
+S
+#1879
+Stonehelm's Armour Shoppe~
+   Only a few faded war banners adorn the otherwise spartan brick walls of
+the armour shoppe.  A light layer of dust seems to have settled everywhere.
+Evidently business is not as brisk as it might once had been.  A low oaken
+counter runs the entire length of the west wall.  The shop exits east through
+a low portal onto Lime Street.
+~
+18 2101388 0
+D1
+You see Lime Street.
+~
+~
+0 0 1877
+S
+#1880
+Tegl's Stable Yard~
+Tegl's stable is renouned as the best stable in all of Lamman, excepting
+only the King's own.  The stable yard is certainly clean and businesslike and
+the door to Tegl's enormous stable can be entered to east.  %0The soft nicker
+of horses can be heard coming from the stable to the east.% %2The stable is a
+hive of activity, stable boys leading horses too and fro for grooming and
+exercise.% Clearly this is the place to come and buy a mount.
+~
+18 8 1
+D0
+An arched wooden gateway with a large gate is to the north.
+~
+gate gateway~
+1 -1 2021
+D1
+A barn door must lead into the stable.
+~
+door barn~
+1 -1 1881
+S
+#1881
+Tegl's Stable~
+   The noise and smells of horses permiates the entire stable.  The stable is
+huge, you can see at least twenty stalls and there are probably more that you
+cannot see.  The horses are clearly well looked after, there is fresh
+straw on the ground, the roof looks solid and the whole place is warm and
+dry.  An army of stable hands runs around currying horses and carrying feed.
+~
+18 8 0
+D3
+The barn door must lead into the stable yard.
+~
+door barn~
+1 -1 1880
+S
+#1882
+Tegl's Stock Store~
+This is a room to hold all the mounts that tegl can sell.  PC's
+should never get in here.  Place any mount you want tegl to sell in 
+this room.  Mount cost == 100* max_move of the beast.
+~
+18 1024 0
+S
+#1883
+A dangerous alley~
+  A rank smelling trickle of water drips down the side of a run down building
+and collects in a dirty pool in the middle of the alley.  Around you in the
+darkness, you hear strange slams and the muffled bark of a stray dog being
+slaughtered for dinner by a hungry troll.  Bits of broken glass lie scattered
+about the ground, evidence of a recent skirmish.  The dark alley continues on
+to the north, while a much safer part of the troll ghetto is to the south.
+~
+18 1073741825 1
+D2
+~
+~
+0 0 1830
+S
+#1884
+A Slippery Pier~
+   The pier is heavily used.  Slippery grease and oil stain the pier, giving
+it a sickly brown sheen whenever the sun beats down on it.  There are workers
+and mean looking sailors here, busily loading and unloading valuable cargo
+from sleek looking ships and bulky galleons.  Other people can be seen
+boarding smaller vessels docked nearby for passage to points unknown.  The
+pier continues south.  It exits out onto the Lamman quay to the north.
+~
+18 0 1
+D0
+~
+~
+0 0 2086
+D2
+The slippery pier continues south.
+~
+~
+0 0 1885
+S
+#1885
+A Slippery Pier~
+   A few ships are anchored here at the pier's end.  The ships, mostly large
+freight carrying galleons, are closely guarded by chain mail wearing sailors
+wielding all manner of weapons from scimitars to pikes to gisarmes.  The
+sailors look not look too happy, and you obviously avoid them.  One ship on
+this pier, however, do not have armed men guarding it.  The vessel, the one
+docked to the west, is small and bulky looking.  A few ordinary people can be
+seen boarding it.  The pier continues north.
+~
+18 0 1
+D0
+The slippery pier continues to the north.
+~
+~
+0 0 1884
+S
+#1886
+A damp tunnel~
+   An arched tunnel here leads through the city wall.  Moisture drips off
+the black brick walls forming puddles on the dingy flagstones.  The air is
+musty and damp, the perfect growing environment for mushrooms and other
+fungi.  Not surprisingly, some whitish-yellow puffballs grow near the bottom
+of the wall.  Across the southern end of the tunnel is an iron yett.  Long
+vines of ivy hang down over the northern end of the tunnel.
+~
+18 9 0
+D0
+Overgrown vines of ivy hang down in front of an opening to a dark, damp tunnel.
+~
+~
+0 0 1887
+D2
+A heavy iron yett hangs in the doorway, keeping out intruders.
+~
+yett iron~
+1 0 1827
+E
+yett door~
+   This door is made of iron bars crossing each other to form a long grille
+that hangs from heavy hinges in a vaulted stone doorway sunk deep into the
+middle of the northern wall.  This yett is a massive iron grille and a strong
+draw-bars slide across the inside, as to secure it from being opened.
+~
+S
+#1887
+La Cour du Nouveau Magicien~
+   With Lamman's massive city wall to south and three squat stone buildings
+in the other cardinal directions, this small courtyard has a cozy, homely
+feel about it.  Vigourous green vines of ivy scramble up almost every exposed
+square inch of the walls. The ivy thrives in this damp and heavy air,
+absorbing all the magical energies that radiate from the three buildings.
+Leafy tendrils of ivy hang over the entrance to a dark tunnel that runs
+beneath the city wall.
+~
+18 36992 2
+D0
+A blood red door serves as the enterance to the classroom.
+~
+door red blood~
+1 0 1889
+D1
+A bright blue door serves as the enterance to the laboratory.
+~
+door bright blue~
+1 0 1890
+D2
+Overgrown vines of ivy hang down in front of an opening to a dark, damp tunnel.
+~
+~
+0 0 1886
+D3
+A dark green door serves as the entrance to the archives.
+~
+door green dark~
+1 0 1888
+E
+vines vine ivy~
+   The many vines of ivy all seem to originate from a corner of the courtyard
+near the city wall.  From here, the vines race across the wall and up the
+sides of the squat stone buildings clothing everything in green leaves.  The
+ivy seems to thrive in the moist air, feeding off the dampness and the magical
+auras that emanate from the buildings.
+~
+S
+#1888
+Les Archives du Nouveau Magicien~
+   Aside from a couple of badly nicked and scratched tables near the dark
+green door, nearly all the space in this overcrowded archive is taken up by
+shelves crammed full of books and wound scrolls.  The heavy ancient tomes on
+the bottom shelves seem to be deteriorating with age and their leather
+bindings shed a rusty powder when touched.  Smaller and some newer books
+line the upper shelves, intermingled with scrolls and charts.  A fine layer
+of dust has settled over some of the lesser used volumes.
+~
+18 4232 0
+D1
+A dark green door serves as the exit from the archives.
+~
+door green dark~
+1 0 1887
+S
+#1889
+La Salle de Classe du Nouveau Magicien~
+   This simple classroom is devoid of any distraction that might confuse the
+would be mage.  A solitary slate board, marked with the forms and techniques
+of magic, runs across the front of the room.  Apprentices usually cluster
+around the oak table at the room's center and examine the various slates and
+rolls of parchment scattered across the table.  So popular are the lessons
+taught here that the grayish-blue paint on the wooden floorboards has been
+worn away from the relentless traffic of passing students.
+~
+18 4232 0
+D2
+A blood red door serves as the exit from the classroom.
+~
+door red blood~
+1 0 1887
+E
+board slate blackboard tech form~
+
+The Five Techniques:
+Creo        Create
+Intellego   Know/Perceive
+Muto        Change
+Perdo       Destroy
+Rego        Control
+The Ten Forms:
+Animal      Animals                 Ignem         Fire
+Aquam       Water                   Imagonem      Images
+Auram       Air                     Mentem        the Mind
+Corpus      the Body                Terram        Earth
+Herbam      Plants                  Vim           Raw Essence of Magic
+~
+S
+#1890
+Le Laboratoire du Nouveau Magicien~
+   As you enter, you are overcome by a powerful stench that reminds you of
+dung, rotting seaweed, sulfur, and several other unpleasant odours that you
+have smelled in the past.  Strewn about on several slate work tables is a most
+impressive collection of vials of brightly colored powders, flasks and
+decanters filled to the brim with shimmering liquids, rust-covered tongs,
+forceps and spoons, piles of worn parchment covered in arcane symbols, and a
+few other tools that, as far as you know, have no name.
+   Along the eastern wall, there is a large rack of glass beakers and flasks
+connected together with an bewildering array of glass tubes and metal joints.
+Ominous snapping and crackling noises spurt forth from the device at all too
+regular intervals.  Etched into the glass of one of the biggest flasks, you
+swear that you see the symbols for lead and gold!
+~
+18 4232 0
+D3
+A bright blue door serves as the exit from the laboratory.
+~
+door bright blue~
+1 0 1887
+S
+#1891
+The Quay~
+   The Quay is roughest part of Lamman and is where some of the shadier
+businesses and commercial transactions take place.  One of the more notorious
+shops is crammed smack dab between Wharf Lane and the Great Western Road.
+From the gaudily painted sign hanging above the door, you find that it is a
+tattoo parlour.  With all the sailors and mariners on the Quay, it would seem
+that this is the perfect location for such an enterprise.  The Quay continues
+to the east and west.
+~
+18 0 1
+D0
+The door to the tattoo parlour is painted with strange blue designs.
+~
+door tattoo~
+1 0 1892
+D1
+You see the Quay.
+~
+~
+0 0 2087
+D3
+You see the Quay.
+~
+~
+0 0 2088
+S
+#1892
+Louie's Tattoos~
+   Although a tattoo shop is not surprising to find on the Quay, such a clean
+and orderly shop is unusual.  White ceramic tiles cover the floor and half
+way up the walls.  Where the tile ends, glass shelves begin.  Hundreds of
+jars and vials full of coloured inks and dyes rest upon the shelves, the
+pigments for Louie's body art.  In the middle of the room is a large cushy
+chair with a nice leather foot rest.  A smaller chair and a bench are next
+to the door with a few sample books showcasing Louie's art.
+~
+18 8 0
+D2
+The door to the tattoo parlour is painted with strange blue designs.
+~
+door tattoo~
+1 0 1891
+S
+#1893
+Moby Dick's Fish-n-Chips~
+  As soon as you enter the shop, the smell of boiling fat and crispy fried  
+fish fill your lungs, and make you feel instantly hungry.  Two large vats 
+sit behind the greasy wooden counter, smoking and bubbling away as 
+the owner takes the orders of his customers.  There is the customary board on 
+the wall with notices about recent events, advertisements for goods for 
+sale and services for hire, as well as the price list.
+~
+18 8 0
+D2
+~
+~
+0 0 2025
+E
+vat vats~
+  The metal cooking vats are about four feet high, and filled to the brim
+with some boiling liquid, presumably cooking fat.~
+E
+counter wooden~
+  Grease seems to have dripped down the wooden counter, and set in streaks
+across the varnished front.  Presumably somewhere behind it is the cash
+box.~
+E
+grease oil oils fat fats~
+  The bubbling fat gives off a delicate pleasant aroma.~
+S
+#99999
+$~

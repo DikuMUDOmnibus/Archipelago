@@ -1,0 +1,276 @@
+#2000 NEW~
+2020 
+-1 
+2022 
+2023 
+2024 
+1.500000 
+0.050000 
+536871136 
+%s I haven't got that kind of a weapon!~
+%s You don't carry that weapon!~
+%s I only buy weapons.~
+%s I cannot afford such a weapon.~
+%s No money eh? Well.. Let me show you to the door.~
+%s That costs just %s.~
+%s Here, you can have %s for that.~
+0 
+0 
+2005 
+0 
+2013 
+0 
+28 
+0 
+0 
+#2001 NEW~
+2040 
+2042 
+2044 
+-1 
+2081 
+1.000000 
+0.050000 
+512 
+%s Haven't got that on storage - try list!~
+%s You don't seem to have that.~
+%s I only buy armours. Go away!~
+%s That's way too expensive for me!~
+%s You can't afford it!~
+%s That'll be %s, please.~
+%s I'll give you, umm.. %s for it.~
+0 
+0 
+2006 
+0 
+2012 
+0 
+28 
+0 
+0 
+#2002 NEW~
+2050 
+2051 
+2052 
+2053 
+2054 
+1.500000 
+0.150000 
+117441564 
+%s Sorry, I haven't got exactly that item.~
+%s You don't seem to have that.~
+%s I don't buy such items.~
+%s That is too expensive for me!~
+%s You can't afford it!~
+%s That'll be %s, please.~
+%s I can give you %s for it.~
+0 
+0 
+2003 
+0 
+2019 
+0 
+28 
+0 
+0 
+#2003 NEW~
+2060 
+2061 
+-1 
+-1 
+-1 
+1.200000 
+0.100000 
+4194304 
+%s Sorry pal, I have not got that kind of boat.~
+%s Ok, but let me see it first.~
+%s I only trade boats.~
+%s I can't afford such a nice boat.~
+%s This boat is out of your price range.~
+%s Here is your boat, I'll take %s.~
+%s What a fine deal, you get %s.~
+0 
+0 
+2008 
+0 
+2029 
+6 
+22 
+6 
+22 
+#2004 NEW~
+-1 
+-1 
+2030 
+2031 
+2032 
+1.400000 
+0.100000 
+567554 
+%s Haven't got that on storage - try list!~
+%s You don't seem to have that.~
+%s I don't buy THAT... Try another shop.~
+%s I can't afford such a treasure.~
+%s You can't afford it!~
+%s That'll be %s, please.~
+%s You'll get %s for it!~
+0 
+0 
+2004 
+0 
+2039 
+0 
+28 
+0 
+0 
+#2005 NEW~
+-1 
+-1 
+-1 
+2013 
+2014 
+1.000000 
+1.000000 
+-1 
+%s Haven't got that on storage - try list!~
+%s I don't buy!~
+%s I don't buy!~
+%s I don't buy!~
+%s If you have no money, you'll have to go!~
+%s That'll be %s.~
+%s You'll get %s for it!~
+0 
+0 
+2044 
+0 
+2066 
+0 
+28 
+0 
+0 
+#2006 NEW~
+2038 
+2017 
+2036 
+2029 
+2037 
+0.010000 
+0.010000 
+0 
+%s I don't have that in stock - try list!~
+%s You don't seem to have that item~
+%s I don't buy those, sorry.~
+%s I can't afford that, sorry.~
+%s If you have no money, you'll have to go!~
+%s That'll be %s.~
+%s I can only offer thee thanks for your kind generosity.~
+0 
+0 
+2059 
+0 
+2024 
+0 
+28 
+0 
+0 
+#2007 NEW~
+-1 
+-1 
+-1 
+29004 
+1004 
+1.100000 
+1.000000 
+-1 
+%s No boats going there - try list!~
+%s I don't buy!~
+%s I don't buy!~
+%s I don't buy!~
+%s If you have no money, you'll have to go!~
+%s That'll be %s.~
+%s Oops - %d a minor bug - please report!~
+0 
+0 
+2058 
+0 
+2097 
+0 
+28 
+0 
+0 
+#2008 NEW~
+-1 
+-1 
+-1 
+-1 
+2015 
+2.000000 
+1.000000 
+-1 
+%s Haven't got that on storage - try list!~
+%s I don't buy!~
+%s I don't buy!~
+%s I don't buy!~
+%s If you have no money, you'll have to go!~
+%s That'll be %s.~
+%s Oops - %d a minor bug - please report!~
+0 
+0 
+2061 
+0 
+0 
+0 
+28 
+0 
+0 
+#2009 NEW~
+-1 
+1817 
+1818 
+1819 
+1820 
+2.000000 
+1.000000 
+-1 
+%s Haven't got that on storage - try list!~
+%s I don't buy!~
+%s I don't buy!~
+%s I don't buy!~
+%s If you have no money, you'll have to go!~
+%s That'll be %s.~
+%s Oops - %d a minor bug - please report!~
+0 
+0 
+2002 
+0 
+2015 
+0 
+28 
+0 
+0 
+#2010 NEW~
+2067 
+-1 
+-1 
+-1 
+-1 
+1.000000 
+0.100000 
+16777216 
+%s I don't have that item.~
+%s You don't have that item.~
+%s I don't buy that sort of item.~
+%s You can't afford it.~
+%s I can't afford it.~
+%s That costs %s.~
+%s I'll give you %s for it.~
+0 
+0 
+2082 
+0 
+0 
+0 
+28 
+0 
+0 
+$~

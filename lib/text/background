@@ -1,0 +1,37 @@
+ARCHIPELAGO is designed to be a classless skills/stats oriented game. To
+this end we have several stats that probably do not exist on other
+muds. Here is a list of the stats and their abbreviations:
+
+	Strength 	Str (physical strength)
+	Intelligence	Int (intelligence)
+	Wisdom		Wis (wisdom)
+	Constitution	Con (physical robustness)
+	Dexterity	Dex (dexterity)
+	Charisma	Chr (personality charm etc. )
+	Perception	Per (how observant you are)
+	Guile		Gui (how sneaky you can be)
+	Focus		Foc (how well you can concentrate *)
+	Devotion	Dev (basically how religious you are *)
+
+When your stats are generated the total will be constant - so there is
+little point in re-rolling ad-nausiam. You will also be allowed to
+distribute a number of points to your stats to tailor them to your
+personal taste - no stat can be set higher that 23.
+
+After you have chosen your stats, you must choose a race. Race stat
+bonuses are on top of your current stats. So you can end up with stats
+greater than 23.
+
+Most skills depend on several (up to 3) different stats. Broadly speaking
+however strength and dexterity are required for fighting, Intelligence for
+mage-spell casting, guile is useful for thieving, charisma helps bard skills
+etc.
+
+There are currently 5 guilds in town: Mage, Cleric, Warrior, Thief and Bard.
+
+more guilds are planned but their location and skills they make available
+may not be announced.
+
+
+
+

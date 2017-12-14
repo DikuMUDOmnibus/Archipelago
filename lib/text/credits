@@ -1,0 +1,56 @@
+
+                   A  R  C  H  I  P  E  L  A  G  O                  
+
+                                -=0=-
+
+ Archipelago is a based on the CircleMUD 2.2 code (see below). The major
+ modifications by Alastair Neil (Ponder) at The University of Essex Dept.
+ of Psychology, Soraya Ghiasi (Kalliste) at The University of
+ Colorado, Boulder and Shawn L. Baird (Scarrow). Angus Hamilton (Arg)  has
+ also been a source of ideas and a good critical filter.
+
+ Many individuals have dedicated thousands of hours in contributing in  
+ building the world of Archipelago and contributing to the development
+ and philosophy of the game. Notable are:
+
+ Chuck Blomberg (Saladin)
+ Jason Chayes (Ansalon) 
+ Robert Chin (Xero)
+ David Czeck (Magnifico)
+ Sandra Miura (Grace)
+ Bryan Wride (Ratatosk)
+
+                                -=0=-
+
+ CircleMUD was developed from DikuMUD (Gamma 0.0) by Jeremy "Ras" Elson at
+ Johns Hopkins University's Department of Computer Science.  All code unique
+ to CircleMUD is protected under a copyright by the Trustees of the Johns
+ Hopkins University.
+
+ Many, many people contributed to CircleMUD in one way or another throughout
+ the course of its development.  Although it's impossible for me to remember
+ them all, I'd like to extend special thanks to (in alphabetical order):
+ Danny Baker, Bill Bogstad, Harold Ervin, Fenris, Jeff Fink, Furey, Gnort,
+ Sharon Goza, Bryan Jolson, Steven Lacher, Jay Levino, Fred Merkel, Catherine
+ Stanton, Naved Surve, and Tim Stearns.  Circle would be different in some
+ way without the contributions of any of these people.
+
+ CircleMUD is available for anonymous FTP at ftp.cs.jhu.edu in pub/CircleMUD.
+ Its author can be contacted at jelson@cs.jhu.edu.
+
+ ============================================================================
+		Original game idea, concept, and design:
+
+          Katja Nyboe               [Superwoman] (katz@freja.diku.dk)
+          Tom Madsen              [Stormbringer] (noop@freja.diku.dk)
+          Hans Henrik Staerfeldt           [God] (bombman@freja.diku.dk)
+          Michael Seifert                 [Papi] (seifert@freja.diku.dk)
+          Sebastian Hammer               [Quinn] (quinn@freja.diku.dk)
+
+ ------------------------------------------------------------------------------
+ Additional contributions from Michael Curran, Bill Wisner, Mads Haar, and
+ Stephan Dahl.
+
+ Originally developed at:
+  DIKU - The Department of Computer Science at the University of Copenhagen.
+

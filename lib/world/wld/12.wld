@@ -1,0 +1,493 @@
+#1200
+Arg's Den~
+   What a tip! this place is covered with laundry, some of it weeks old.
+There is an unmade bed covered with tatty scraps od paper and and old
+guitar.  In one corner there is a small desk, you notice a book on the
+desk.
+~
+12 520 0
+D1
+You see The Board Room of the Immortals.
+~
+~
+0 0 1204
+D5
+~
+~
+0 0 1209
+E
+book~
+It's called:
+
+          Interesting and Unusual Mental Arithemtic Tricks
+                        for Fun and Profit.
+
+~
+S
+#1201
+Ponder's Bathroom~
+   You seem to be in a spacious bathroom. There is a huge ornate iron bath here
+brimming over with steaming hot water. You can see pile of books on a ledge
+and a small sign hung over a steam coated mirror.
+~
+12 8 0
+D0
+You see something.
+~
+~
+0 0 1202
+D1
+~
+~
+0 0 1208
+D3
+~
+~
+0 0 1222
+D4
+The Lid on the top of the world prevents you going up.
+~
+~
+0 0 0
+D5
+~
+~
+0 0 1209
+S
+#1202
+The Temple of Eris~
+  The temple is a large open air room.  Magestic columns reach into the
+clouds.  %3The floors are covered with murals depicting the Trojan War.%
+In the center of the room is a plain white pedestal.  A beautiful golden
+ball floats above the pedestal.
+~
+12 1544 0
+D0
+~
+~
+0 0 1201
+D1
+~
+~
+0 0 1208
+D2
+~
+~
+0 0 1223
+D3
+You see The Board Room of the Immortals.
+~
+~
+0 0 1204
+D5
+~
+~
+0 0 1209
+E
+ball golden~
+The beautiful golden ball is magically suspended above the pedestal.
+On closer examination, the word 'Kalliste' can faintly been seen engraved
+on the ball.
+~
+S
+#1204
+The Meeting Room~
+   This large room is well decorated, and lit from above by a soft magical
+glow of no particular origin.  Scattered around the room are comfortable
+chairs and piles of furs of various dimensions, and in the very middle there
+is a huge oaken table that shimmers in an odd manner.  A large picture window
+looks down over the whole world, showing the exploits of the many intrepid
+mortals.  A spiral staircase leads down to another part of this room.
+~
+12 8 0
+D0
+A heavy walnut door hung by brass hinges. It looks quite sturdy.
+~
+door~
+1 0 1221
+D1
+~
+~
+0 0 1208
+D2
+~
+~
+0 0 1207
+D3
+~
+~
+0 0 1219
+D5
+You see the lower part of this room, and the normal board.
+~
+~
+0 -1 1205
+S
+#1205
+The Lower Board Room of the Immortals~
+   This room is a close twin to the main Immortal Board Room that is at the
+top of the spiral staircase here.  Your mind and body cannot help but relax
+as you glance around this comfortable room, and hope that you will be able
+to linger here a while.  Many green plants line a marble stairway that leads
+down through the clouds to the Central Fountain of Lamman.
+~
+12 520 0
+D4
+You see the main Immortal Board Room at the top of the spiral staircase
+~
+~
+0 -1 1204
+D5
+You see the Central Fountain.
+~
+central fountain~
+0 -1 2001
+S
+#1206
+Lounge of the Guildmasters~
+   Teaching magic can be difficult and unrewarding at times, so when the
+pressures of being a guildmaster weighs in heavily upon the mind of a magus,
+he or she will retire to this comfortable lounge.  A few over-stuffed leather
+armchairs sit in secluded corners of the room.  Plenty of reading material is
+rests in large oak bookcases close at hand.  A sweet smelling blue haze from
+some oddly scented herbs floats in the air near the oddly shaped ceiling.
+Six large glowing portals hover in all directions making the walls and
+ceilings of this lounge treacherous to stand near or walk upon.
+~
+12 1073742872 0
+D0
+~
+~
+0 0 2061
+D1
+~
+~
+0 0 2087
+D3
+~
+~
+0 0 2020
+S
+#1207
+Builder's Room~
+   This room seems to be full of construction materials.  There are rolled
+maps and crinkled plans scattered about.  Through a crystal sphere in the
+floor, you can see a scale model of the whole world of Archipelago -- perfect
+in every minute detail.  The model even seems to have little ants running
+about...wait a minute those aren't ants!  An arched brick doorway leads into
+a small hut to the south.  A path also leads to the north.
+~
+12 8 0
+D0
+~
+~
+0 0 1204
+D2
+~
+~
+0 0 1220
+S
+#1208
+Bugs Room~
+Yuck this room is crawling with insects of all shapes and sizes.  Obviously
+this is where the Imps like to keep their pet bugs.  There is a large board
+here for you to notify the Imps about any new species of bugs you may find.
+~
+12 8 0
+D3
+~
+~
+0 0 1204
+S
+#1209
+The God's Lounge~
+This is a comfortable area filled with inviting armchairs and sofas. There
+are many magazines scattered about, at glance you notice 'CREATION AEONLY'
+and the 'IMMORTAL GAZETTE'. In one corner there are tea and coffee making 
+facilities.
+~
+12 1544 0
+D5
+~
+~
+0 0 1204
+E
+magazine creator aeonly immortal gazette~
+Hey! thats Ponder's picture on the front cover, wow!
+~
+S
+#1210
+The Avatar Lounge~
+As you materialize in the room, you notice large pillows arranged in
+neat piles on the floor.  Reproductions of some of Archipelago's
+mightiest weapons and armors adorn the seamless wall in this circluar
+room; each time you reach for one, it fades away.  These treasures are
+meant to be seen...not touched. A shimmering is sign posted above the
+mantle.
+~
+12 45065 0
+E
+sign~
+        ``This is a place of rest and solitude, it was made as a
+           reward for your great trials and accomplishments.''
+                                           --Eq, the first Avatar
+~
+S
+#1211
+Chamber of Horrors~
+   Welcome, O Unlucky Soul, to the Chamber of Horrors...  Strewn about the
+darkened room are various implements of pain and suffering.  Occupying the
+very center of the chamber is a massive iron coffin, some fiendish implement
+of torture.  Lining the walls are racks upon racks of vises, pliers, chains
+and worse looming out of the dusky shadows creeping across the walls.  The
+blood of misanthropes and martyrs dirties the floor, the stone stained a dull
+reddish-black by those ignorant few who thought themselves beyond reproach
+for their sins.  Tremble in fear, for those who enter these walls seldom
+leave in much the same condition...
+~
+12 266376 0
+D1
+A slimy wooden door with rusting iron hinges.
+~
+door~
+2 1239 1212
+S
+#1212
+Prison of Archipelago~
+   This is where the Immortals of Archipelago lock away those who have
+fallen into disfavor, whether to sit and regret their mistakes or to wait
+for a darker end to their existence.  Stale straw covers the floor, long
+since rotted into a dirty, sodden mass.  The walls are of dirty gray stone,
+coated with the grime of long ages and sullenly guarding those who are
+confined here.
+~
+12 1073745928 0
+D0
+A damp, dingy stone wall of the prison.
+~
+~
+0 0 0
+D1
+A damp, dingy stone wall of the prison.
+~
+~
+0 0 0
+D2
+A damp, dingy stone wall of the prison.
+~
+~
+0 0 0
+D3
+A grimy wooden door with rusting iron hinges.
+~
+door~
+2 1239 1211
+D5
+A filth-ridden stone floor encrusted with dirt.
+~
+~
+0 0 0
+S
+#1213
+A clearing in the Faerie Woods~
+   A giant faerie ring occupies the center of the clearing.  Inside the ring,
+there is a banquet table covered with a wine and fruit.  A number of faeries
+must have been here feasting... perhaps you scared them away?
+~
+12 0 3
+E
+table~
+The table is covered with a feast few mortals shall ever see. The
+drinking horns are filled with the best in Faerie wines and
+sumptuous fruit spills over the edges of large crystal bowls.~
+S
+#1214
+Under Construction~
+   White walls a white ceiling and a white floor. Everything is white.
+The surface is hard and slick and seems impervious to any attempt at
+marking it.  What on earth could possibly go on in here?
+~
+12 8 0
+S
+#1215
+Terry's Office~
+     You are standing in Terry's office.  To your right you see a map of 
+Archipeligo covering the wall.  In front of you is a huge Mahogany desk that
+takes up a quarter of the floor space.  On top of the desk you see several
+books, including a well worn dictionary, a small crystal globe and a statue
+of a wizard.  Behind the desk you see a beautifully crafted leather chair 
+that looks extremely comfortable but you think better of sitting in it.  
+A large picture window is on he oposite side of the room from the door you 
+just entered from that offers a breathtaking view of the town.
+~
+12 45064 0
+D0
+~
+~
+0 0 1210
+D2
+~
+~
+1 0 1204
+S
+#1216
+Gaspode's little red cart~
+    The little cart is sturdily made from hard wood.  There are bench
+seats lining both sides of the cart, they look hard.  The whole of the 
+interior has been painted a bright red.  The cart has a hatch which looks
+like it could be closed for extra privacy.
+~
+12 1073787008 0
+S
+#1217
+Inside an Iron Maiden~
+   The front of the iron maiden slams shut with a deadly clang the exact
+moment you enter it.  Instantly you feel thousands of tiny points of steel
+pierce through your armor and skin forcing you to scream in intense pain.
+You feel your blood quickly gush out of your body and you rapidly fall into
+unconsciousness.  You cynically reflect about how fleeting life is with your
+last dying thought.
+~
+12 1880035469 0
+S
+#1218
+Monster Holding Pen~
+   Massive steel reinforced concrete barriers border the perimeter of the
+holding pen.  Nine heavy twisted cables encircle the perimeter.  Starting
+at the ground, each cable is parallel to the next higher one and they are
+spaced evenly one foot apart from each other.  Every six feet a yellow,
+black, and red sign states simply: ``DANGER: HIGH VOLTAGE!''  What ever is
+kept in this pen, the immortals certainly do not want it escaping.
+~
+12 8 0
+T
+1218 45
+The air seems to hum with a deadly electrical charge.~
+~
+~
+S
+#1219
+Map Room of Archipelago~
+   The room is paneled with darkly stained walnut boards giving the room a
+sense of grandeur and stateliness.  In the middle of the eastern wall, there
+is an arched doorway.  Up against the five remaining walls, a dark oak map
+case rests.  A rich red and gold woven carpet covers the floor almost to
+each of the room's six walls.  Placed strategically on the expensive carpet
+is a hexagonal oak table with a large map unrolled over it's entire surface.
+Next to the map, there is a small placard.
+~
+12 13 0
+D1
+~
+~
+0 0 1204
+E
+placard~
+   The placard reads: ``Please do not remove the map from this room.  If you
+need a copy of the Map of Archipelago, load object 20054.  The cartographer
+of the map is Ratatosk.  Please give him any updated information concerning
+the map.''
+~
+S
+#1220
+A small construction hut~
+The inside of the hut is cramped with the building materials of the Gods:
+earth, wind,  fire and water.  Although this seemed like a small brick hut
+from the outside,  the inside is cavernous.  There is a small workbench near
+the middle of the hut.
+~
+12 9 0
+D5
+~
+~
+0 0 2001
+E
+workbench~
+   A worn old workbench of sturdy oak.  There are curls of pine shavings and
+iron filings strewn all over its pitted and marred surface.  A builder's day
+never ends.~
+S
+#1221
+The Boardroom of the Gods~
+   The dark walnut paneling, rich maroon velvet drapery, and floor to
+ceiling bookcases convey a serious tone to this boardroom.  Here the
+immortals convene periodically to decide the future of Archipelago and
+the fate of the mortals who dwell there. In the center of the room there
+is a large table that runs the entire length of the room.
+~
+12 8 0
+D2
+A heavy walnut door hung by brass hinges. It looks quite sturdy.
+~
+door~
+1 0 1204
+S
+#1222
+The middle of a small oak grove~
+   Many colorful wild flowers have found this small break in the
+oak forest all the inspiration needed to burst into bloom.  Big,
+yellow and black bumblebees buzz around the flowers and then fly
+off and disappearing into the woods.  The leaves of the nearby
+oaks gently rustle in the cool zephyrs soothing your mind.
+~
+12 0 2
+D0
+~
+~
+0 0 1223
+D1
+~
+~
+0 0 1201
+D3
+~
+~
+0 0 1213
+S
+#1223
+An oak forest~
+   A small dirt path here winds its way around tall, ancient oak
+trees.  Many of the oaks look tired and sad.  Their gnarled
+branches bend under the weight of hundreds of acorns.  To the
+south, there seems to be a small clearing.  A temple can barely
+be seen through the leaves to the north.
+~
+12 0 3
+D0
+You can just see what appears to be a temple.
+~
+~
+0 0 1202
+D2
+You see a small clearing in the oak forest.
+~
+~
+0 0 1222
+S
+#1224
+Mob Zone Randomizer Room~
+   Mobs set to load in this room will randomly be sent to various zones
+across the mud (except Xero's who normally wishes more control over what
+loads in his zones).  This is a good way to make players guess where a 
+certain named mob might be, or a good way to do an invasion.
+~
+12 1025 0
+D0
+~
+~
+0 0 2002
+D1
+~
+~
+0 0 2004
+D2
+~
+~
+0 0 2003
+D3
+~
+~
+0 0 2005
+S
+#99999
+$~

@@ -1,0 +1,2273 @@
+ALIAS UNALIAS
+
+   The command alias can be used to set a shortcut for a command. The format
+is:
+	alias <name> <command>
+
+the text in <name> is then expanded to the full <command>. For example if you
+set the alias:
+
+	alias incinerate invoke 'pilum'
+
+you could then use the command:
+
+	incinerate evil_mob
+or
+	inciner evil_mob
+
+etc. to cast the spell pilum on the mobile evil_mob.
+
+   Note: You cannot replace existing commands with an alias as the aliases
+are only checked after all legal commands have been checked.
+
+   The command alias used with no arguments will list the aliases you have
+defined. Currently there is a limit of 5 alias.  Once you have filled all 5
+slots you will not be able to add any aliases.  If you want to remove an
+alias you use the unalias command:
+
+	unalias <name>
+
+where name must match an existing alias.  This will free an alias slot.
+
+#
+MOUNT DISMOUNT MOUNTS
+
+   Horses and various other mounts are available to the adventurer.  To get
+atop your mount, you must MOUNT.  To get back on the ground, DISMOUNT.
+
+#
+HITCH UNHITCH
+
+Usage: HITCH <item> <victim>
+       UNHITCH <item>
+
+   Use these commands to HITCH/UNHITCH pullable objects, like wagons,
+to monsters, animals, and people.
+
+#
+TETHER UNTETHER
+
+   Creatures, especially mounts, that are following you, can be tethered
+in place to stop them from moving around with you.  They can be untethered
+when you are ready to have them follow you around again.
+
+See also: MOUNT, DISMOUNT
+#
+WEB HOMEPAGE
+
+   The official home page for Archipelago is located at:
+           http://pubweb.acns.nwu.edu/~chayes/archipelago.html
+
+#
+SIZE SIZES
+
+   Sizes will affect what you can and cannot wear, and what rooms you can or
+cannot enter.  Luckily, most items can be resized to fit, just find a
+craftperson who can resize the item, give it the item, and voila!, it will
+be ready to wear.
+
+See also: REPAIR, RESIZE
+#
+STATS
+
+Strength: how physically mighty you are
+   (how much you can lift or carry or wield)
+Constitution: how healthy and robust you are
+   (how much life (hit points) you'll have and how fast you'll heal)
+Intelligence: how smart you are
+   (how well you comprehend magic)
+Wisdom: how deep your understanding can be
+   (will you have an added insight to magic or monsters)
+Focus: how well you can concentrate
+   (important to have in invoking spells)
+Perception: how much you can see
+   (can you see hidden objects and people in dim light)
+Dexterity: how agile you are
+   (can your fingers pick that lock, can you kick with out falling over)
+Guile: how sneaky you are
+   (generally applicable to thievery skills)
+Charisma: how personable you are
+   (get better prices on goods, lead larger groups)
+Luck: how lucky you are
+   (undeterminable and unknowable)
+
+#
+NOCON NOCONDITIONS
+
+   Use this command to enable/disable the display of item conditions that are
+shown at the end of an item.  e.g.,
+
+>look self
+..
+<worn on head>  a helmet..in good condition.
+<worn on body>  a breastplate..in poor condition.
+
+>noconditions
+>look self
+..
+<worn on head>  a helmet
+<worn on body>  a breastplate
+
+#
+REPAIR
+
+   Items that no longer perform as they should, are worn out, or broken, can
+be fixed at a craftsperson.  Not all items can be fixed and resized by any
+craftsperson, you have to find the right one who can do the type of work
+you want done for the item.  There are armors, weapons, treasures, worn,
+and other object types.
+
+See also: SIZES, SHOPS
+#
+DRAW SHEATHE
+
+   Cool commands... 'nuff said.   However, if you are really curious...  When
+wearing a scabbard and a weapon, such as a sword, you can SHEATHE a wielded
+sword.  This places the blade in the scabbard.  If you wish to fight something
+or someone, DRAW your weapon.  By doing so, you will instantly wield your
+weapon.  Also, if you are jumped by an aggressive monster or person, you will
+automatically draw your weapon and begin to fight. Note: these two commands
+only work if you are wearing or carrying a scabbard.
+
+#
+MOTD
+
+Use this command to display the message of the day.  Immortals who want to
+read the mortal motd (instead of their own message), type 'motd mortal'.
+
+#
+ABORT
+
+   Abort will clear the input buffer of all pending commands.  You will still
+be subject to any spell/command delays from the command currently being
+processed.
+
+See also: FLEE
+#
+DONATION
+
+   There are several donation shops in the game.  Martha in Lamman (1n2e1n
+from the fountain), Aelfric in Abernach, and Reimund in Wivernhoe.  When an
+item is donated it randomly goes to one of these shops.  There is a small
+chance that an item will get junked when it is donated.  Money donated goes
+to the poor box just inside the Temple of Small Gods in Lamman.
+
+See also: DONATE
+#
+LOOK
+
+Usage: LOOK [ <keyword> | at | <dir> | in | out | at | me/self | room ]
+
+o LOOK without any options will redisplay the room, its name, description,
+  exits, and whoever and whatever is in the room, as if you are entering it
+  for the first time.  Note: if you are using BRIEF descriptions, you will
+  only see the room's name, exits, and any beings of objects in the room.
+
+o The <keyword> option is used to look at something/someone in the room.  It
+  can also be used to look at something specific that was mentioned in the
+  room's description.  Many rooms have secret keywords embedded into the text,
+  and are often clues that can safe your life, hints to where a treasure is
+  buried, or simply there to enrich your role playing adventures.
+
+o The 'at' option is not necessary, simply omitting it while looking at
+  something will work just the same.
+
+o The <dir> option is used to look in a specific direction.  This option may
+  yield important hints/clues about nearby rooms, if available.
+
+o The 'in' option looks into a container and displays its contents.  In the
+  case of container exits, 'LOOK IN <object>' will show the room the container
+  links to.  Container exits can be entered, and things can be placed into the
+  room simply by putting stuff into the container.
+
+o The 'out' option is used to look out of a room you are in.  The 'out' option
+  works only if there is a 'leave' exit available.  If none is available, the
+  first exit leading outdoors will be used instead.
+
+o The 'me' or 'self' option looks at yourself, displays what equipment you
+  have on, and your character's description.
+
+Notes:
+
+o If you LOOK AT CORPSE you will not see its inventory.  To see what is inside
+  a container (i.e. a corpse) use LOOK IN <OBJECT>.
+
+o To view messages on a bulletin board, you need to LOOK BOARD.  You need to
+  be actually in the same room as a bulletin board for this to work. To read a
+  message, you can READ <message number>.
+
+See also: EXAMINE, READ
+#
+AC ARMOUR ARMOR
+
+   ``AC'' is your Armour Class.  It is a number from -100 to 100, roughly
+defined as follows:
+
+  100 Buck-naked person
+    0 Heavily armoured
+ -100 Armored battle tank
+
+See also: STOPPING
+#
+STOPPING
+
+   ``STOPPING'' is the ability of your armour to absorb damage.  It is a
+number (usually small) and corresponds to the maximum amount of damage from a
+blow that can be absorbed by your armour.
+
+See also: ARMOUR
+#
+LOCK UNLOCK
+
+Usage: LOCK/UNLOCK [ <portal/container> | <dir> ]
+
+   To keep things such as doors and chests secure from thievery, they are
+locked.  In fact, any number of portals and containers can be locked.  Even
+things such as rings, tables, and desks can be locked.  To open locked portals
+and containers, you will either need the proper key or be able to picklock.
+Some locks, however, unpickable and can only be opened with the right key.
+
+Examples:
+
+> lock door
+> unlock door south
+
+> lock chest
+> unlock chest
+
+See also: OPEN, CLOSE
+#
+OPEN CLOSE
+
+Usage: OPEN/CLOSE [ <portal/container> | <dir> ]
+
+   Often it is necessary to open things such as doors and chests to discover
+their contents.  Equally as common is the need to close doors and chests to
+prevent monsters and demons from escaping rooms and containers.
+
+Examples:
+
+> open portal
+> close gate
+
+> open chest
+> close box
+
+See also: LOCK, UNLOCK
+#
+NORTH SOUTH EAST WEST UP DOWN
+To move in a given direction.
+
+These commands may also be abbreviated: n s e w u d
+
+See also: MOUNTS
+#
+TASTE EAT
+
+Usage: TASTE/EAT [ <food> ]
+
+   After many hours of exploring, you will become hungry.  When hungry, you
+will recover hit points and movement points at a vastly slower rate.  It is,
+therefore, a good strategy to EAT food.  Some foods might be poisonous, so to
+be on the safe side, TASTE a food before you eat it.
+
+See also: SIP, DRINK
+#
+SIP DRINK
+
+Usage: SIP/DRINK [ <liquid> ]
+
+SIP DRINK
+
+Usage: SIP/DRINK [ <liquid> ]
+
+   After many hours of exploring, you will become thirsty.  When thirsty, you
+will recover hit points and movement points at a vastly slower rate.  It is,
+therefore, a good strategy to DRINK liquids.  Some liquids might be poisonous,
+so to be on the safe side, SIP a liquid before you drink it.
+
+See also: TASTE, EAT
+#
+WHO
+
+Usage: WHO [ <minlev>-<maxlev> | -d | -n <keyword> | -s | -o | -q | -r | -z ]
+
+
+   Lists the people currently in the game.  Some people may be invisible.
+Command-line options can be used to limit the listing.  The parameters can be
+specified on the command-line in any order.
+
+Flags:
+  minlev-maxlev : Lists only people whose level is at or above minlev, and
+                  optionally, at or below maxlev.
+
+  -d : lists only people who are link dead.
+  -n : lists only people whose names or titles contain <keyword>.
+  -s : lists names in the short form (4 columns of names, without titles or
+       flags).
+  -o : lists only outlaws (i.e. people with a killer or thief flag).
+  -q : lists only people who are on the Quest.
+  -r : lists only people who are in your current room.
+  -z : lists only people in your current zone.
+
+Examples:
+
+> who 15-25 -o -z
+        Lists all outlaws between levels 15 and 25 who are in your zone.
+> who -d -s
+      Lists all linkdead players in short form.
+
+See also: TITLE, FLAGS
+#
+SAVE
+   Save your persona.  This includes experience points, hit points, coins,
+et cetera.  Your equipment is also saved in the unlikely event of a crash.
+Archipelago periodically auto-saves you and your equipment, so it is not
+necessary to have your client auto-save you as well.
+   You CANNOT load a saved version if you die -- your persona still exists,
+but you will lose experience, and all your objects stay in the game, with
+your corpse.
+   Note that the SAVE command only saves your equipment in the event of a
+crash.  If you are leaving the game normally, SAVE will NOT save your
+equipment -- you must find an inn to store your belongings.
+
+** For immortals the 'save' command also saves your relevant area files **
+
+See also: INN, RENT
+
+#
+TITLE
+
+   The TITLE command sets the title others will see when they walk into a room
+and on the WHO list.  Parentheses (the '(' and ')' characters) are reserved
+for flags and consequently unavailable for use in titles.  The minimum
+requirement for your title is your name, which is represented by %n.
+   Titles on Archipelago are more flexible than can be found on most other
+muds.  Immortals of Daemon and greater can set titles to exclude the %n (name)
+of the person from their title.  So beware, some people may not be who they
+seem to be.
+
+Title %Codes:
+   %n  name (required to be in your title string)<
+   %c  race
+   %l  a level dependent keyword
+   %o  opponent (the opponent your are fighting)
+   %r  room (the room in which your are currently in)
+
+   Colour codes can also be placed into your title using Archipelago's ANSI
+colour %codes.
+
+Examples (all for player elf Wiglaf):
+
+> title %n of Wivernhoe the %l %o slayer.
+
+When not in combat: Wiglaf of Wivernhoe the wily nobody slayer.
+When in combat with orcs: Wiglaf of Wivernhoe the wily orc slayer.
+
+                        DO NOT ABUSE THE TITLE COMMAND.
+              IF YOU DO, YOUR TITLE PRIVILEGE WILL BE REVOKED.
+
+See also: FLAGS, COLOUR, ANSI
+#
+FLAGS
+
+   Players sometimes have FLAGS after their names in the WHO list.  These
+flags are always in parentheses, not brackets or braces.
+
+FLAG        MEANING
+----------- -----------------------------------------------------------------
+(KILLER)    Player is trying to kill other players.  That means you
+            can try to kill him/her without being flagged.
+(THIEF)     Player is trying to steal from other players.  Fire away.
+(invis)     Player is invisible; you can see him/her because you are
+            sensitive to the presence of invisible things.
+(writing)   Player is writing on the board; do not disturb.
+(mailing)   Player is writing mail; do not disturb.
+(deaf)      Player has chosen not to hear shouts.
+(notell)    Player has chosen not to accept tells.
+(quest)     Player is participating in a quest currently being run by
+            the Immortals.
+(away)      Immortals may set this using the brb command - it means they are
+            either really away or busy - so don't bug 'em.
+
+See also:  STEAL, VISIBLE, NOSHOUT, NOTELL, QUEST
+#
+GIVE
+
+Usage: GIVE [ <quantity> | <coins> | <(modifier)object> | <victim> ]
+
+   If you feel benevolent, you may give coins and equipment to someone in need.
+
+Examples:
+
+> give 10 crown max    (You give ten crowns to Max.)
+> give 3.sword max     (You give your third sword in your inventory to Max.)
+> give 2*bread max     (You give two breads to Max.)
+> give all max         (You give your entire inventory to Max.)
+> give all.muffin max  (You give all your muffins to Max.)
+
+See also: MODIFIERS
+#
+MODIFIER MODIFIERS
+
+o The '.' identifier.
+  To give a sword the second ghost, type: 'give sword 2.ghost'
+  To take the third pie from the second pack, type: 'take 3.pie 2.pack'
+
+o The '*' multiplier.
+  To buy several pieces of pie, type: 'buy 8*pie'
+  To give several pies to a bird, type: 'give 2*pies bird'
+  To give several pies to the second bird, type 'give 2*pies 2.bird'
+
+o The 'all' modifier.
+  To get everything from a corpse, type: 'take all corpse'
+  To put everything into a pack, type: 'put all pack'
+  To put everything into the second pack, type: 'put all 2.pack'
+
+o The 'all.' modifier.
+  To loot several corpses of everything, type: 'get all all.corpse'
+  To put all your pies into a pack, type: 'put all.pie pack'
+  To put all your pies into the second pack, type: 'put all.pie 2.pack'
+#
+PROMPT
+
+   You can modify your prompt to show your hit points, movement points, and
+an assortment of other nifty things.  To customize your prompt, type 'prompt <string>'.  The <string> is a list of text you want in your prompt plus
+embedded codes that are represent useful information.
+
+The Prompt %Codes:
+%h   -   current hit points
+%H   -   maximum hit points
+%v   -   current movement points
+%V   -   maximum movement points
+%g   -   number of coins you are carrying
+%G   -   number of coins you have in the bank
+%x   -   current experience
+%X   -   needed experience to get to the next level
+%o   -   opponents name
+%O   -   opponents condition
+%a   -   alignment
+%r   -   room name
+%R   -   room number (immortals only)
+%n   -   newline (\n\r)
+%%   -   a % sign
+%l   -   Leader's name
+%L   -   Leader's percentage of maximum hit points
+%i   -   *invis* (if you are invisible)
+%f   -   *fly* (if you are flying)
+%w   -   *water* (if you have water breath)
+
+   Colour codes can also be placed in your prompt using Archipelago's ANSI
+colour %codes.
+
+Examples:
+> prompt %o:%O%n%H/%h %V/%v %X>
+Would display a prompt like:
+ nobody:
+ 36/36 70/70 23451>
+Which when you are fighting becomes:
+ a goblin: awful
+ 36/17 70/57 23403>
+
+> prompt Hp: %h/%H, Mo: %v/%V%nXp: %X, Purse %g, %G%n%o: %O%n:
+Would give you a prompt like:
+ Hp: 36/36, Mo: 70/70
+ Exp: 1456, Purse 1350, 23451
+ nobody:
+:
+Which when you are fighting becomes:
+ Hp: 32/36, Ma: 105/105, Mo: 61/70
+ Xp: 1425, Gold 1350, 23403
+ a goblin: pretty hurt
+
+See also: DISPLAY, COLOUR, ANSI
+#
+INVENTORY
+   If you are uncertain about what you are carrying or simply want to check
+that no thieves have pilfered your equipment, type 'inventory'.
+
+See also: EQUIPMENT
+#
+EQUIPMENT
+
+   Gives you a list of all the equipment you are wearing, holding, and
+wielding.
+
+See also: INVENTORY
+#
+REMOVE
+
+Usage: REMOVE [ <modifier> | <object> ]
+
+   If you tire of wearing some armour or wielding a weapon, you can remove the
+irksome object.
+
+Examples:
+
+> remove boots
+> remove sword
+> remove all
+> remove all.bronze
+
+See also: WEAR, WIELD, MODIFIERS
+#
+WEAR
+
+Usage: WEAR [ <modifier> | <object> | <location> ]
+
+   If you want to wear some clothes, armour, or the likes, simply wear them.
+Also, to wear everything in your inventory (or at least try to, as wearing
+things like loaves of bread is not a good way to win friends and influence
+people) you can type 'wear all'.
+   Optionally, you can specify where on your body to wear the equipment.
+
+> wear boots
+> wear all.bronze
+> wear all
+> wear ring finger
+> wear 2.earring ear
+
+See also: EQUIPMENT, REMOVE, MODIFIERS
+#
+WIELD
+
+Usage: WIELD [ <modifier> | <object> ]
+
+   When you become tired of bashing monsters with your fists, you might
+consider wielding a weapon.
+
+> wield sword
+> wear 2.sword
+
+See also: EQUIPMENT, REMOVE, MODIFIERS
+#
+SCORE
+
+   Score gives information concerning how old your player is, how much wealth
+he or she has accumulated, how many real life hours you've been mudding on
+Archipelago, how many study/training/learning sessions you have, and your
+current position.
+
+SEE ALSO: ATTRIBUTES
+#
+ATTRIBUTES
+
+Attributes will show you all sorts of interesting information. Including
+your current and base stats.
+#
+GSAY GTELL
+   To say something to all the members of your group, even if they're not in the same room.
+
+See also: GROUPS
+#
+QSAY
+
+   To say something to everyone on the current Quest.
+
+See also: QUEST
+#
+QUI
+
+   Just to prevent you accidentally quitting Archipelago, this command doesn't
+DO anything, it simply is.
+#
+KILL HIT
+
+   A good way to start a fight.  Not a good idea to hit other players.
+#
+INVOKE
+
+   For ``magical'' people. If you want to direct a spell at someone or
+something.
+
+Example : invoke 'blade of shivering ice' <player>
+   Note that the name of the spell must be enclosed by "'" s.
+
+There are three modifiers that can be used with the invoke command:
+-novoice -nogesture -ve
+
+-novoice     means you will not be seen to utter the spell
+-nogesture   means you will not make gestures when casting
+-vis         means you will use any appropriate raw Vis objects 
+             you happen to be wearing.
+
+   Each of the first two options adds to the difficulty of casting the spell.
+If you are underwater and not able to breath water you will automatically
+cast spells with -novoice and incur the penalty.  Similarly if for any
+reason you cannot speak - e.g. you have something in your mouth they you again
+incur the -novoice penalty.  See the help on VIS for more information about
+raw vis objects.
+   If you are underwater and do not have 'free action' then you will
+automatically cast with -nogesture and incur the casting penalty.  The same
+is true if you try to cast whilst holding something or wielding a two-handed
+weapon  or wielding two weapons - i.e. you must have at least 1 hand free to
+cast without the -nogesture penalty.
+   There will be times when casting without these option could cause you to be
+attacked.
+
+See also:  SPELLS, MAGIC
+#
+SPELLS MAGIC
+
+   Magic in this world is powerful, diverse and useful.  Anyone with the
+necessary knowledge can, with modest success, produce a simple cantrip.
+However, to truly excel as a magus with a calling in the arcane arts requires
+dedication and a vast reservoir of time, something not everyone can afford.
+   There are fifteen magical arts divided into five Techniques and ten Forms
+that, along with Magical Theory, form the arcane body of knowledge we refer
+to as magic.
+   Spells are composed of formulas combining a Technique and a Form.  These
+combinations are merely classificatory, and not used to invoke the spell
+itself, e.g., the 'bind wounds' spell is 'creo corpus' magic.  Virtually
+any spell, both known and unknown to the magus, can be invoked as follows:
+
+     INVOKE -nogesture -novoice -vis '<spell>' <target>
+
+   The -nogesture and -novoice are optional.  Its use in spell casting will
+increase the cost of the spell, where cost is the chance of botching
+   Spells will incur no penalty to the magus if successfully cast.  If spell
+casting is botched, loss of movement points, and other harmful side effects
+can occur.  A botched spell will sometimes offer the magus new insight and
+improved magical ability toward future spell casting.  Extremely fatigued
+magicians, often requiring sleep and prolonged rest, will not be able to
+invoke spells until suitably recovered.
+   There are two conditions to successful spell casting: studying and casting.
+
+Studying:
+   One's stats in Int, Wis, Foc and proficiencies in Magic Theory, Techniques
+and Forms determine what spells you can, or are allowed to study.  The higher
+your stats and proficiencies, the higher the spell level you can study at.
+   So, as an example, if you have a high creo (a tech), a high ignem (a form),
+and a low corpus (a form), all it means is that you can study higher level
+'creo ignem' spells than possible with 'creo corpus'.
+
+Casting:
+   The more proficiency you have in a spell, the less chance of botching
+will occur when the spell invoked.  Your Int, Wis, and Foc stats also affect
+spell casting and concentration.
+
+See also: INVOKE, LEARN, STUDY, TECHNIQUE, FORM, VIS
+#
+VIS
+
+   Raw Vis objects are basically raw magic stored in an object.  Like spells
+the Raw Vis can have flavours e.g. Creo Ignem, or just Creo, or just Ignem.
+Creo Ignem Vis can only be used for casting Creo Ignem spells, but Creo Vis
+can be used to aid casting any Creo spell and similarly for Ignem Vis.
+
+   The amount of Raw Vis contained in an object is measured in pawns.  Each
+pawn of raw vis used in casting a spell adds 5 to the casting total and 1 to
+the number of botch dies.  The maximum amount of Raw Vis a player can control
+it determined by the VIM form skill of the player.
+
+   All Raw Vis itmes that a player is wearing when they invoke with the -vis
+option will be used regardless of whether the player can use all the Raw Vis.
+The surplus is wasted - except that the number of botch dies is increased by
+the total number of pawns expended not by the total the player could use.
+
+   Once a Raw Vis object has been used it is destroyed.
+
+See also INVOKE TECHNIQUE FORM
+#
+TECHNIQUE FORM
+
+The Five Techniques:
+Creo        Create
+Intellego   Know/Perceive
+Muto        Change
+Perdo       Destroy
+Rego        Control
+ 
+The Ten Forms:
+Animal      Animals                 Ignem         Fire
+Aquam       Water                   Imagonem      Images
+Auram       Air                     Mentem        the Mind
+Corpus      the Body                Terram        Earth
+Herbam      Plants                  Vim           Raw Essence of Magic
+
+See also: INVOKE, MAGIC
+#
+JUNK
+
+Usage: JUNK [ <quantity> | <coins> | <(modifier)object> ]
+
+   By junking an object, you destroy the object permanently thus keeping the
+world tidy.  If you JUNK something, it will disappear and you'll get a few
+pennies.  To junk all your equipment go to to a dump, the nearest dump is
+located in the compost heap in the Palace Gardens off the east side of Lamman.
+
+Examples:
+
+> junk 10 crown         (You junk ten crowns.)
+> junk 3.sword          (You junk your third sword.)
+> junk 2*cantrip        (You junk two cantrips.)
+> junk all.shield       (You junk all your shields.)
+
+See also: DROP, DONATE, MODIFIERS
+#
+DONATE
+
+Usage: DONATE [ <quantity> | <coins> | <(modifier)object> ]
+
+   This command takes an object that you no longer want and deposits it in the
+donation shop in either Lamman, Abernach or Wivernhoe, to assist newbies in
+getting started.  There is a small chance that an item will get junked when it
+is donated.  Money donated goes to the poor box just inside the Temple of
+Small Gods in Lamman.
+
+Examples:
+
+> donate 10 crown        (You donate ten crowns.)
+> donate 3.sword         (You donate your third sword.)
+> donate 2*cantrip       (You donate two cantrips.)
+> donate all.shield      (You donate all your shields.)
+
+See also: JUNK, DONATION, MODIFIERS
+#
+DROP
+
+
+Usage: DROP [ <quantity> | <coins> | <(modifier)object> ]
+
+   If you lose interest in a carried item, you can drop it on the ground.  If
+you are wearing the item, you must REMOVE it first before dropping it.
+
+Examples:
+
+> drop 10 crown        (You drop ten crowns on the ground.)
+> drop 3.sword         (You drop your third sword on the ground.)
+> drop 2*cantrip       (You drop two cantrips on the ground.)
+> drop all.shield      (You drop all your shields on the ground.)
+> drop all             (You drop everything in your inventory.)
+
+See also: GET, JUNK, DONATE, REMOVE, MODIFIERS
+#
+BUY SELL LIST VALUE
+
+Commands for the shops - very useful too!
+
+To buy/sell multiple items type:
+buy/sell #*item
+
+where # is the number of items you want to buy or sell.
+
+#
+WEATHER
+
+   If you're uncertain whether the sun is shining or the rain is pouring down.
+#
+READ
+
+   When you want to read something.
+#
+SHOPS
+
+   Shops are places where the adventurer may purchase equipment for his quests,
+and where he may sell his treasure if he should manage to survive the perils
+with his life and sanity intact. Many shops trade only in a specific type of
+merchandise. Thus, a baker may well refuse to buy your armour, even if it is of
+high quality!
+   To some people, the prospect of obtaining the entire inventory of a shop by
+murdering the keeper may appear tempting - but beware: The shopkeepers are
+often rugged, capable men; roughened by years of trading and, indeed, surviving
+in a world where the only safe prospect is death in the end.
+
+See also: BUY, SELL, LIST, VALUE
+#
+SHOW
+
+   SHOW reveals important information about the mechanics of the game.
+Type 'show' to see what options are available.
+
+#
+COMMANDS
+
+A canonical list of all the known verbs.
+
+> commands
+#
+LEARN
+
+Usage: LEARN [number_of_levels] <skill name>
+
+   Learn is the way you improve your skills. You must go to a guildmaster to
+let him/her help you improve. If you type learn, you will see which skills
+you can improve upon, and how good you already are at these.
+   You can use learn <skill>, to learn just one level of the appropriate
+skill, or learn # <skill> where # is the number of levels you wish to learn.
+Each skill has a minimum level which depend on your stats and a difficulty
+which also depends on your stats.
+   Skills are based on an arithmetic difficulty scale. So that to get to a
+skill level of 1 for a difficulty 3 skill requires 3 sessions. To obtain
+level 2 requires 6, level 3 9  etc.
+
+See also: GAIN, TRAIN, STUDY
+#
+STUDY
+
+Usage: study [number_of_levels] <spell name>
+
+   Study is the way you improve your spells. You must go to a guildmaster to
+let him/her help you improve. If you type study, you will see which spells
+you can improve upon, and how good you already are at these.
+   You can then use study <spell>, to learn on level of the appropriate spell,
+or learn study # <spell> where # is the number of levels you wish to learn of
+the spell.  Each spell has a minimum level which depend on your stats and a
+difficulty which also depends on your stats.
+   Spell proficiencies are based on an arithmetic difficulty scale. So that to
+get to a proficiency of 1 for a difficulty 3 spell requires 3 sessions. To get
+to level 2 requires 6, level 3,9  etc.
+
+See also: GAIN TRAIN LEARN
+#
+TRAIN
+
+Usage: train [number_of_levels] <weapon type>
+
+   Train is the way you improve your weapon proficiency. You must go to a
+guildmaster to let him/her help you improve. If you type train, you will see
+which weapon types you can improve upon, and how good you already are at these.
+You can type train <weapon type> to train just 1 level of proficiency or you
+can use train # <weapon type>, to train a given weapon type, where # is the
+number of levels you wish to learn.  Each weapon type has a minimum difficulty
+level which depend on your stats and a difficulty which also depends on your
+stats.
+   Weapon proficiencies are based on an arithmetic difficulty scale. So that
+to get to a proficiency of 1 for a difficulty 3 weapon requires 3 sessions.
+To get to level 2 requires 6, level 3,9  etc.
+
+See also: GAIN LEARN STUDY
+#
+GAIN
+
+   Gaining is automatic.  With each level you advance there is a possibility
+that you can learn new skills,spells or weapon proficiencies . You should
+check all the guilds and see what new spells/skills you can learn by typing
+"study/learn/train" in the presence of the guildmaster.  Many guildmasters
+wander around so you may have to hunt them down.
+
+See also: STUDY LEARN TRAIN
+#
+EXITS
+
+   Gives you a list of the obvious exits from your location. Of course, the
+less obvious ones (such as secret doors) won't show up here - you have to
+THINK in order to locate those.
+
+#
+LEAVE
+
+   If you feel claustrophobic, typing 'leave' will make you use the nearest
+obvious exit to the outside.
+
+#
+ENTER
+
+   If you type 'enter' while you are outdoors, you'll enter any nearby shelter.
+You can also follow 'enter' with an argument; for example, 'enter window'.
+   You may also enter certain containers or exits.
+
+#
+TIME
+
+   Gives you the current game time.  Your initial reaction to the output of
+this command may be one of surprise, but you'll get used to it.  You'll have
+to, at any rate, since certain things in the game depend on this particular
+notion of time; the opening hours of the shops, for example.
+
+#
+BUG TYPO IDEA
+
+Usage: [ <bug | typo | idea> <text> ]
+
+   For making useful and helpful suggestions to the implementors.
+
+Examples:
+
+> bug the entire game crashes when I type 'put bag in bag'
+> idea make a restaurant in Lamman
+> typo 'sence' should be spelled 'sense'
+
+#
+QUIT
+
+   When you get tired of playing, you can leave the game by typing 'quit'.
+Note that quitting this way causes any items you might be carrying to
+simply be left on the ground.  If you wish to have your equipment stored,
+you'll have to find an inn and pay rent.
+   NOTE: YOU WILL LOSE ALL YOUR STUFF WHEN YOU TYPE QUIT!!!
+
+See also: INN, RENT
+#
+GET TAKE
+
+   If you find something interesting on the ground, you may use 'get' to pick
+it up.  You can also 'get' to extract items from containers.
+
+Examples:
+
+> get sword corpse
+> get all corpse
+> get all all.corpse
+> get all all.bag
+> get all.bread all.bag
+> get 2.bread
+
+See also: DROP, PUT, MODIFIERS
+#
+PUT
+
+   For putting items into containers.
+
+Examples:
+> put bread bag
+> put all.bread bag
+> put all chest
+> put 2.bread bag
+
+See also: GET, MODIFIERS
+#
+EXAMINE
+
+   May give you some valuable information about an item.
+
+See also: LOOK
+#
+WRITE
+
+   In order to post a message of the bulletin boards, you first need to be
+standing by one and the WRITE <subject>.  To write a note, you need a piece
+of blank parchment (or similar), and a pen of some sort. You can then type
+something like "write on the paper with the pen", whereupon you'll be asked
+to type in your note at the keyboard.
+
+#
+WAKE SLEEPING REST SIT STAND
+
+   Used to change your current activity, or inactivity, be it may sitting,
+standing, resting,sleeping, or fighting.  If you feel weary, it is a good
+idea to sit down and rest awhile, maybe even catch a few winks.
+   Note, if you are asleep with negative movement, you are in deep sleep.
+Arousing from deep sleep is difficult at best, but can be done.  If attacked
+while in deep sleep, you may not immediately wake up.
+
+#
+POUR
+
+   If you want to pour some liquid from one container to another.  To empty a
+liquid container, you need to pour <container> out.
+
+> pour canteen cup
+> pour barrel out
+
+See also: FILL
+#
+FILL
+
+   If you want to fill a container you're holding with liquid from a fountain
+in the same room as you.
+
+> fill canteen fountain
+
+See also: POUR
+#
+GRAB HOLD
+
+   For getting a good grip on something; a torch, for example.
+
+> hold torch
+> grab stone
+
+See also: WEAR, WIELD, EQUIPMENT, REMOVE
+#
+FOLLOW
+
+Use FOLLOW to start following someone.
+> follow Pulgh
+
+To return to following yourself.
+> follow self
+
+See also: GROUP
+#
+MAGNIFICO
+
+   Thanks, Magnifico needs all the help he can get!
+#
+SCAN
+
+   Scan will attempt to show you the creature in the surrounding area. It is
+not perfect however and its efficiency drops off with distance - so you
+might miss some creatures.
+
+#
+FLEE
+
+   If you are in a fight and things are beginning to get a bit uncomfortable
+(maybe your are dying), just type 'flee', and presto! you are out of harm's
+way - that is, IF there is a suitable exit nearby, and IF that exit doesn't
+simply bring you from the ashes to the fire... but then, who wants to live forever?
+   Flee will clear all pending commands in the input buffer.  You will still
+be subject to any spell/command delays from the command being processed.
+
+See also: ABORT
+#
+IMP IMPLEMENTOR
+
+The most powerful beings in existence.
+#
+GUILD
+
+   The Guildhouse is the place where mortals may go to escape the troubles and
+perils of a cruel world. Each guild is heavily guarded, so that only members
+may enter the building.  Guilds are also the places where people come to
+learn and practice the skills of their trade.
+
+See also: PRACTICE
+#
+WHERE
+
+Usage: WHERE <keyword.one> <keyword.two>
+
+   Tells you the location of a mobs, a player or an object.  Mortals can only
+WHERE to find what other players are currently in the zone they are in,
+   Immortals may type WHERE without arguments to see where everybody is.
+
+Examples:
+> WHERE                    (Shows where all the players are located.)
+
+The following only work for immortals:
+> WHERE torch              (Shows where all the torches are located.)
+> WHERE iron sword         (Shows where all the iron swords are located.)
+> WHERE dragon             (Shows where all the dragons are located.)
+> WHERE wivernhoe guard    (Shows where all the Wivernhoe guards are located.)
+
+#
+LEVELS
+
+LEVEL LEVELS
+
+Usage: LEVEL <min_level> <max_level>
+
+   There are 200 mortal and 7 immortal levels available on Archipelago.  In
+order of rank from lowest to highest, the immortal levels are Avatar, Builder,
+Bodhisattva, Daemon, Djinn, Overlord, and Implementor.
+   When a mortal reaches the 200th level, he or she becomes a lesser Avatar.
+
+Example:
+>level 3 6
+
+[  3]      3000-6000      :
+[  4]      6000-12000     :
+[  5]     12000-25000     :
+[  6]     25000-45000     :
+
+#
+NOREPEAT
+
+   This command toggles whether or not you see your communication echoed back
+to you (i.e., from commands such as SAY, SHOUT, HOLLER, GOSSIP, etc.)  Useful
+if you have a slow connection or if it just annoys you.
+
+#
+BRIEF
+
+   Toggle ``brief mode;;.  When in brief mode, you don't see the descriptions
+of the room you are in; only the name of the room, the exits, and the beings
+and objects there.
+   While on Archipelago, it is not recommended to ever toggle on the ``brief
+mode.''  Builders here often change the rooms and areas after they become over
+explored and stale.  So unless you are very familiar with the area in which
+you are traveling, however even then, it is not advisable to use this command.
+   Frequently, you will find small but vital hints in the descriptions of the
+rooms: An extra peek at your surroundings could mean the difference between
+life and death!
+
+See also: COMPACT
+#
+! ^
+
+   Use ! to repeat the last command typed at the keyboard.  This is useful for
+repeated bashes or invoking spells.
+   Use ^ to replace a string from the last command with a new string.  The
+syntax is the same as in csh: "^old-string^replacement".
+
+Examples:
+
+> tell mycrof Hi there, how are you?
+No-one by that name here.
+ 
+> ^mycrof^mycroft
+You tell Mycroft, 'Hi there, how are you?'
+ 
+> ^you^you doing^
+You tell Mycroft, 'Hi there, how are you doing?'
+
+#
+CONSIDER
+
+Usage: consider <monster>
+
+   This command will compare your level with the <monsters> level.  You will
+then receive a rough estimate, which is by no means exact.  Consider does not
+take hitpoints/special attacks/damage into account.  This is a slightly flawed
+command, so use it with a grain of salt.
+
+> consider zinkozoover
+
+#
+EXPERIENCE XP
+
+   Whenever you kill a monster or a player, you earn experience points.  When
+enough experience points are earned, you raise a level.  Things you should
+know about experience points:
+
+  * When damaging a monster, you get experience points.
+
+  * If you kill a monster of higher level than yourself, you get bonus
+    experience points. If killing a monster of lower level you'll gain
+    less experience points
+
+See Also: GROUP
+#
+GROUP
+
+Usage : GROUP [player]
+        GROUP all
+
+   GROUP with no arguments shows the status of your group.  GROUP <person>
+adds or removes (person) from your group.  GROUP ALL adds everyone who is
+following you to your group.
+   If you are a group member, then you will share experience points for
+killing monsters equally among the group. Experience points will only be
+shared among group members that are in the same location, at the time of the
+killing blow.  Sharing is regardless of whether the group members have been
+participating in the fight.
+   Group with no argument shows a list of people with whom you are grouped.
+"group all" groups all people who are following you.
+   To make a group, a "leader" must be selected. All members of the group
+must then "follow" the leader using the follow command. The leader should NOT
+follow anyone at all!  The leader can now toggle group membership for each
+person in the group, by using "group <person_name>". The leader should
+remember to include himself in the group.
+
+Example:
+Ratatosk and Saladin wishes to group with Ansalon.
+
+Ratatosk: follow ansalon
+Saladin : follow ansalon
+  (Ansalon should be following no one but himself)
+Ansalon : group all
+
+Later when Ansalon becomes upset at Ratatosk (because he is eating acorns all
+the time) he types: GROUP RATATOSK to kick Ratatosk out of the group.
+
+See Also: XP, EXPERIENCE, UNGROUP
+#
+UNGROUP
+
+   UNGROUP can be used by group leaders to disband the entire group, or to
+kick a specific group member out of the group (and stop him/her from following
+the leader).
+
+> ungroup
+> ungroup oogluk
+
+See also: GROUP
+#
+QUAFF POTION POTIONS
+
+Usage: QUAFF <Potion>
+
+Quaff is used to "drink" a (magical) potion.
+
+#
+BEHEAD
+
+   Behead is a skill taught by the Warrior Guild.  Basically it teaches you to
+notice opportunities in combat where you can sever your opponent head killing
+him instantly.  Beheading is only possible using cleaving and slashing weapons.
+
+#
+CLIMB CLIMBING
+
+   Climbing is a skill taught by the thief guild and it will enable you to
+attempt to climb into places you otherwise may not go.  To easily learn the
+climbing skill you should have good dexterity, good strength and good focus.
+   Your success in attempting a given climb will depend on the severity of the
+climb, how much weight you are carrying, your strength, your focus and your
+climb skill.
+   As a guide a person with max dexterity, strength, focus  and climb skill
+would be able to climb a 'severe' climb 100% of the time as long as they did
+not have a weight exceeding 250 lbs - including their personal weight and
+items carried.  So if the pc weighed 150 lbs they would succeed 100% of the
+time whilst carrying under 100 lbs of stuff.  'Severe' is the second highest
+rating of climb.
+   Climbing requirement is negated by flight.
+
+#
+RECITE SCROLL SCROLLS
+
+Usage: RECITE <scroll> [Target]
+
+   Is used to "read" a magical scroll. Target can be an object, character or
+nothing (which may be yourself).
+#
+USE WAND STAFF STAFFS WANDS
+
+Usage: Use <Staff>
+      Use <Wand> <Target>
+
+   Using staff's will automatically target everybody (or everything) in a
+room, except yourself. Therefore staff's are naturally very powerful, and
+yet may be very dangerous to use around other players.
+   Using wands require that you point it at a target, which can be either a
+character or an object.
+   Wands, staffs and rods all have a down time between uses during which
+they may not be used.
+#
+HELP
+
+Following help is available:
+
+HELP help       - This text.
+HELP            - A list of some of the most useful commands.
+
+   Help searches for a partial match of the entered word, including any
+spaces that may follow the word.
+
+See also: COMMANDS
+#
+ORDER
+
+  Used for ordering pets and charmed people to do your evil bidding.  You
+can order everyone under your command with "order followers".
+
+order <character> <command>
+order followers <command>
+
+> order puppy eat bread
+> order cityguard sleep
+
+See also: CHARM
+#
+BANK WITHDRAW DEPOSIT BALANCE
+
+   Money has physical weight, the more money you carry, the more it will
+weight you down.  Banks help alleviate this problem by storing your money for
+you.  Not only can banks store money, but also equipment in a safe deposit
+box for a small surcharge.  It is useful to keep at least a sword stored in
+the bank for emergencies.
+   There are known to be banks located in Lamman, Abernach, and Wivernhoe.
+You can DEPOSIT, WITHDRAW, as well as check your BALANCE at a bank.  These are
+the commands to put money in the bank, take money out of the bank, or see how
+much money you have in the bank.
+
+> deposit 1 crown
+> withdraw 2 groat
+> balance
+#
+WIMP WIMPY
+
+   Use the WIMP command to automatically wimp out of a fight.
+
+WIMP 35     (will make your character automatically flee a fight if he/she has
+              less than 35 hit points.)
+WIMP 0      (will turn off wimpy mode.)
+WIMP        (will show you your current wimp status.)
+
+See also: TOGGLE
+#
+REPEAT
+
+   Use REPEAT to control whether or not the mud echoes your communication
+commands to you (i.e. the MUD will tell you what you just said, group-said,
+shouted, or told someone).  This is useful to verify what you just said, but
+can be annoying if you have a slow link.
+
+See also:  SAY GSAY TELL SHOUT
+#
+TOGGLE
+
+   TOGGLE shows you the current values of various toggles available on
+Archipelago.  This command CAN NOT be used to change these values (see related
+commands.)  All of these toggles remain the same until you change them; i.e.
+they are saved when you quit or rent.
+
+See Also:  DISPLAY BRIEF COMPACT NOTELL NOSHOUT  QUEST REPEAT WIMP
+#
+SPLIT
+
+Usage:  SPLIT <amount to split>
+
+SPLIT is used to split money among people in your group who are in the same
+room as you.  If you are in a group with 4 other people, all of whom are in
+the same room with you, and you type SPLIT 100, you will give each of the
+other 4 group members 20 coins each.  (100 coins is split 5 ways; you keep
+your share and give everyone else their share).
+
+Examples:
+>get all corpse
+You get a pile of gold, silver and copper coins from the corpse of a hemogoblin.
+There were 12 crown, 8 groats and 4 pennies.
+
+>split 1284
+You split 12 crowns, 8 groats and 4 pennies among 1 members;
+  3 crowns, 2 groats and 1 penny each.
+
+See also: GROUP FOLLOW
+#
+ASSIST
+
+Usage: ASSIST <person in need>
+
+   If Max is being beaten senseless by a goblin and you feel brave enough to
+help him, type ASSIST MAX to hit the goblin.  Note that the goblin will keep hitting Max; assist only makes you start to fight whomever you're trying to assist.
+
+See also:  RESCUE, FLEE
+#
+NOSHOUT
+
+   NOSHOUT toggles whether or not you hear shouts and (deaf) will appear after
+your name in the WHO list.
+
+See also: FLAGS SHOUT WHO
+#
+NOTELL
+
+   Use NOTELL if you wish to prevent other players from using "tell" to
+communicate with you.  (notell) will appear after your name in the WHO
+list if you have notell on.
+
+See also: FLAGS TELL WHO TOGGLE
+#
+LINK
+
+   Many people mudding from North America have problems with their links to
+Archipelago.  As most of the immortal staff on Archipelago is from the States,
+we sympathize greatly with this problem.  Poor or slow links an be not only
+irksome when holding a conversation, but also very hazardous to your health
+in the middle of a battle, of course.
+
+ * If your link is broken, you will automatically attempt to flee each time
+   someone attempts to hit you.  If you manage to flee, then you will be
+   saved by divine forces, and put in a safe place until you reconnect to
+   the game.
+
+ * If your link jams (freezes), you have a problem.  The only solution we
+   can give is that you break your link as quickly as possible.  By breaking
+   the link you can hope that the above procedure is initiated.
+
+ * Do not try to get out of a fight by breaking link.  You will be not
+   reimbursed for any experience or equipment if you purposefully cut your
+   link.
+
+#
+COMPACT
+
+   This command is one of the most useful on Archipelago for reducing spam.
+Not only does it toggles the extra blank line output to your screen after each
+command, which is useful if you have a small display.  But even better, with
+compact on, ALL misses in combat will be masked from your display.
+
+See also: BRIEF
+#
+VISIBLE
+
+   Use this command to break your spell of invisibility before it expires.
+#
+EMOTE :
+
+   Show people what you're feeling.  The shorthand is ":".
+"emote {string}" will display your name, then the string.  For example,
+if your name is "Neelum",
+
+> emote has a shifty look on his face and looks ready for trouble.
+
+will display:
+Neelum has a shifty look on his face and looks ready for trouble.
+
+See also: SOCIALS
+#
+MAIL CHECK RECEIVE
+
+   The commands used by the Archipelago Postal System are MAIL, CHECK, and
+RECEIVE.  These commands can only be used while in an Official Archipelago
+Postal System Post Office.  Stamps cost 1 groat and 5 pennies.
+
+To write mail to Juanita:
+> mail juanita
+
+To check and see if you have any mail waiting:
+> check
+
+To ask the Postmaster to give you your mail, if you have any waiting:
+> receive
+
+#
+SAY TELL WHISPER SHOUT YELL
+
+   If you consider communicating with other beings, you might be understood
+better if you start your sentences with either say, tell, whisper or shout.
+
+<say | shout > <string>
+<tell | whisper | ask> <player> <string>
+
+> say Hey, does anyone know how to get to Oz?
+> tell uncle hi, how are you?
+
+You can use ' as a shorthand for say, as in: ' hello there.
+
+   Shout broadcasts your message to everyone is your geographic zone.  Yell
+broadcasts to everyone in the game but costs 20 movement points.  You must
+be level 2 before you can use shout and yell.
+
+   If you cannot see the person who 'tells' to you you can use the command
+respond this will tell back to the last person to tell to you.
+
+See also: GOSSIP AUCTION GSAY NOREPEAT QSAY RESPOND
+#
+RESPOND
+
+   If someone 'tells' to you and either you cannot see them or their name is
+too long to type accurately, then you can use the respond command to reply
+back:
+
+Carrtigantua tells you, 'How's it going?'
+> respond why is your name so long?
+You tell Carrtigantua 'why is your name so long?'
+
+See also TELL
+#
+AUCTION GOSSIP GRATS NOAUCTION NOGOSSIP NOGRATS BRAG NOBRAG
+
+   These are channels reserved for specific purposes.  Messages on these
+channels reach everyone who is monitoring them.  You must be at least level
+three to use these channels.
+
+auction <string>
+gossip <string>
+grats <string>
+
+> auction short sword -- minimum bid 100k
+> gossip Hey, is that a short sword on your belt or are you happy to see me?
+> brag LEVEL!!!!!!!!
+> grats Gurmo and Nine!
+
+See also:  SAY GSAY NOREPEAT
+#
+SOCIALS
+
+   Socials are commands used to show your affective state to others.  The
+actor, victim and bystanders may receive different messages.  Generally,
+social commands are used only to express emotion, but it is possible that
+some mobs (or players) will take action based on the social.
+
+<social> [<victim>]
+
+> shake Ansalon
+> applaud Kalliste
+> stare
+
+The SOCIALS command generates a canonical listing of all available socials.
+
+> socials
+
+See also: EMOTE
+#
+INN INNS RECEPTION
+
+   When you feel tired and want to leave the Archipelago, find an inn or a
+similar place to RENT.  This insures that your equipment will be stored away
+safely, and made available when you return to the Archipelago.  Renting will
+usually cost something depending on the quality of your equipment.  At the
+innkeeper, type OFFER to see how much this cost will be, and note the number
+of days you can rent with the gold you are carrying on hand and deposited in
+the banks.
+   If you run out of money while rented, money will be taken out of your bank
+account, and when that runs out, items from your inventory will be seized to
+cover the cost of your rent (items will be seized when you come out of rent,
+and not before).
+   Characters that have been link-dead for a while will be eventually be
+force-rented at a higher surcharge than it normally costs to rent.
+
+See also: OFFER RENT
+#
+OFFER RENT
+
+   For use in the receptions of inns.  Offer makes the innkeeper tell you the
+cost of storing your belongings for one day.  Rent stores you belongings and
+exits you from the game.  When you re-enter, you will start where you rented.
+See INNS for details on the rent policy.
+
+> offer
+> rent
+
+See also: INNS
+#
+INFO NEWS POLICY CREDITS VERSION
+
+   These commands show you important information about Archipelago.  It is a
+good idea to read them every once in a while.
+
+info     - useful information about the game for beginners
+news     - latest changes to the code and areas
+policy   - policies on topics like player-killing
+credits  - the people who made Archipelago possible!
+version  - displays the current Archipelago version number
+#
+WIZLIST IMMLIST
+
+Lists the most powerful beings on Archipelago.
+#
+QUEST
+
+   This simple toggle command merely informs the Powers that Be that you wish
+to participate in the currently running Quest.  If an immortal is running a
+Quest and needs to know who wishes to participate, he/she will ask players to
+turn on their Quest flags using this QUEST command if they are interested in
+the Quest.  It also allows you to listen in on the quest channel and receive
+information specific to the quest.
+
+> quest
+
+See also:  QSAY
+#
+REPORT
+
+   This command sends a report of your current and max hp and mana to your
+group.  You can use this command to let potential rescuers know how low your
+hps are without forcing them to use the "group" command.  It is designed as a
+convenience for groups with members who get lag or have slow modems.
+
+> report
+#
+DIAGNOSE
+
+Usage: DIAGNOSE <character>
+
+   The DIAGNOSE command tells you how wounded a character looks.  If you are
+fighting someone, you can use DIAGNOSE with no arguments to diagnose the
+person you're fighting.
+
+> diagnose
+> diagnose ponder
+#
+CLEAR CLS
+
+   Clears the screen on many terminals.
+
+#
+COLOR COLOUR
+
+   If you have a colour-capable terminal and wish to see useful colour-coding
+of information, use the COLOR command to set the level of colouring you see.
+
+> color off
+This command disables all colour.
+
+> color sparse
+> color normal
+> color complete
+
+   These three commands turn color on to various levels.  Experiment to see
+which level suits your personal taste.
+   Using colour will slow down the speed at which you see messages VERY
+slightly.  The effect is more noticeable on slower connections.  Even if you
+have colour turned on, non-colourized messages will not be slowed down at all.
+
+See also: ANSI
+#
+ANSI
+
+   ANSI color %codes can be included in prompts and titles to help clarify
+or accentuate information. The %codes available are:
+
+  %b - bold
+  %0 - color normal (remember to turn color back to normal)
+  %1 - red
+  %2 - green
+  %3 - yellow
+  %4 - blue
+  %5 - magenta (reddish-purple)
+  %6 - cyan (dark blue)
+  %7 - white
+
+See also: PROMPT, COLOUR, TITLE
+#
+NEWBIE
+
+   Welcome to Archipelago!  You have chosen a wondrous realm to explore full
+of high adventure, great comradeship, and fantastic treasure.  Before you
+venture forth into the lands, there are a few tips and tricks you should know
+to make your hard life here a wee bit easier.
+   First, give yourself a title by typing 'title %n the great!'.  The %n in
+the title is your name and is necessary.  Other %codes includable in your new
+title are: %r (room name you are in); %c (your race); %l (your level); and
+%o (the opponent you are fighting).  You can also add colour to your title to
+give it that special pizzazz.
+   Second, although the Gods are generally stingy and not given to bouts of
+gift giving, they recognize that you are new on the Archipelago and have
+granted you some equipment.  Type 'i' (inventory), and 'eq' (equipment), to
+see what has been bestowed upon you.  Your equipment has been resized to
+personally fit you.  If you notice, there is a sword nestled in a scabbard.
+To use that weapon, type 'draw'.  To sheathe it, type 'sheathe'.
+   Third, if at some time during your stay here you grow hungry, the Gods
+mercifully have given you two loaves of coarse wheat bread.  To eat this meal,
+type 'eat bread'. If you become thirsty, there are fountains and rivers filled
+with water throughout the lands.
+<p>
+   Fourth, after leveling you should visit the various guilds and wandering
+guildmasters to obtain new skills, spells, and weapon proficiencies.  At the
+guildmaster, type 'learn' (for skills), 'study' (for spells), and 'train'
+(for weapons).  When you wish to know something, type '(learn|study|train)
+(# of levels) (desired knowledge)'.  As an example, to learn four levels of
+magic theory, type `learn 4 magic'.  The difficulty, or ease, in learning
+skills, spells and weapons is determined by your ability statistics.
+   Fifth, you will need a place to rent when you are tired.  The nearest inn
+is the Warrior's Widow.  The receptionist can be found 2 west, 1 north, and
+1 up from the fountain.
+   Sixth, you will probably want to start gaining experience.  The best way
+to do this is to start slowly at first.  Try taking on the various bugs and
+other small critters that surround the fountain.  Creatures such as beetles,
+doodlebugs, ants, zinkozoovers, slimy slitherers, warty toads, magpies, and
+sparrows all make excellent fodder for your sword.  Do not attack citizens,
+unless you want to die real fast.
+   Best of luck!  Please feel free to ask for help, and do not feel shy in
+directing any comments, complaints, or suggestions you may have on the
+various boards about town.  To write on a board type `write (name of topic)'.
+
+SEE ALSO: "GETTING STARTED", AREAS, ATTRIBUTES, CONSIDER, FLEE, TRAIN, STUDY,
+           LEARN
+#
+"GETTING STARTED" STARTING
+
+  This entry is for people who are familiar with muds but are just starting
+here at Archipelago.  People who are new to mudding should read 'help NEWBIE'
+before proceeding.  There are many differences between Archipelago and most
+other muds.
+   This mud is more skill oriented than class oriented in that you can learn
+any spell or skill that you wish as long as you have enough practice points.
+Also new players should check out and train their weapon proficiencies in
+their weapon of choice.  We are currently using some ideas from 'Ars Magica'
+so you may not realize what they do unless you use the spell or skill but you
+should recognize the affects.
+
+SEE ALSO: ELVES, "HALF ELVES", OGIERS, GNOMES, GIANTS, DWARVES, HALFLINGS,
+          PIXIES, SELKIE, AMARYA
+#
+ELF ELVES
+   Nature loving, mischievous and generally frivolous, elves enjoy living out
+of doors. They have few permanent settlements preferring to live a quasi nomadic
+life. Where elves have settled in large numbers their housing is simple and
+made to be easily disassembled and moved. They tend to favour woodland
+locations and almost never build any fortifications.
+
+SEE ALSO: ELVES, "HALF ELVES", OGIERS, GNOMES, GIANTS, DWARVES, HALFLINGS,
+          PIXIES, SELKIE, AMARYA
+#
+"HALF ELVES" "HALF ELF"
+
+   Half elves are rare, and generally live either with their woodland cousins
+or in the human cities.
+
+SEE ALSO: ELVES, "HALF ELVES", OGIERS, GNOMES, GIANTS, DWARVES, HALFLINGS,
+          PIXIES, SELKIE, AMARYA
+#
+OGIERS OGIER
+
+   Ogiers are a race of large humanoids. Ogiers are extremely peaceful and
+scholarly and live their lives at a slow pace in harmony with the seasons.
+Permanent Ogier settlements are always found in association with groves of
+ancient trees, of which the ogiers consider themselves to be the guardians.
+Ogiers are superb masons however and are frequently found in work bands
+building cities for other races. For their own homes the ogier's try to blend
+their dwellings with the trees of their grove.
+
+SEE ALSO: ELVES, "HALF ELVES", OGIERS, GNOMES, GIANTS, DWARVES, HALFLINGS,
+          PIXIES, SELKIE, AMARYA
+#
+GNOMES GNOME
+
+   Gnomes are a peaceful race. Gnome settlements are generally to be
+found in high vallies, and consist either of houses of simple adobe or
+adapted caves. Gnomes have a highly developed culture, dedicated to the
+pursuit of the healing arts
+
+SEE ALSO: ELVES, "HALF ELVES", OGIERS, GNOMES, GIANTS, DWARVES, HALFLINGS,
+          PIXIES, SELKIE, AMARYA
+#
+GIANTS GIANT
+
+   Giants tend to be belligerent and crude. Their settlements tend to be crude
+mainly rude huts. They can be found generally in the mountains or by the sea
+subsistence is either through hunting and trapping or fishing. Giants are
+very warlike and tend to build sturdy wooden stockades.
+
+SEE ALSO: ELVES, "HALF ELVES", OGIERS, GNOMES, GIANTS, DWARVES, HALFLINGS,
+          PIXIES, SELKIE, AMARYA
+#
+DWARVES DWARF
+
+   Dwarves are generally underground dwellers, their society revolves around
+mining and fighting. And yet they are capable of producing some of the
+finest workmanship.
+
+SEE ALSO: ELVES, "HALF ELVES", OGIERS, GNOMES, GIANTS, DWARVES, HALFLINGS,
+          PIXIES, SELKIE, AMARYA
+#
+HALFLINGS HALFLING
+
+   Halflings are a peaceful race living in houses cut into the sides of hills
+like burrows. They are farmers mainly and their settlements tend to be spread
+out. Halflings rarely build fortifications.
+
+SEE ALSO: ELVES, "HALF ELVES", OGIERS, GNOMES, GIANTS, DWARVES, HALFLINGS,
+          PIXIES, SELKIE, AMARYA
+#
+PIXIES PIXIE
+
+   Pixies are a race of very small sprite like humanoids who have the ability
+to fly.  Pixies tend to favour woodland settings and build their homes from
+the living trees in the forest. Pixies are peaceful and as a race are
+dedicated to the preservation of the arcane arts.
+
+SEE ALSO: ELVES, "HALF ELVES", OGIERS, GNOMES, GIANTS, DWARVES, HALFLINGS,
+          PIXIES, SELKIE, AMARYA
+#
+SELKIE
+
+   Selkie are humanoids which are capable of breathing water and performing
+underwater as most people can above. They make their home in caves and grottoes
+deep beneath the sea.
+
+SEE ALSO: ELVES, "HALF ELVES", OGIERS, GNOMES, GIANTS, DWARVES, HALFLINGS,
+          PIXIES, SELKIE, AMARYA
+#
+AMARYA
+
+   Amarya are a warlike anarchic race of feline humanoids. Quick and dexterous
+their society revolves around the warband. Amarya are a nomadic people. The
+closest to a permanent settlement is a large meeting of warbands that may stay
+together camped in one place for months at a time.  Amarya are superb horsemen
+and are most comfortable in the open plain.
+
+SEE ALSO: ELVES, "HALF ELVES", OGIERS, GNOMES, GIANTS, DWARVES, HALFLINGS,
+          PIXIES, SELKIE, AMARYA
+#
+BUILDING MOBILES
+
+MOBILE commands:
+
+   medit mob-name mob#   ... edit a mobile
+   mcreate               ... creates a new mobile in your current edit zone
+   mclone mob-name mob#  ... clones a mobile to your current edit zone
+   show mobs             ... list all objects in your current edit zone
+   show mobs  zone#      ... list all objects in zone zone#
+   savemobs              ... saves all mobs in zone to appropriate .mob file
+
+See also: OBJECTS ZONE ROOMS
+#
+BUILDING OBJECTS
+
+OBJECT commands:
+
+   oedit ob#             ... edit a object
+   ocreate               ... creates a new object in your current edit zone
+   oclone mob-name mob#  ... clones a object to your current edit zone
+   show obj              ... list all objects in your current edit zone
+   show obj zone#        ... list all objects in zone zone#
+   saveobjs              ... saves all objs in zone to appropriate .obj file
+#
+"ZONE-RESET" ZONE
+
+ZONE-RESET commands:
+show #zone            ... list all zone reset in the zone zone#
+
+zpurge #              ... delete zreset number #, where # is the number in the
+                          list generated by show #zone. Zpurge automatically
+                          deletes all dependant zresets such as equiped or
+                          given items or items contained in other items.
+
+zsave mob|obj|door mobname|objname|direction
+                      ... stores as a zreset object/mob/door indicated
+                          creates dependent zone resets for all held equiped
+                          and contained objects.
+
+savezone              ... writes current list of zone resets to the appropriate
+                           .zon file
+
+zset # max#           ... sets max loadable number for zone reset number # to
+                          max#. Number # comes from the leftmost column in show
+                          zone.
+#
+BUILDING ROOMS
+
+ROOM commands:
+
+   redit ob-name ob#     ... edit a room
+   rcreate               ... creates a new room in your current edit zone
+   rclone mob-name mob#  ... clones a room to your current edit zone
+   show rooms            ... list all rooms in your current edit zone
+   show rooms zone#      ... list all rooms in zone zone#
+   saverooms             ... saves all rooms in zone to appropriate room file
+#
+ADVANCE
+
+advance <victim> <level>
+
+   ADVANCE moves a player to a new level.  If used to promote a player to an
+immortal level, and if you have the autowiz program installed, the wizlist and
+immlist will automatically be recreated.
+
+> advance ponder 34
+#
+WIZAT
+
+   AT can be used to perform an action in a location other than where you are
+standing.  The first argument can be a virtual room number or the name of a
+character or object.  The remainder of the line is passed to the command
+interpreter.
+
+> at 3001 look
+> at fido kill fido
+> at 3.corpse get all corpse
+
+See also: GOTO
+#
+BAN UNBAN
+
+   These commands prevent anyone from a site with a hostname containing the
+site substring from logging in to the game. You may ban a site to ALL, NEW
+or SELECT players.  Banning a site to NEW players prevents any new players
+from registering.  Banning a site to ALL players disallows ANY connections
+from that site.  Banning a site SELECTively allows only players with site-ok
+flags to log in from that site. Ban with no argument returns a list of
+currently banned sites.
+
+Unban removes the ban.
+
+ban [<'ALL' | 'NEW' | 'SELECT'> <site>]
+unban <site>
+
+> ban new ai.mit.edu
+> unban ai.mit.edu
+#
+DATE
+
+   Shows the current real time.
+#
+DC
+
+dc <descriptor number>
+
+DC (DisConnect) is used to disconnect a socket.  If used on a playing socket,
+the player will lose his/her link, but, unlike PURGE, will not extract the
+player or dump the player's inventory on the ground.
+
+DC is also useful for disconnecting people who have accidentally left
+themselves at the main menu, or connections sitting in the "Get name" state.
+
+See also: USERS
+#
+ECHO GECHO SEND
+
+echo <message>
+gecho <message>
+send <victim> <message>
+
+ECHO displays a string to everyone in your room.  GECHO displays the string
+to everyone in the game.  SEND displays the string to a particular person.
+
+> echo Hi, everyone in the room.
+> gecho Hi, everyone in the game, isn't this annoying?
+> send ponder You are being watched.
+#
+FORCE
+
+FORCE forces a character, either monster or player, to perform a certain
+action.  FORCE ALL forces everyone in the game; FORCE ROOM forces everyone in
+your room.
+
+> force fido drop meat
+> force all save
+> force room look fido
+#
+FREEZE THAW
+
+FREEZE, originally invented here at Archipelago (we think), is used to prevent
+a player from playing.  If frozen, the game will ignore all commands entered
+by the player, including QUIT, until the player is unfrozen with THAW.
+
+Obviously, this command should only be used in extreme disciplinary
+circumstances.
+
+See also: SET FROZEN
+#
+GOTO TRANS WIZTELEPORT
+
+go to <location>
+trans <victim>
+teleport <victim> <location>
+
+These commands are used to transports yourself and others to different rooms.
+GOTO allows you to go to other rooms; TRANS transports a person from wherever
+they are to the room YOU are in; TELEPORT transports your victim to some other
+location.
+
+For both GOTO and TELEPORT, the location specifier can be either a virtual
+room number, or the name of a character or object.
+
+> go to 3001
+> go to ponder
+> trans fido
+> teleport fido 3001
+> teleport fido 2.fido
+
+See also: WIZAT, SET ROOM, POOFIN
+#
+HANDBOOK
+
+Guidelines for having an Immortal character -- you should read it.
+#
+HOLYLIGHT
+
+A toggle which allows you to see invisible items and dark rooms without a
+light.
+#
+INVIS
+
+invis [level]
+
+INVIS sets your invisibility level.  With no argument, invis toggles between
+making you fully visible and fully invisible.  If you specify a level, only
+people at and above the level you specify will be able to see you.
+
+> invis
+> invis 31
+#
+LAST
+
+last <player_name>
+
+For checking the last time a person logged on, their sitename, and their
+ID number.
+
+> last ponder
+#
+LOAD
+
+load <mob|obj> <virtual number>
+
+LOAD is used to create mobiles and objects.  The first argument specifies if
+you are trying to load a mobile or an object; the second is the virtual
+number.
+
+> load obj 3099
+> load char 3005
+
+See also: VNUM
+#
+MUTE
+
+MUTE is used to shut a player up; if a player is muted, he/she will not be
+able to use most communication channels until he/she is unmuted.
+
+> mute MrNoisy
+#
+NOHASSLE
+
+Toggles a flag to prevent aggressive monsters from attacking.
+#
+NOTITLE
+
+NOTITLE is used to prevent players from being able to set their own titles;
+i.e., if the player consistently has an offensive title.  The definition of
+offensive is left as an exercise for the reader.
+#
+NOWIZ
+
+Allows you to hear or ignore messages coming over the wizline.
+
+See also: WIZNET
+#
+PAGE
+
+page <player|'all'> <message>
+
+PAGE is used to send a message, along with a beep, to another player.  Use
+PAGE ALL to send a message and a beep to everyone in the game.
+
+> page ponder Hey, are you still at the keyboard?
+> page all GAME WILL BE SHUTTING DOWN IN 10 MINUTES
+
+Do not abuse this command.
+#
+PARDON
+
+Removes killer and thief flags from a player.
+#
+POOFIN POOFOUT
+
+Sets the message seen by players when you use GOTO to move to a different
+room.  POOFIN with no argument resets your poofin to the default "appears with
+an ear-splitting bang"; POOFOUT with no argument defaults to "disappears in
+a puff of smoke."
+
+See also: GOTO
+#
+PURGE
+
+purge [name]
+
+Purge destroys things.  If used with no arguments, it will clear a room of all
+mobiles and objects, but will not harm players.  If the argument is an object,
+that object (and all of its contents, if any) will be destroyed.  If the
+argument is a mobile, the mobile will be destroyed, leaving its inventory and
+equipment lying on the ground.
+
+If the argument is the name of a player, the player's inventory and equipment
+will drop on the ground and the player will lose his/her connection.  For this
+reason, PURGE should only be used on players in disciplinary situations.
+
+> purge
+> purge <character>
+> purge <object>
+
+See also: DC
+#
+REBOOT
+
+reboot <'*'|file>
+
+REBOOT is used to load text files such as the MOTD from disk into memory.
+REBOOT * reads all text files.  Valid files are:
+
+#
+REROLL
+
+reroll <player>
+
+REROLL gives a player new stats (i.e., str, int, wis, dex, and con.)
+#
+RESTORE
+
+RESTORE restores a player or mobile to full hit, mana, and move points.  If
+used on immortals, it sets all skill levels to 100%.
+#
+RETURN
+
+RETURN returns you to your regular body if you are switched.
+
+See also: SWITCH
+#
+ROOMFLAGS
+
+Toggles a flag which causes the virtual room number and room flags, if any,
+to be displayed next to room names.
+#
+SET
+
+set [file|player] <character> <field> <value>
+
+SET is an extremely powerful command, capable of setting dozens of aspects of
+characters, both players and mobiles.
+
+SET PLAYER forces set to look for a player and not a mobile; useful for
+players with lame names such as 'guard'.
+
+SET FILE lets you change players who are not logged on.  If you use SET FILE
+on a player who IS logged on, your change will be lost.  If you wish to set
+a player who is in the game but is linkless, use set twice -- once with the
+FILE argument, and once without -- to make sure that the change takes.
+
+For toggled fields, the value must be ON, OFF, YES, or NO.
+
+Look at do_set in act.wizard.c for a list of valid set fields.
+
+See also: STAT
+#
+SHOW
+
+show <mode> [argument]
+
+The SHOW command displays information.  Some modes of show require additional
+information, such as a player name.  Show without any arguments shows a list
+of valid modes.
+
+#
+SHUTDOWN
+
+shutdown [reboot|die|pause]
+
+SHUTDOWN shuts the MUD down.  The SHUTDOWN command works in conjunction with
+CircleMUD's 'autorun' script.  If you are not using autorun, the arguments are
+meaningless.  If you are using autorun, the following arguments are available:
+
+REBOOT     Pause only 5 seconds instead of the normal 40 before trying to
+           restart the MUD.
+DIE        Kill the autorun script; the MUD will not reboot until autorun is
+           explicitly run again.
+PAUSE      Create a file called 'paused' in Circle's root directory; do not
+           try to restart the MUD until 'paused' is removed.
+#
+SLOWNS
+
+Toggles the namserver_is_slow setting.  See circle/src/config.c for
+more information.
+#
+SNOOP
+
+Snoop allows you to listen in on another player's session; everything the
+player sees or types will be displayed on your terminal preceded by a '%'.
+
+Obviously, there are many ethical considerations to the use of this command;
+snoop should be used minimally, and only for disciplinary purposes.
+
+Type snoop <your name> to stop snooping.
+#
+SNOWBALL
+
+Snowball is just a social -- it prints a funny message, and nothing more.
+#
+STAT
+
+STAT [player|object|mobile|file] <name>
+
+Gives information about players, monsters, and objects in the game.  The type
+argument is optional.
+
+STAT PLAYER will search only for players; useful for statting people with lame
+names such as Red or Cityguard.
+
+STAT OBJECT will search only for objects.
+
+STAT MOBILE will search only for monsters.
+
+STAT FILE is used to stat players who are not logged in; the information
+displayed comes from the playerfile.
+
+> stat fido
+> stat player red
+> stat mobile red
+> stat file ponder
+> stat object thunderbolt
+
+See also: VSTAT
+#
+SWITCH
+
+switch <monster>
+
+SWITCH is used to take over the body of mobiles; useful for interactive
+adventures.
+
+See also: RETURN
+#
+SYSLOG
+
+The SYSLOG command controls how detailed of an on-line system log you see.
+Messages surrounded by '[' and ']' are syslog messages and are in green
+if you have colour on.
+
+The messages you receive are level dependent.
+
+syslog <off | brief | normal | complete>
+
+> syslog complete
+> syslog off
+
+See also: COLOR
+#
+UNAFFECT
+
+unaffect <victim>
+
+Removes all affections (i.e., spell effects) from a player.
+#
+UPTIME
+
+Displays when the game was booted and calculates how long ago that was.
+
+> uptime
+#
+USERS
+
+USERS gives a list of all sockets (i.e., connections) currently active on
+Archipelago.  The multi-column display shows the socket number (used by DC),
+class, level, and name of the player connected, connection state, idle time,
+and hostname.
+
+The following switches are available:
+
+-k or -o   Show only outlaws (killers and thieves)
+-p         Show only sockets in the playing sockets
+-d         Show only non-playing (deadweight) sockets.
+-l min-max Show only sockets whose characters are from level min to max
+-n <name>  Show the socket with <name> associated with it.
+-h <host>  Show all sockets from <host>.
+-c list    Show only sockets whose characters' classes are in list
+
+See also: DC
+#
+VNUM
+
+vnum <mob|obj> <name>
+
+Gives a list of the virtual numbers of objects or mobiles which have the
+specified name.
+
+> vnum obj ring
+> vnum mob dragon
+#
+VSTAT
+
+vstat <mob|obj> <virtual number>
+
+Used to stat a prototypical mobile or object by virtual number.
+
+> vstat obj 3000
+> vstat mob 3001
+
+See also:  STAT  VNUM  LAOD
+#
+WIZHELP
+
+Gives a list of the special commands available at your level.
+#
+WIZLOCK
+
+wizlock [value]
+
+WIZLOCK allows you to restrict the game.  WIZLOCK 1 prevents new characters
+from being created.  WIZLOCK n, 2 <= n <= 34, prevents new characters and
+allows only characters level n and above to log on.  WIZLOCK with no argument
+displays the current WIZLOCK level.
+#
+WIZNET ;
+
+The immortal communication channel.
+
+wizsay [ '@' | '+' | '-' | '#' ] [<text>]
+
+>; <text>    - just sends text
+>; @         - shows all gods that are on and visible to you
+             - also shows if the gods who are visible to you are writing
+>; +         - allows you to hear the wizchannel
+>; -         - turns off the wizchannel
+
+This code was provided by Gnort.
+
+See also: NOWIZ
+#
+ZRESET
+
+zreset <zone | '*' | '.'>
+
+Used to force a zone to reset.  '*' forces all zones to reset.  '.' forces
+the zone you are in to reset.
+
+See also: SHOW ZONES
+
+#~
+

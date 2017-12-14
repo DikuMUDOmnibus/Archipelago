@@ -1,0 +1,29 @@
+MOVEMENT:                             COMMUNICATION:
+north south east west up down scan    ' say tell notell ask whisper yell shout
+look exits enter leave lock unlock    noshout deaf gossip nogossip gsay gtell
+open close sit stand sleep wake rest  auction noauction grats nograts brag
+follow group ungroup mount dismount   nobrag read write question qsay socials
+tether untether track tame            : emote
+
+OBJECTS:                              INFORMATION:
+get drop junk donate put give wear    score attributes help who where levels
+remove grab hold examine wield eat    consider diagnose report time weather
+taste drink sip fill pour equipment   wizlist version wizhelp immlist flags
+inventory hitch unhitch               motd credits news info policy handbook
+                                      show
+
+COMBAT/MAGIC/DIRTY:                   UTILITY:
+hit kill kick bash steal backstab     ! ^ save brief compact title prompt show
+flee assist order split invoke use    display noconditions norepeat nosummon
+quaff recite draw sheathe             commands clear cls qui quit idea bug typo
+                                      color alias wimpy abort respond
+
+INNS/BANK/SHOPS/MAIL:                 GUILDS:
+offer rent deposit withdraw balance   study learn train
+list value buy sell check receive
+mail
+
+Further information available by typing 'help <keyword>', where keyword
+is either a command, or one of the following special topics: magic,
+inns, shops, bank, mail, sizes, repair, link, newbie, "getting started"
+
